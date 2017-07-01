@@ -1,0 +1,51 @@
+[
+    {
+        "outputFile": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 24,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\values-w820dp\\attrs.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 45,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 45,
+                        "endOffset": 395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 57,
+                    "endOffset": 362
+                },
+                "from": {
+                    "file": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml"
+                }
+            }
+        ]
+    }
+]
