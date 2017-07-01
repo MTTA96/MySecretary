@@ -18,6 +18,8 @@ import android.widget.Toast;
 
 import com.stak.mysecretary.database.DBHelper;
 import com.stak.mysecretary.database.XulyHoatdong;
+import com.stak.mysecretary.fragment.MainFragment;
+import com.stak.mysecretary.fragment.ThemFragment;
 import com.stak.mysecretary.fragment.ThongBaoDialogFragment;
 import com.stak.mysecretary.model.Hoatdong;
 
@@ -127,9 +129,7 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
                     dialogFragment.show(fm, "frag_thoat_them");
                 }
                 else{
-                    Intent intent = new Intent(this, MainActivity.class);
-                    startActivity(intent);
-                    finish();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.content_main,new MainFragment()).commit();
                 }
                 break;
             case R.id.ibLuu_ThemHoatDong:
@@ -173,8 +173,7 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
                     them.Them(hd);
                     //Hiện thông báo lưu thành công và quay lại màn hình chính
                     ThongBao("Thêm thành công!");
-                    Intent intentLuu = new Intent(ThemHoatDongActivity.this, MainActivity.class);
-                    startActivity(intentLuu);
+                    getSupportFragmentManager().beginTransaction().replace(R.id.content_main,new MainFragment()).commit();
                 }
 
                 break;
@@ -445,11 +444,6 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
         String[] arr_group = this.getResources().getStringArray(R.array.arr_group);
         ArrayAdapter<String> adapterTime = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arr_group);
         spnnhom.setAdapter(adapterTime);
-
-        String[] arr_remind = this.getResources().getStringArray(R.array.arr_remind);
-        ArrayAdapter<String> adapterWork = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arr_remind);
-        spnnhacnho.setAdapter(adapterWork);
-
     }
 
     //Kiểm tra Tgbd > Tgkt

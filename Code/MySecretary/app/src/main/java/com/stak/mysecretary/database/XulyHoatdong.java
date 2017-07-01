@@ -24,6 +24,9 @@ public class XulyHoatdong {
         this.dbHelper = dbHelper;
     }
 
+    public void setDbHelper(DBHelper dbHelper) {
+        this.dbHelper = dbHelper;
+    }
     //Phương thức thêm 1 hoat động
     public void Them(Hoatdong hd){
 
@@ -91,7 +94,7 @@ public class XulyHoatdong {
     {
         ArrayList<Hoatdong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
         String selectquery="SELECT * FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_TGBD+" LIKE '"+ngay+"%'";//Câu lenh truy vấn
-        SQLiteDatabase db = dbHelper.getWritableDatabase();//Mở kết nối
+        SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
         Cursor cursor=db.rawQuery(selectquery,null);//Chạy câu truy vấn
         //Đưa con trỏ về dòng đầu tiên
         if(cursor.moveToFirst()) {
@@ -114,7 +117,8 @@ public class XulyHoatdong {
     //Phương thức kiểm tra tên hoạt động đã có chưa
     public int kttenhd(String tenhd,String tgbd)
     {
-        String selectquery="SELECT COUNT(*) FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_TENHD+" LIKE '"+tenhd+"' AND "+DBHelper.KEY_TGBD+" LIKE '"+tgbd+"'";
+        String selectquery="SELECT COUNT(*) FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_TENHD+" LIKE '"
+                +tenhd+"' AND "+DBHelper.KEY_TGBD+" LIKE '"+tgbd+"'";
         SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
         Cursor mCount=db.rawQuery(selectquery, null);
         mCount.moveToFirst();
@@ -169,7 +173,8 @@ public class XulyHoatdong {
     public ArrayList<Hoatdong> laydstheongaynhom(String ngay,String nhom)
     {
         ArrayList<Hoatdong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
-        String selectquery="SELECT * FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_TGBD+" LIKE '"+ngay+"%' AND "+DBHelper.KEY_HDNHOM+" LIKE '"+nhom+"'";//Câu lenh truy vấn
+        String selectquery="SELECT * FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_TGBD+" LIKE '"+ngay+"%' AND "
+                +DBHelper.KEY_HDNHOM+" LIKE '"+nhom+"'";//Câu lenh truy vấn
         SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
         Cursor cursor=db.rawQuery(selectquery,null);//Chạy câu truy vấn
         //Đưa con trỏ về dòng đầu tiên

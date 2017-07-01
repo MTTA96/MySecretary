@@ -2,10 +2,12 @@ package com.stak.mysecretary.Adapter;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.Image;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.util.AsyncListUtil;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +23,7 @@ import com.stak.mysecretary.R;
 import com.stak.mysecretary.ThemHoatDongActivity;
 import com.stak.mysecretary.database.DBHelper;
 import com.stak.mysecretary.database.XulyHoatdong;
+import com.stak.mysecretary.interfaces.DataCallBack;
 import com.stak.mysecretary.model.Hoatdong;
 import com.stak.mysecretary.util.SupportList;
 
@@ -35,9 +38,7 @@ import java.util.Locale;
  */
 
 public class HoatdongAdapter extends ArrayAdapter{
-    MainActivity con;
-    int layoutItem;
-    ArrayList<Hoatdong> listHoatDong;
+    Activity con;
 
     TextView tvTenHoatDong;
     TextView tvDiaDiem;
@@ -45,19 +46,26 @@ public class HoatdongAdapter extends ArrayAdapter{
     TextView tvGio;
     ImageView ivEdit;
     ImageView ivXoa;
+    View.OnClickListener onClickListener;
 
-    public HoatdongAdapter(MainActivity context, int resource, ArrayList<Hoatdong> objects) {
+    private int layoutItem;
+    private ArrayList<Hoatdong> listHoatDong;
+    private DataCallBack dataCallBack;
+
+    public HoatdongAdapter(Activity context, int resource, ArrayList<Hoatdong> objects, View.OnClickListener onClickListener, DataCallBack dataCallBack) {
         super(context, resource, objects);
 
         con = context;
         layoutItem = resource;
         listHoatDong = objects;
+        this.onClickListener = onClickListener;
+        this.dataCallBack = dataCallBack;
     }
 
     public View getView(final int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = con.getLayoutInflater();
         convertView = inflater.inflate(layoutItem, null); //Ánh xạ
-        final Hoatdong hoatdong = listHoatDong.get(position);
+        final Hoatdong hoatDong = listHoatDong.get(position);
 
         tvTenHoatDong = (TextView) convertView.findViewById(R.id.tvTenHD_lvitem);
         tvDiaDiem = (TextView) convertView.findViewById(R.id.tvDiaDiem_lvitem);
@@ -65,56 +73,22 @@ public class HoatdongAdapter extends ArrayAdapter{
         ivEdit = (ImageView) convertView.findViewById(R.id.ivEdit_lvitem);
         ivXoa = (ImageView) convertView.findViewById(R.id.ivDelete_lvitem);
 
-        tvTenHoatDong.setText(hoatdong.getTenhd());
-        tvDiaDiem.setText(hoatdong.getDiadiem());
+        tvTenHoatDong.setText(hoatDong.getTenhd());
+        tvDiaDiem.setText(hoatDong.getDiadiem());
 
         //Chỉ lấy thời gian đưa lên lsitview
-        String[] tachtgbd=hoatdong.getTgbd().split(" ");
-        String[] tachtgkt=hoatdong.getTgkt().split(" ");
-        //String ngay=tachtgbd[0];
+        String[] tachtgbd=hoatDong.getTgbd().split(" ");
+        String[] tachtgkt=hoatDong.getTgkt().split(" ");
         String giophutbd=tachtgbd[1];
         String giophutkt=tachtgkt[1];
-        //tvNgay.setText(ngay);
         tvGio.setText(giophutbd + " - " + giophutkt);
 
-        ivEdit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(con, CapNhatActivity.class);
-                intent.putExtra(SupportList.KEY_HOATDONG, hoatdong);
-                intent.putExtra(SupportList.KEY_POSITION, position);
-                con.startActivity(intent);
-            }
-        });
+        ivEdit.setOnClickListener(onClickListener);
+        ivXoa.setOnClickListener(onClickListener);
 
-        ivXoa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                final AlertDialog.Builder builder = new AlertDialog.Builder(con);
-                builder.setTitle("Bạn có chắc muốn xóa?");
-                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        DBHelper db = new DBHelper(con);
-                        XulyHoatdong xulyhd = new XulyHoatdong(db);
-                        xulyhd.XoaHd(hoatdong.getTenhd(),hoatdong.getTgbd());
+        //Chuyền hoạt động được chọn sang main fragment
+        dataCallBack.ChuyenHoatDong(hoatDong, position, "dataHoatDongAdapter");
 
-                        con.loadDuLieu();
-                        con.xoaHoatDong();
-                        con.loadHoatDong();
-                        con.loadDulieuListView(con.KEY_NGAY_DUOC_CHON);
-                    }
-                });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        return;
-                    }
-                });
-                AlertDialog thongbao = builder.create();
-                thongbao.show();
-        }
-        });
         return convertView;
     }
 }

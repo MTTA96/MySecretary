@@ -20,6 +20,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public static final String KEY_DIADIEM = "DIADIEM";
     public static final String KEY_TGBD = "TGBD";
     public static final String KEY_TGKT = "TGKT";
+//    public static final String KEY_HENGIO="HENGIO";
     public static final String KEY_HDNHOM = "NHOM";
     public static final String KEY_GHICHU = "GHICHU";
 
@@ -37,6 +38,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 + KEY_DIADIEM + " TEXT, "
                 + KEY_TGBD + " TEXT, "
                 + KEY_TGKT + " TEXT, "
+//                + KEY_HENGIO +" TEXT, "
                 + KEY_HDNHOM + " TEXT,"
                 + KEY_GHICHU + " TEXT)";
 
