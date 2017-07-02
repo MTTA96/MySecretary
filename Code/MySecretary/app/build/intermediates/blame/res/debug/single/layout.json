@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_them_hoat_dong.xml",
-        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\layout\\activity_them_hoat_dong.xml"
-    },
-    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_them_hoat_dong.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\layout\\activity_them_hoat_dong.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
