@@ -1,4 +1,4 @@
-﻿Task hoàn thành: 1/15
+﻿Task hoàn thành: 1/16
 
 1/ Đăng nhập: 
    1.1 Màn hình chờ  (x)
@@ -24,6 +24,7 @@
 6/ Mục giải trí:
    6.1 Lịch phim  (x)
    6.2 Ăn uống    (x)
+   6.3 Địa điểm   (x)
 
 7/ Liên kết người dùng:
    7.1 Tạo group giữa các người dùng  (x)
