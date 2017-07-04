@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.stak.mysecretary"
-        minSdkVersion 19
+        minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -17,6 +17,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+repositories {
+    mavenCentral()
 }
 
 dependencies {
@@ -31,6 +34,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-auth:11.0.1'
     compile 'com.google.firebase:firebase-database:11.0.1'
     compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
     testCompile 'junit:junit:4.12'
 }
 apply plugin: 'com.google.gms.google-services'

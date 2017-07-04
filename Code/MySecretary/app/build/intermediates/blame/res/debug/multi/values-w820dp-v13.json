@@ -12,7 +12,15 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\values-w820dp\\attrs.xml"
+                    "file": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\values-w820dp\\attrs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endLine": 9,
+                        "endColumn": 24,
+                        "endOffset": 491
+                    }
                 }
             },
             {
@@ -43,7 +51,14 @@
                     "endOffset": 362
                 },
                 "from": {
-                    "file": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml"
+                    "file": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+                    }
                 }
             }
         ]

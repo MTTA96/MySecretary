@@ -2,49 +2,65 @@
 <instant-run
     abi="x86_64,x86"
     api-level="22"
-    density="xhdpi"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="576936554593003"
+    timestamp="877250117864567"
     token="-967515275681184625"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="891" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="90" />
+        duration="0" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
         location="D:\Hutech\MySecretary\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
-    <artifact
-        location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
 
     <build
-        timestamp="576542633954201"
+        timestamp="876494753515998"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Hutech\MySecretary\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="576936554593003"
+        timestamp="877151093272577"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="877250117864567"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Hutech\MySecretary\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-        <artifact
-            location="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
