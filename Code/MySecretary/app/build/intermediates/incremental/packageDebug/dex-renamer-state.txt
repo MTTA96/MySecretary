@@ -1,4 +1,4 @@
-#Wed Jul 05 01:12:14 ICT 2017
+#Thu Jul 06 20:59:41 ICT 2017
 base.0=D\:\\Hutech\\MySecretary\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e96ed83c7afd9202e76d9e97d189783a80ad7dcd
 renamed.1=classes2.dex
 renamed.0=classes.dex

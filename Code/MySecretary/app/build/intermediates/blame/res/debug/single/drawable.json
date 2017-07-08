@@ -4,6 +4,10 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinerstroke_dangky.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\spinerstroke_dangky.xml"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
@@ -246,6 +250,10 @@
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dangky_viewshape.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\dangky_viewshape.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\appicon1.jpg",

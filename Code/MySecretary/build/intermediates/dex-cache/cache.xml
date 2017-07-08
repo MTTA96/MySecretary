@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7e7886d57d6bcb124a23ace76a4f5124b31998a9">
+        sha1="01a450e8c1c17149358cd9bcbe56f1b39845e4b1">
         <dex dex="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e96ed83c7afd9202e76d9e97d189783a80ad7dcd\classes.dex" />
     </item>
     <item
@@ -223,7 +223,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ff0c9d04baaf0c8339c9d8b64842467ce2ab19b4">
+        sha1="c515c61ee2ab20839c2b6e776fb7ab6f0c39823a">
         <dex dex="D:\Hutech\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d3194bd176216cf9cafbdb15698fc234ec6b360f\classes.dex" />
     </item>
     <item

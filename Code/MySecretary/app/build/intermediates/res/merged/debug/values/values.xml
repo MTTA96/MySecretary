@@ -43,10 +43,12 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorBackground">#0AB1D8E5</color>
     <color name="colorBlack">#000000</color>
+    <color name="colorDangky">#d3f0f7</color>
     <color name="colorDivider">#aaaaaa</color>
     <color name="colorMain">#b1d8e5</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#B1D8E5</color>
+    <color name="colorStroke_dangky">#daeff6</color>
     <color name="colorWhite">#ffffff</color>
     <color name="coloreditusernamepassword">#dbdbdb</color>
     <color name="com_facebook_blue">#3B5998</color>
@@ -567,12 +569,15 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="actionbar_size">0dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_textsize_titlelogin">40dp</dimen>
-    <dimen name="activity_titlelogin">10dp</dimen>
+    <dimen name="activity_textsize_title">40sp</dimen>
+    <dimen name="activity_title">10dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="alllayout_login_magintop">80dp</dimen>
+    <dimen name="birthday_textsize">20sp</dimen>
+    <dimen name="button_dangky_height">50dp</dimen>
+    <dimen name="button_dangky_width">250dp</dimen>
     <dimen name="button_login_height">50dp</dimen>
-    <dimen name="button_login_width">160dp</dimen>
+    <dimen name="button_login_width">137dp</dimen>
     <dimen name="buttonfb_layout_margintop">5dp</dimen>
     <dimen name="buttonfb_paddingTop">21dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
@@ -601,6 +606,7 @@
     <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
     <dimen name="com_facebook_share_button_text_size">16.0sp</dimen>
     <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="corner_view_dangky">10dp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
     <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
@@ -643,7 +649,10 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="distant_username_password">10dp</dimen>
     <dimen name="edittext_dlogin_height">40dp</dimen>
-    <dimen name="edittext_dlogin_width">320dp</dimen>
+    <dimen name="edittext_dlogin_width">280dp</dimen>
+    <dimen name="edittext_signup_height">35dp</dimen>
+    <dimen name="edittext_signup_width">305dp</dimen>
+    <dimen name="gt_radiobutton_height">30dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -654,14 +663,15 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <dimen name="layout_alllogin_height">330dp</dimen>
-    <dimen name="layout_alllogin_width">340dp</dimen>
-    <dimen name="layout_hoac_width">320dp</dimen>
+    <dimen name="layout_alllogin_height">305dp</dimen>
+    <dimen name="layout_alllogin_width">315dp</dimen>
+    <dimen name="layout_hoac_width">280dp</dimen>
     <dimen name="layout_marginbottom">50dp</dimen>
-    <dimen name="layout_margintop">20dp</dimen>
+    <dimen name="layout_margintop">10dp</dimen>
     <dimen name="logintitle_height">40dp</dimen>
+    <dimen name="logintitle_margintop">5dp</dimen>
+    <dimen name="logintitle_textsize">16sp</dimen>
     <dimen name="logintitle_width">200dp</dimen>
-    <dimen name="loginwithtitle_margintop">5dp</dimen>
     <dimen name="margintop_title">30dp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
@@ -678,10 +688,19 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
-    <dimen name="textsize_signint">17dp</dimen>
+    <dimen name="spiner_height">35dp</dimen>
+    <dimen name="spiner_marginright_dangky">3dp</dimen>
+    <dimen name="spiner_width_date">75dp</dimen>
+    <dimen name="spiner_width_month">100dp</dimen>
+    <dimen name="spiner_width_year">120dp</dimen>
+    <dimen name="stroke_view_dangky">1dp</dimen>
+    <dimen name="textsize_signin">17sp</dimen>
     <dimen name="textview_signin_margintop">10dp</dimen>
+    <dimen name="title_signup_textsize">25dp</dimen>
+    <dimen name="title_sigup_margintop">15dp</dimen>
     <dimen name="username_password_height">40dp</dimen>
     <dimen name="view_height">0.7dp</dimen>
+    <dimen name="view_margintop">5dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -787,7 +806,9 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="dangkytext"> Đăng ký </string>
     <string name="default_web_client_id" translatable="false">1068802652392-ieumh1rh28bmchurmq5t44lghv3ahskb.apps.googleusercontent.com</string>
+    <string name="dialog_birthday_signup"><b>Ngày sinh</b></string>
     <string name="facebook_app_id">670052139860500</string>
     <string name="firebase_database_url" translatable="false">https://my-secretary-42010.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">1068802652392</string>
@@ -796,7 +817,7 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCh4DCz1eEdVkIRH2mmq1VrTiNLHVMkiZw</string>
     <string name="google_storage_bucket" translatable="false">my-secretary-42010.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="logintitle"><b>Đăng nhập với</b></string>
+    <string name="logintitle"><b>Đăng nhập</b></string>
     <string name="messenger_send_button_text">Send</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>

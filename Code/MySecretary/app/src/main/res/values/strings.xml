@@ -36,7 +36,7 @@
     <string name="time_24pm">24</string>
 
     <!--text log in with-->
-    <string name="logintitle"><b>Đăng nhập với</b></string>
+    <string name="logintitle"><b>Đăng nhập</b></string>
     <!-- Button login -->
     <string name="btnLogint_name">Đăng nhập</string>
     <string-array name="arr_group">
@@ -54,7 +54,12 @@
     <string name="activity_logintitle"><b><i><u> MY SECRETARY </u></i></b></string>
 
     <string name="com_facebook_loginview_log_in_button_long">Facebook</string>
-
+    <!--birthday đăng ký-->
+    <string name="dialog_birthday_signup"><b>Ngày sinh</b></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--text đăng ký-->
+    <string name="dangkytext"> Đăng ký </string>
+
 </resources>

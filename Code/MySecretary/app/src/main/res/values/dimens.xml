@@ -1,49 +1,71 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <!--khoảng cách giửa các layout chứa view-->
-    <dimen name="layout_margintop">20dp</dimen>
+    <!--Đăng nhập-->
+    <!--Activity đăng nhập -->
+    <dimen name="layout_margintop">10dp</dimen>
     <dimen name="layout_marginbottom">50dp</dimen>
-    <!-- Khoảng cách tiêu đề khung đang nhập với các lề -->
+
     <dimen name="margintop_title">30dp</dimen>
-    <!-- Dài rộng của các button đăng nhập bằng Fb và gmail -->
-    <dimen name="button_login_width">160dp</dimen>
-    <dimen name="button_login_height">50dp</dimen>
-    <!-- dài rộng của edittext username,password login-->
-    <dimen name="edittext_dlogin_height">40dp</dimen>
-    <dimen name="edittext_dlogin_width">320dp</dimen>
-    <!--căn chỉnh cho layout hoặc -->
-    <dimen name="layout_hoac_width">320dp</dimen>
-    <!--kích thước của text login with-->
+    <dimen name="activity_title">10dp</dimen>
+    <dimen name="activity_textsize_title">40sp</dimen>
+
+    <!--Layout đăng nhập-->
+    <dimen name="layout_alllogin_width">315dp</dimen>
+    <dimen name="layout_alllogin_height">305dp</dimen>
+
     <dimen name="logintitle_width">200dp</dimen>
     <dimen name="logintitle_height">40dp</dimen>
-    <dimen name="loginwithtitle_margintop">5dp</dimen>
-    <!-- độ cao của edittext Username và Password -->
-    <dimen name="username_password_height">40dp</dimen>
-    <!-- Khoảng cách giữa edittext username,password,button đăng nhập-->
-    <dimen name="distant_username_password">10dp</dimen>
-    <!-- độ dài rộng của layout đăng nhập-->
-    <dimen name="layout_alllogin_width">340dp</dimen>
-    <dimen name="layout_alllogin_height">330dp</dimen>
-    <!--căn chỉnh cho button facebook-->
+    <dimen name="logintitle_margintop">5dp</dimen>
+    <dimen name="logintitle_textsize">16sp</dimen>
+
+    <dimen name="button_login_width">137dp</dimen>
+    <dimen name="button_login_height">50dp</dimen>
     <dimen name="buttonfb_paddingTop">21dp</dimen>
     <dimen name="buttonfb_layout_margintop">5dp</dimen>
 
-    <!-- dấu gạch hoặc layout đăng nhập-->
+    <dimen name="edittext_dlogin_height">40dp</dimen>
+    <dimen name="edittext_dlogin_width">280dp</dimen>
+    <dimen name="username_password_height">40dp</dimen>
+    <dimen name="distant_username_password">10dp</dimen>
+
     <dimen name="view_height">0.7dp</dimen>
-    <!-- Khoảng cách khung đăng nhap với lề trên-->
+    <dimen name="layout_hoac_width">280dp</dimen>
+
     <dimen name="alllayout_login_magintop">80dp</dimen>
-    <!--Khoảng cách textview đăng ký quên mật khẩu vởi lề dưới -->
+
+    <!--Đăng ký quên mật khẩu-->
     <dimen name="textview_signin_margintop">10dp</dimen>
-    <!-- cỡ chữ của text đăng ký quen mật khẩu -->
-    <dimen name="textsize_signint">17dp</dimen>
-    <!--Khoảng cách từ lề trên với tiêu đề layout đăng nhập ngòa cùng -->
-    <dimen name="activity_titlelogin">10dp</dimen>
-    <!-- Cỡ chữ của tiêu đề activity login -->
-    <dimen name="activity_textsize_titlelogin">40dp</dimen>
-    
+    <dimen name="textsize_signin">17sp</dimen>
+
+    <!--Actionbar-->
     <dimen name="actionbar_size">0dp</dimen>
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Đăng ký-->
+    <dimen name="edittext_signup_width">305dp</dimen>
+    <dimen name="edittext_signup_height">35dp</dimen>
+
+    <dimen name="view_margintop">5dp</dimen>
+    <dimen name="title_sigup_margintop">15dp</dimen>
+
+    <dimen name="spiner_height">35dp</dimen>
+    <dimen name="spiner_width_date">75dp</dimen>
+    <dimen name="spiner_width_month">100dp</dimen>
+    <dimen name="spiner_width_year">120dp</dimen>
+    <dimen name="spiner_marginright_dangky">3dp</dimen>
+
+    <dimen name="birthday_textsize">20sp</dimen>
+    <dimen name="title_signup_textsize">25dp</dimen>
+
+    <dimen name="gt_radiobutton_height">30dp</dimen>
+
+    <dimen name="button_dangky_height">50dp</dimen>
+    <dimen name="button_dangky_width">250dp</dimen>
+
+
+    <dimen name="stroke_view_dangky">1dp</dimen>
+    <dimen name="corner_view_dangky">10dp</dimen>
 
 </resources>
