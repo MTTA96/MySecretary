@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout= (DrawerLayout) findViewById(R.id.activity_main);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-
-
         getSupportFragmentManager().beginTransaction().replace(R.id.content_main, new MainFragment()).commit();
 
     }

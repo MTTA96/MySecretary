@@ -4,12 +4,20 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinerstroke_dangky.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\spinerstroke_dangky.xml"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -40,8 +48,20 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittextshape.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\edittextshape.xml"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menumain4.png",
         "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\menumain4.png"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_white_bg_selector.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
@@ -52,8 +72,20 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_login_background.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_like_background.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btntuantruocmain.png",
@@ -80,12 +112,12 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutshape.xml",
-        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\layoutshape.xml"
-    },
-    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backgroundmain.png",
         "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\backgroundmain.png"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutshape.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\layoutshape.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
@@ -136,6 +168,10 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
@@ -148,8 +184,20 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_vector_test.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_login_logo.xml"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\username_icon.png",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\username_icon.png"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonloginshape.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\buttonloginshape.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\todaymain1.png",
@@ -164,12 +212,20 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
-        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_white_bg_round.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -184,16 +240,28 @@
         "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\paper2.png"
     },
     {
-        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_background.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dangky_viewshape.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\dangky_viewshape.xml"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\appicon1.jpg",
         "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\appicon1.jpg"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_send_button_icon.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btntuansaumain.png",
@@ -232,12 +300,40 @@
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password_icon.png",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\password_icon.png"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\design_password_eye.xml"
     },
     {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_circle_black_24dp.png",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_https_black_24dp.png",
+        "source": "D:\\Hutech\\MySecretary\\app\\src\\main\\res\\drawable\\ic_https_black_24dp.png"
+    },
+    {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_login_silver_background.xml"
     },
     {
         "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",

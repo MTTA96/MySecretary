@@ -8,5 +8,8 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
     <color name="colorDivider">#aaaaaa</color>
+    <color name="coloreditusernamepassword">#dbdbdb</color>
     <color name="colorBackground">#0AB1D8E5</color>
+    <color name="colorStroke_dangky">#daeff6</color>
+    <color name="colorDangky">#d3f0f7</color>
 </resources>

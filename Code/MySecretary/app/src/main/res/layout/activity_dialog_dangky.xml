@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spinerstroke_dangky"
+    android:focusableInTouchMode="true">
+    <ImageButton
+        android:id="@+id/ibCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@android:drawable/ic_menu_close_clear_cancel" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dangkytext"
+        android:textSize="@dimen/title_signup_textsize"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/edtFullname"
+        android:layout_width="@dimen/edittext_signup_width"
+        android:layout_height="@dimen/edittext_signup_height"
+        android:layout_gravity="center"
+        android:hint=" Họ tên"
+        android:background="@drawable/spinerstroke_dangky"
+        android:layout_marginTop="@dimen/title_sigup_margintop"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="@dimen/edittext_signup_width"
+        android:layout_height="@dimen/edittext_signup_height"
+        android:layout_gravity="center"
+        android:hint=" Email"
+        android:background="@drawable/spinerstroke_dangky"
+        android:layout_marginTop="@dimen/view_margintop"/>
+
+    <EditText
+        android:id="@+id/edtNewpassword"
+        android:layout_width="@dimen/edittext_signup_width"
+        android:layout_height="@dimen/edittext_signup_height"
+        android:layout_gravity="center"
+        android:hint=" Mật khẩu mới"
+        android:background="@drawable/spinerstroke_dangky"
+        android:layout_marginTop="@dimen/view_margintop"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_margintop">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/birthday_textsize"
+            android:text="@string/dialog_birthday_signup" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_margintop"
+            android:orientation="horizontal"
+
+            android:layout_gravity="center">
+            <Spinner
+                android:id="@+id/spnDate"
+                android:layout_width="@dimen/spiner_width_date"
+                android:layout_height="@dimen/spiner_height"
+                android:background="@drawable/spinerstroke_dangky"
+                android:layout_marginRight="@dimen/spiner_marginright_dangky"/>
+            <Spinner
+                android:id="@+id/spnMonth"
+                android:layout_width="@dimen/spiner_width_month"
+                android:layout_height="@dimen/spiner_height"
+                android:background="@drawable/spinerstroke_dangky"
+                android:layout_marginRight="@dimen/spiner_marginright_dangky"/>
+            <Spinner
+                android:id="@+id/spnYear"
+                android:layout_width="@dimen/spiner_width_year"
+                android:layout_height="@dimen/spiner_height"
+                android:background="@drawable/spinerstroke_dangky"
+                android:layout_marginRight="@dimen/spiner_marginright_dangky"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_margintop">
+        <RadioButton
+            android:id="@+id/rdbNam"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/gt_radiobutton_height"
+            android:text="Nam" />
+        <RadioButton
+            android:id="@+id/rdbNu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/gt_radiobutton_height"
+            android:text="Nữ"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnDangky"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_dangky_height"
+        android:text="Hoàn tất"
+        android:background="@color/colorMain"
+        android:layout_marginTop="@dimen/title_sigup_margintop"
+        android:textColor="@color/colorPrimary"
+        />
+</LinearLayout>
