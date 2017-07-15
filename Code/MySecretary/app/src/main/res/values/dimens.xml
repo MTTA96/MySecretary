@@ -67,5 +67,39 @@
 
     <dimen name="stroke_view_dangky">1dp</dimen>
     <dimen name="corner_view_dangky">10dp</dimen>
+    
+    <!--Thêm hoạt động-->
+    <dimen name="themHD_hinhcaybut">65dp</dimen>
+
+    <dimen name="themHD_layoutchonhom_height">50dp</dimen>
+    <dimen name="themHD_textsize_chonnhom">18sp</dimen>
+
+    <dimen name="themHD_spinner_chonnhom_margintop">3dp</dimen>
+    <dimen name="themHD_spinner_chonnhom_marginbottom">3dp</dimen>
+
+    <dimen name="themHD_layoutchuaview_margintop">25dp</dimen>
+    <dimen name="themHD_layoutchuaview_marginrigh">10dp</dimen>
+    <dimen name="themHD_layoutchuaview_marginbottom">16dp</dimen>
+
+    <dimen name="themHD_edittext_Tenhd_Diachi_height">40dp</dimen>
+    <dimen name="themHD_edittext_Tenhd_Diachi_margintop">10dp</dimen>
+    <dimen name="themHD_edittext_Tenhd_Diachi_marginleft">10dp</dimen>
+    
+    <dimen name="themHD_textsize_Batdau_Ketthuc">20sp</dimen>
+    <dimen name="themHD_text_Batdau_Ketthuc_margintop">15dp</dimen>
+    <dimen name="themHD_text_Batdau_Ketthuc_marginleft">10dp</dimen>
+    
+    <dimen name="themHD_text_ngaythang_marginleft">10dp</dimen>
+    
+    <dimen name="themHD_layoutthu_margintop">20dp</dimen>
+    <dimen name="themHD_buttonthu_width">38dp</dimen>
+    <dimen name="themHD_buttonthu_marginright">1dp</dimen>
+    
+    <dimen name="themHD_layoutnhacnho_margintop">15dp</dimen>
+    <dimen name="themHD_layoutnhacnho_marginleft">10dp</dimen>
+    <dimen name="themHD_textsize_nhacnho">20sp</dimen>
+
+    <dimen name="themHD_ghichu_margintop">15dp</dimen>
+    <dimen name="themHD_ghichu_marginleft">10dp</dimen>
 
 </resources>

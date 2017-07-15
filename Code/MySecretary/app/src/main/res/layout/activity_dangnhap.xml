@@ -45,7 +45,7 @@
 
         <!--edittext,button đăng nhập-->
         <EditText
-            android:id="@+id/edtUsername"
+            android:id="@+id/edtEmail"
             android:layout_width="@dimen/edittext_dlogin_width"
             android:layout_height="@dimen/edittext_dlogin_height"
             android:layout_gravity="center"
@@ -122,7 +122,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/textview_signin_margintop">
         <TextView
@@ -130,19 +130,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Đăng ký "
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/textsize_signin"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="/ "
+            android:layout_gravity="center"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/textsize_signin"/>
         <TextView
             android:id="@+id/tcForgetPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quên mật khẩu "
+            android:layout_gravity="center"
+            android:text="Bỏ qua "
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/textsize_signin"/>
 

@@ -696,6 +696,7 @@
     <dimen name="stroke_view_dangky">1dp</dimen>
     <dimen name="textsize_signin">17sp</dimen>
     <dimen name="textview_signin_margintop">10dp</dimen>
+    <dimen name="themHD_hinhcaybut">65dp</dimen>
     <dimen name="title_signup_textsize">25dp</dimen>
     <dimen name="title_sigup_margintop">15dp</dimen>
     <dimen name="username_password_height">40dp</dimen>

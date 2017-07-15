@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1068802652392-fn53ckempvmobp36ukil7j14lt0h1up6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stak.mysecretary",
+            "certificate_hash": "28e3474c3b262276ad7eb24f5d4e4e2266c52a7d"
+          }
+        },
+        {
           "client_id": "1068802652392-ieumh1rh28bmchurmq5t44lghv3ahskb.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068802652392-ieumh1rh28bmchurmq5t44lghv3ahskb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

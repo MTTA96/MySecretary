@@ -63,19 +63,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
+
         <ImageView
+            android:layout_width="@dimen/themHD_hinhcaybut"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/butmenu"
+            android:id="@+id/imageView" />
+        <!-- Info -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="16dp"
-            android:layout_weight="4"
-            app:srcCompat="@drawable/butmenu" />
-        <!-- Info -->
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_below="@+id/selections_layout"
+            android:orientation="vertical"
             android:layout_marginTop="25dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="16dp"
@@ -90,7 +89,8 @@
                 android:ems="10"
                 android:id="@+id/etTen_ThemHoatDong"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                tools:drawableRight="@android:drawable/star_big_on" />
 
             <!-- Địa điểm -->
             <EditText
@@ -105,37 +105,55 @@
 
             <!-- Title bắt đầu -->
             <TextView
-                android:text="Ngày:"
+                android:text="Bắt đầu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView"
                 android:textSize="20sp"
                 android:textStyle="normal|bold"
-                android:layout_below="@+id/etDiaDiem_ThemHoatDong"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginLeft="10dp" />
             <!-- Thông tin thời gian bắt đầu -->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:id="@+id/Date_BatDau"
-                android:layout_below="@id/textView"
-                android:hint="dd/mm/yyyy"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/Date_BatDau"
+                    android:hint="dd/mm/yyyy"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/Time_BatDau"
+                    android:layout_weight="1"
+                    android:hint="hh:mm"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
             <!-- Title kết thúc -->
             <TextView
                 android:id="@+id/tvEnd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Thời gian:"
+                android:text="Kết thúc"
                 android:textStyle="normal|bold"
                 android:textSize="20dp"
                 android:layout_below="@id/Date_BatDau"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginLeft="10dp"/>
+
 
             <!-- Thông tin thời gian kết thúc -->
             <LinearLayout
@@ -145,18 +163,18 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/tvEnd"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="10dp">
-
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:inputType="date"
                     android:ems="10"
-                    android:id="@+id/Time_BatDau"
+                    android:id="@+id/Date_KetThuc"
+                    android:hint="dd/mm/yyyy"
                     android:layout_weight="1"
-                    android:hint="from"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginLeft="10dp"
+                    />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -164,7 +182,69 @@
                     android:ems="10"
                     android:id="@+id/Time_KetThuc"
                     android:layout_weight="1"
-                    android:hint="to" />
+                    android:hint="hh:mm"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <!--Thứ-->
+            <LinearLayout
+                android:id="@+id/infoThu"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/infoEnd"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+                <Button
+                android:id="@+id/btnT2_layoutthem"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/layoutthem_buttonthu_shape"
+                android:text="T2"/>
+                <Button
+                    android:layout_width="38dp"
+                    android:id="@+id/btnT3_layoutthem"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/layoutthem_buttonthu_shape"
+                    android:text="T3"/>
+                <Button
+                    android:layout_width="38dp"
+                    android:id="@+id/btnT4_layoutthem"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/layoutthem_buttonthu_shape"
+                    android:text="T4"/>
+                <Button
+                    android:layout_width="38dp"
+                    android:id="@+id/btnT5_layoutthem"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/layoutthem_buttonthu_shape"
+                    android:text="T5"/>
+                <Button
+                    android:layout_width="38dp"
+                    android:id="@+id/btnT6_layoutthem"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/layoutthem_buttonthu_shape"
+                    android:text="T6"/>
+                <Button
+                    android:layout_width="38dp"
+                    android:id="@+id/btnT7_layoutthem"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/layoutthem_buttonthu_shape"
+                    android:text="T7"/>
+                <Button
+                    android:layout_width="38dp"
+                    android:id="@+id/btnCN_layoutthem"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/layoutthem_buttonthu_shape"
+                    android:text="C"/>
+
             </LinearLayout>
 
             <!-- Nhắc nhở -->
@@ -174,7 +254,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/infoEnd"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginLeft="10dp">
                 <TextView
                     android:text="Nhắc nhở:"
@@ -187,7 +267,7 @@
                 <Spinner
                     android:layout_height="wrap_content"
                     android:id="@+id/spinnerNhacnho"
-                    android:layout_width="150dp" />
+                    android:layout_width="match_parent" />
             </LinearLayout>
 
             <!-- Ghi chú -->
@@ -204,7 +284,7 @@
                 android:id="@+id/etGhichu"
                 android:hint="Ghi chú" />
 
-        </RelativeLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

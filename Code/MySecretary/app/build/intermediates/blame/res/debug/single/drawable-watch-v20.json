@@ -1,14 +1,14 @@
 [
     {
-        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
-        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-auth\\11.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-auth\\11.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
-        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-auth\\11.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
+        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-auth\\11.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "D:\\Hutech\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-auth\\11.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
+        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-auth\\11.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
     }
 ]

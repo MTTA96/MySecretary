@@ -33,13 +33,13 @@
 
         <receiver android:name=".Reminder" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".dialog.dialog_dangky">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <!--<activity android:name=".dialog.dialog_dangky">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
     </application>
 
 </manifest>
