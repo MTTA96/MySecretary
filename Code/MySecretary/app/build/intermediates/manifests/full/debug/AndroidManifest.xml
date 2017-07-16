@@ -40,14 +40,6 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name="com.stak.mysecretary.Dangnhap" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.stak.mysecretary.ThemHoatDongActivity" />
         <activity android:name="com.stak.mysecretary.MenuActivity" />
         <activity android:name="com.stak.mysecretary.CapNhatActivity" />
 

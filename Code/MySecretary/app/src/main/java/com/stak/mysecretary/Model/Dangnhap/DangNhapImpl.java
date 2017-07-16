@@ -1,9 +1,9 @@
-package com.stak.mysecretary.model.modelDangnhap;
+package com.stak.mysecretary.Model.Dangnhap;
 
 /**
  * Created by Quang Trí on 7/10/2017.
  */
 
-public interface modelipmDangnhap {
+public interface DangNhapImpl {
     void dangnhapfirebase(String email,String password);
 }

@@ -70,7 +70,7 @@ public final class R {
 		public static final int standard = 0x7f0e0042;
 		public static final int text = 0x7f0e0122;
 		public static final int text2 = 0x7f0e0120;
-		public static final int toolbar = 0x7f0e00c8;
+		public static final int toolbar = 0x7f0e00b4;
 		public static final int wide = 0x7f0e0043;
 		public static final int wrap_content = 0x7f0e0024;
 	}

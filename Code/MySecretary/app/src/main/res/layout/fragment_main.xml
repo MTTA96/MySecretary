@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.stak.mysecretary.fragment.MainFragment">
+    tools:context="com.stak.mysecretary.Fragment.MainFragment">
 
     <!-- layout top -->
     <LinearLayout

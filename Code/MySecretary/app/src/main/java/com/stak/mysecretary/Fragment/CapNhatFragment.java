@@ -1,12 +1,14 @@
-package com.stak.mysecretary;
+package com.stak.mysecretary.Fragment;
+
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
-import android.graphics.Paint;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -15,23 +17,23 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import com.stak.mysecretary.database.DBHelper;
-import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.model.Hoatdong;
-import com.stak.mysecretary.util.SupportList;
+import com.stak.mysecretary.DataBase.DBHelper;
+import com.stak.mysecretary.DataBase.XulyHoatdong;
+import com.stak.mysecretary.MainActivity;
+import com.stak.mysecretary.Model.Data.HoatDong;
+import com.stak.mysecretary.R;
+import com.stak.mysecretary.Util.SupportList;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class CapNhatActivity extends AppCompatActivity {
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class CapNhatFragment extends Fragment {
     Spinner spnNhacNho;
-
     ImageButton ibHuy;
     ImageButton ibLuu;
-
-    DBHelper db=new DBHelper(this);
-
     EditText etTenHoatDong;
     EditText etDiaDiem;
     EditText etGhiChu;
@@ -39,35 +41,42 @@ public class CapNhatActivity extends AppCompatActivity {
     TextView tvTimeBD;
     TextView tvTimeKT;
 
-    Date date;
-    Calendar cal;
-    Calendar cal1;
+    private Date date;
+    private Calendar cal;
+    private Calendar cal1;
+    private HoatDong hoatDong;
+    private HoatDong tempHoatDong;
+    private int position;
+    private String strNgay;
+    private String strGio;
+    private String strNgayKT;
+    private String strGioKT;
+    private DBHelper dbHelper = new DBHelper(getActivity());
 
-    Hoatdong hoatdong;
-    Hoatdong tempHoatDong;
-    int position;
-    String strNgay;
-    String strGio;
-    String strNgayKT;
-    String strGioKT;
+    public CapNhatFragment() {
+        // Required empty public constructor
+    }
+
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cap_nhat);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View root = inflater.inflate(R.layout.fragment_cap_nhat, container, false);
 
-        spnNhacNho= (Spinner) findViewById(R.id.spinnerNhacnho_CapNhat);
+        tvDateBD= (TextView) root.findViewById(R.id.Date_BatDau_CapNhat);
+        tvTimeBD= (TextView) root.findViewById(R.id.Time_BatDau_CapNhat);
+        tvTimeKT= (TextView) root.findViewById(R.id.Time_KetThuc_CapNhat);
+        etTenHoatDong= (EditText) root.findViewById(R.id.etTen_CapNhat);
+        etDiaDiem= (EditText) root.findViewById(R.id.etDiaDiem_CapNhat);
+        etGhiChu= (EditText) root.findViewById(R.id.etGhichu_CapNhat);
+        spnNhacNho= (Spinner) root.findViewById(R.id.spinnerNhacnho_CapNhat);
+        ibHuy = (ImageButton) root.findViewById(R.id.ibHuy_CapNhat);
+        ibLuu = (ImageButton) root.findViewById(R.id.ibLuu_CapNhat);
 
-        etTenHoatDong= (EditText) findViewById(R.id.etTen_CapNhat);
-        etDiaDiem= (EditText) findViewById(R.id.etDiaDiem_CapNhat);
-        etGhiChu= (EditText) findViewById(R.id.etGhichu_CapNhat);
 
-        ibHuy = (ImageButton) findViewById(R.id.ibHuy_CapNhat);
-        ibLuu = (ImageButton) findViewById(R.id.ibLuu_CapNhat);
-
-        tvDateBD= (TextView) findViewById(R.id.Date_BatDau_CapNhat);
-        tvTimeBD= (TextView) findViewById(R.id.Time_BatDau_CapNhat);
-        tvTimeKT= (TextView) findViewById(R.id.Time_KetThuc_CapNhat);
-
+        tvDateBD.setOnClickListener(showDatePickerBD);
+        tvTimeBD.setOnClickListener(showTimePickerBD);
+        tvTimeKT.setOnClickListener(showTimePickerKT);
         //Xử lý sụ kiện khi nhấn Hủy
         ibHuy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,7 +92,7 @@ public class CapNhatActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Kiểm tra giờ bắt đầu có bé hơn kết thúc hay không
-                if (ktgiophut(tvTimeBD.getText().toString(),tvTimeKT.getText().toString())==0)
+                if (KiemTraGioPhut(tvTimeBD.getText().toString(),tvTimeKT.getText().toString())==0)
                 {
                     Toast.makeText(CapNhatActivity.this,"Thời gian không hợp lệ !",Toast.LENGTH_LONG).show();
                     return;
@@ -91,7 +100,7 @@ public class CapNhatActivity extends AppCompatActivity {
                 XulyHoatdong xulyhd=new XulyHoatdong(db);
                 if(!etTenHoatDong.getText().toString().isEmpty() || tvDateBD.getText().toString().compareTo(strNgay) != 0 || tvTimeBD.getText().toString().compareTo(strGio) != 0){
                     //Xóa, insert
-                    xulyhd.XoaHd(hoatdong.getTenhd(),hoatdong.getTgbd());
+                    xulyhd.XoaHd(hoatDong.getTenhd(), hoatDong.getTgbd());
                     if(!etTenHoatDong.getText().toString().isEmpty()){
                         tempHoatDong.setTenhd(etTenHoatDong.getText().toString());
                     }
@@ -113,7 +122,7 @@ public class CapNhatActivity extends AppCompatActivity {
                     xulyhd.Them(tempHoatDong);
                 }
                 else{
-                    xulyhd.XoaHd(hoatdong.getTenhd(),hoatdong.getTgbd());
+                    xulyhd.XoaHd(hoatDong.getTenhd(), hoatDong.getTgbd());
                     //Cập nhật lại
                     if(!etTenHoatDong.getText().toString().isEmpty()){
                         tempHoatDong.setTenhd(etTenHoatDong.getText().toString());
@@ -145,32 +154,31 @@ public class CapNhatActivity extends AppCompatActivity {
 
         //Load dữ liệu
         Intent intent = getIntent();
-        hoatdong = (Hoatdong) intent.getSerializableExtra(SupportList.KEY_HOATDONG);
+        hoatDong = (HoatDong) intent.getSerializableExtra(SupportList.KEY_HOATDONG);
         position = intent.getIntExtra(SupportList.KEY_POSITION, 0);
 
-        tempHoatDong = hoatdong;
+        tempHoatDong = hoatDong;
 
-        etTenHoatDong.setHint(hoatdong.getTenhd());
-        etDiaDiem.setHint(hoatdong.getDiadiem());
-        String test = hoatdong.getGhichu();
-        if(!hoatdong.getGhichu().isEmpty())
-            etGhiChu.setHint(hoatdong.getGhichu());
+        etTenHoatDong.setHint(hoatDong.getTenhd());
+        etDiaDiem.setHint(hoatDong.getDiadiem());
+        String test = hoatDong.getGhichu();
+        if(!hoatDong.getGhichu().isEmpty())
+            etGhiChu.setHint(hoatDong.getGhichu());
 
-        String[] tachTG = hoatdong.getTgbd().split(" ");
+        String[] tachTG = hoatDong.getTgbd().split(" ");
         tvDateBD.setText(tachTG[0]);
         tvTimeBD.setText(tachTG[1]);
         strNgay = tachTG[0];
         strGio = tachTG[1];
 
-        tachTG = hoatdong.getTgkt().split(" ");
+        tachTG = hoatDong.getTgkt().split(" ");
         tvTimeKT.setText(tachTG[1]);
         strNgayKT = tachTG[0];
         strGioKT = tachTG[1];
 
-        tvDateBD.setOnClickListener(showDatePickerBD);
-        tvTimeBD.setOnClickListener(showTimePickerBD);
-        tvTimeKT.setOnClickListener(showTimePickerKT);
+        return root;
     }
+
 
     //Hiện Datepicker khi nhấn vào chọn ngày
     View.OnClickListener showDatePickerBD = new View.OnClickListener() {
@@ -377,9 +385,9 @@ public class CapNhatActivity extends AppCompatActivity {
     };
 
     //Kiểm tra giờ bắt đầu và giờ kết thúc
-    public int ktgiophut(String giophutbd,String giophutkt){
-        String[] tachgiophutbd=giophutbd.split(":");
-        String[] tachgiophutkt=giophutkt.split(":");
+    public int KiemTraGioPhut(String timeBatDau, String timeKetThuc){
+        String[] tachgiophutbd=timeBatDau.split(":");
+        String[] tachgiophutkt=timeKetThuc.split(":");
         int giobd=Integer.parseInt(tachgiophutbd[0].toString());
         int phutbd=Integer.parseInt(tachgiophutbd[1].toString());
         int giokt=Integer.parseInt(tachgiophutkt[0].toString());

@@ -1,4 +1,4 @@
-package com.stak.mysecretary.fragment;
+package com.stak.mysecretary.Fragment;
 
 
 import android.app.AlarmManager;
@@ -21,19 +21,17 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.stak.mysecretary.Adapter.HoatdongAdapter;
-import com.stak.mysecretary.CapNhatActivity;
+import com.stak.mysecretary.Handler.UiHandler.Adapter.HoatdongAdapter;
 import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.MenuActivity;
 import com.stak.mysecretary.R;
 import com.stak.mysecretary.Reminder;
-import com.stak.mysecretary.ThemHoatDongActivity;
-import com.stak.mysecretary.database.DBHelper;
-import com.stak.mysecretary.database.MyShared;
-import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.interfaces.DataCallBack;
-import com.stak.mysecretary.model.Hoatdong;
-import com.stak.mysecretary.util.SupportList;
+import com.stak.mysecretary.DataBase.DBHelper;
+import com.stak.mysecretary.DataBase.MyShared;
+import com.stak.mysecretary.DataBase.XulyHoatdong;
+import com.stak.mysecretary.Interfaces.DataCallBack;
+import com.stak.mysecretary.Model.Data.HoatDong;
+import com.stak.mysecretary.Util.SupportList;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -47,7 +45,6 @@ import java.util.Locale;
  */
 public class MainFragment extends Fragment implements View.OnClickListener, DataCallBack {
     ListView lvHoatDong;
-    MainActivity mainActivity;
     LinearLayout menu;
 
     //Các cột ngày trong tuần
@@ -66,16 +63,17 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     TextView tvNgayDuocChon;
     TextView tvNgayThu2, tvNgayThu3, tvNgayThu4, tvNgayThu5, tvNgayThu6, tvNgayThu7, tvNgayChuNhat;
 
+    MainActivity mainActivity;
     private Calendar lich = Calendar.getInstance();
     private Date dateHienTai;
-    private ArrayList<Hoatdong> listHoatDong;
+    private ArrayList<HoatDong> listHoatDong;
     private MyShared myShared;
     private int eventIndex;
     private int countIndex;
     //Biến đếm để set màu cho cột thú
     private int count = 0;
     private DBHelper db;
-    private Hoatdong hoatDongDuocChon;
+    private HoatDong hoatDongDuocChon;
     private int posHoatDongDuocChon;
 
     public static String KEY_NGAY_DUOC_CHON = "";
@@ -136,7 +134,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Lấy ghi chú từ hoạt động được chọn
                 XulyHoatdong xulyHD=new XulyHoatdong(db);
-                ArrayList<Hoatdong> listHDDuocChon=new ArrayList<Hoatdong>();
+                ArrayList<HoatDong> listHDDuocChon=new ArrayList<HoatDong>();
                 if (myShared.getCbCaNhan() && myShared.getCbTKB()) {
                     listHDDuocChon = xulyHD.laydstheongay(KEY_NGAY_DUOC_CHON);
                     SapXepMang(listHDDuocChon);
@@ -193,7 +191,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     public void startNotify() {
         //Lấy hoạt động của ngày hôm nay
         XulyHoatdong xulyHD = new XulyHoatdong(getActivity());
-        ArrayList<Hoatdong> listHoatDongHomNay = xulyHD.laydstheongay(tvNgayHienTai.getText().toString());
+        ArrayList<HoatDong> listHoatDongHomNay = xulyHD.laydstheongay(tvNgayHienTai.getText().toString());
         Date tempDateHienTai = dateHienTai;
 
         //Tạo alarm
@@ -643,13 +641,13 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     private void initialData(String nhom) {
         XulyHoatdong xulyhd=new XulyHoatdong(db);
         if(nhom.equals("all")){
-            listHoatDong = new ArrayList<Hoatdong>();
+            listHoatDong = new ArrayList<HoatDong>();
             listHoatDong = xulyhd.laytatcahd();
             SapXepMang(listHoatDong);
 
         }
         else {
-            listHoatDong = new ArrayList<Hoatdong>();
+            listHoatDong = new ArrayList<HoatDong>();
             listHoatDong = xulyhd.LayDStheonhom(nhom);
             SapXepMang(listHoatDong);
         }
@@ -675,7 +673,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     // Truyền dữ liệu các hoạt động vào listview
     public void loadDulieuListView(String ngay)
     {
-        ArrayList<Hoatdong> tempList = new ArrayList<>();
+        ArrayList<HoatDong> tempList = new ArrayList<>();
         XulyHoatdong x = new XulyHoatdong(db);
         if(myShared.getCbTKB() && myShared.getCbCaNhan()){
             tempList = x.laydstheongay(ngay);
@@ -691,7 +689,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
         SapXepMang(tempList);
 
         //Hiển thị dữ liệu đươc truyền vào ra màn hình
-        HoatdongAdapter adapter=new HoatdongAdapter(getActivity(), R.layout.lsv_item, tempList, MainFragment.this, MainFragment.this);
+        HoatdongAdapter adapter=new HoatdongAdapter(getActivity(), R.layout.item_hoat_dong, tempList, MainFragment.this, MainFragment.this);
         lvHoatDong.setAdapter(adapter);
     }
 
@@ -907,7 +905,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     public void XoaHDDQ() {
         //Lấy tất cả hd từ database
         XulyHoatdong xulyhd = new XulyHoatdong(db);
-        ArrayList<Hoatdong> listhd = new ArrayList<Hoatdong>();
+        ArrayList<HoatDong> listhd = new ArrayList<HoatDong>();
         listhd = xulyhd.laytatcahd();
 
         //Lấy ngày hiện tại để so sánh
@@ -950,7 +948,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     }
 
     //Sắp sếp các hoat động trong listview theo giờ
-    public void SapXepMang(ArrayList<Hoatdong> manghd ) {
+    public void SapXepMang(ArrayList<HoatDong> manghd ) {
         int i;
         int j;
 
@@ -978,7 +976,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
 
                 //So sánh giờ để sắp xếp
                 if (giobd * 60 + phutbd > giobd1 * 60 + phutbd1) {
-                    Hoatdong temphd = new Hoatdong();
+                    HoatDong temphd = new HoatDong();
 
                     temphd = manghd.get(i);
                     manghd.set(i,manghd.get(j));
@@ -989,7 +987,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     }
 
     @Override
-    public void ChuyenHoatDong(Hoatdong hoatDong, int position, String key) {
+    public void ChuyenHoatDong(HoatDong hoatDong, int position, String key) {
         switch (key){
             case "dataHoatDongAdapter":
                 hoatDongDuocChon = hoatDong;

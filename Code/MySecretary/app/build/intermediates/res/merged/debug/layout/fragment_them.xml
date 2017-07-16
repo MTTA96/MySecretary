@@ -5,7 +5,7 @@
     android:id="@+id/activity_them_hoat_dong"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.stak.mysecretary.fragment.ThemFragment"
+    tools:context="com.stak.mysecretary.Fragment.ThemFragment"
     android:orientation="vertical"
     android:background="#5AB1D8E5">
     <!-- Layout top -->
@@ -27,7 +27,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="@dimen/themHD_layoutchonhom_height"
             android:layout_weight="2"
             android:gravity="center">
             <TextView
@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView4"
-                android:textSize="18dp"
+                android:textSize="@dimen/themHD_textsize_chonnhom"
                 android:gravity="center"
                 android:textStyle="bold"/>
 
@@ -43,8 +43,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/spinnerNhom"
-                android:layout_marginTop="3dp"
-                android:layout_marginBottom="3dp"/>
+                android:layout_marginTop="@dimen/themHD_spinner_chonnhom_margintop"
+                android:layout_marginBottom="@dimen/themHD_spinner_chonnhom_marginbottom"/>
 
         </LinearLayout>
         <!-- Save -->
@@ -75,33 +75,34 @@
             android:layout_height="match_parent"
             android:layout_below="@+id/selections_layout"
             android:orientation="vertical"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="@dimen/themHD_layoutchuaview_margintop"
+            android:layout_marginRight="@dimen/themHD_layoutchuaview_marginrigh"
+            android:layout_marginBottom="@dimen/themHD_layoutchuaview_marginbottom"
             android:background="@drawable/layoutshapemenu">
 
             <!-- Tên hoạt động -->
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/themHD_edittext_Tenhd_Diachi_height"
                 android:inputType="textCapSentences|textMultiLine"
                 android:hint="Tên hoạt động"
                 android:ems="10"
                 android:id="@+id/etTen_ThemHoatDong"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/themHD_edittext_Tenhd_Diachi_margintop"
+                android:layout_marginLeft="@dimen/themHD_edittext_Tenhd_Diachi_marginleft"
                 tools:drawableRight="@android:drawable/star_big_on" />
 
             <!-- Địa điểm -->
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:inputType="textCapSentences|textMultiLine"
                 android:id="@+id/etDiaDiem_ThemHoatDong"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/themHD_edittext_Tenhd_Diachi_height"
+                android:inputType="textCapSentences|textMultiLine"
                 android:layout_below="@+id/etTen_ThemHoatDong"
-                android:layout_marginTop="7dp"
+                android:layout_marginTop="@dimen/themHD_edittext_Tenhd_Diachi_margintop"
+                android:layout_marginLeft="@dimen/themHD_edittext_Tenhd_Diachi_marginleft"
                 android:hint="Địa điểm"
-                android:layout_marginLeft="10dp"/>
+                />
 
             <!-- Title bắt đầu -->
             <TextView
@@ -109,10 +110,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView"
-                android:textSize="20sp"
+                android:textSize="@dimen/themHD_textsize_Batdau_Ketthuc"
                 android:textStyle="normal|bold"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="10dp" />
+                android:layout_marginTop="@dimen/themHD_text_Batdau_Ketthuc_margintop"
+                android:layout_marginLeft="@dimen/themHD_text_Batdau_Ketthuc_marginleft" />
             <!-- Thông tin thời gian bắt đầu -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -130,7 +131,7 @@
                     android:id="@+id/Date_BatDau"
                     android:hint="dd/mm/yyyy"
                     android:layout_weight="1"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="@dimen/themHD_text_ngaythang_marginleft"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,7 +141,7 @@
                     android:id="@+id/Time_BatDau"
                     android:layout_weight="1"
                     android:hint="hh:mm"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginLeft="@dimen/themHD_text_ngaythang_marginleft"/>
             </LinearLayout>
             <!-- Title kết thúc -->
             <TextView
@@ -149,10 +150,10 @@
                 android:layout_height="wrap_content"
                 android:text="Kết thúc"
                 android:textStyle="normal|bold"
-                android:textSize="20dp"
+                android:textSize="@dimen/themHD_textsize_Batdau_Ketthuc"
                 android:layout_below="@id/Date_BatDau"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginTop="@dimen/themHD_text_Batdau_Ketthuc_margintop"
+                android:layout_marginLeft="@dimen/themHD_text_Batdau_Ketthuc_marginleft"/>
 
 
             <!-- Thông tin thời gian kết thúc -->
@@ -172,7 +173,7 @@
                     android:id="@+id/Date_KetThuc"
                     android:hint="dd/mm/yyyy"
                     android:layout_weight="1"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="@dimen/themHD_text_ngaythang_marginleft"
                     />
 
                 <TextView
@@ -183,7 +184,7 @@
                     android:id="@+id/Time_KetThuc"
                     android:layout_weight="1"
                     android:hint="hh:mm"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginLeft="@dimen/themHD_text_ngaythang_marginleft"/>
             </LinearLayout>
 
             <!--Thứ-->
@@ -194,54 +195,54 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/infoEnd"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="@dimen/themHD_layoutthu_margintop">
                 <Button
-                android:id="@+id/btnT2_layoutthem"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="1dp"
-                android:background="@drawable/layoutthem_buttonthu_shape"
-                android:text="T2"/>
+                    android:id="@+id/btnT2_layoutthem"
+                    android:layout_width="@dimen/themHD_buttonthu_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/themHD_buttonthu_marginright"
+                    android:background="@drawable/layoutthem_buttonthu_shape"
+                    android:text="T2"/>
                 <Button
-                    android:layout_width="38dp"
+                    android:layout_width="@dimen/themHD_buttonthu_width"
                     android:id="@+id/btnT3_layoutthem"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="1dp"
+                    android:layout_marginRight="@dimen/themHD_buttonthu_marginright"
                     android:background="@drawable/layoutthem_buttonthu_shape"
                     android:text="T3"/>
                 <Button
-                    android:layout_width="38dp"
+                    android:layout_width="@dimen/themHD_buttonthu_width"
                     android:id="@+id/btnT4_layoutthem"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="1dp"
+                    android:layout_marginRight="@dimen/themHD_buttonthu_marginright"
                     android:background="@drawable/layoutthem_buttonthu_shape"
                     android:text="T4"/>
                 <Button
-                    android:layout_width="38dp"
+                    android:layout_width="@dimen/themHD_buttonthu_width"
                     android:id="@+id/btnT5_layoutthem"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="1dp"
+                    android:layout_marginRight="@dimen/themHD_buttonthu_marginright"
                     android:background="@drawable/layoutthem_buttonthu_shape"
                     android:text="T5"/>
                 <Button
-                    android:layout_width="38dp"
+                    android:layout_width="@dimen/themHD_buttonthu_width"
                     android:id="@+id/btnT6_layoutthem"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="1dp"
+                    android:layout_marginRight="@dimen/themHD_buttonthu_marginright"
                     android:background="@drawable/layoutthem_buttonthu_shape"
                     android:text="T6"/>
                 <Button
-                    android:layout_width="38dp"
+                    android:layout_width="@dimen/themHD_buttonthu_width"
                     android:id="@+id/btnT7_layoutthem"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="1dp"
+                    android:layout_marginRight="@dimen/themHD_buttonthu_marginright"
                     android:background="@drawable/layoutthem_buttonthu_shape"
                     android:text="T7"/>
                 <Button
-                    android:layout_width="38dp"
+                    android:layout_width="@dimen/themHD_buttonthu_width"
                     android:id="@+id/btnCN_layoutthem"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="1dp"
+                    android:layout_marginRight="@dimen/themHD_buttonthu_marginright"
                     android:background="@drawable/layoutthem_buttonthu_shape"
                     android:text="C"/>
 
@@ -254,15 +255,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/infoEnd"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="10dp">
+                android:layout_marginTop="@dimen/themHD_layoutnhacnho_margintop"
+                android:layout_marginLeft="@dimen/themHD_layoutnhacnho_marginleft">
                 <TextView
                     android:text="Nhắc nhở:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView9"
                     android:textStyle="normal|bold"
-                    android:textSize="20dp"/>
+                    android:textSize="@dimen/themHD_textsize_nhacnho"/>
 
                 <Spinner
                     android:layout_height="wrap_content"
@@ -279,8 +280,8 @@
                 android:gravity="top"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/infoNhacNho"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/themHD_ghichu_margintop"
+                android:layout_marginLeft="@dimen/themHD_ghichu_marginleft"
                 android:id="@+id/etGhichu"
                 android:hint="Ghi chú" />
 

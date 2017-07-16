@@ -12,7 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:focusableInTouchMode="true"
-    tools:context="com.stak.mysecretary.Dangnhap">
+    tools:context="com.stak.mysecretary.Fragment.DangNhapFragment">
 
     <!--Tiêu đề-->
         <TextView

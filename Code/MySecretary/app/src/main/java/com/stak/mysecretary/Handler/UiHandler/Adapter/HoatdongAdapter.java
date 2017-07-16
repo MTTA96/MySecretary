@@ -1,37 +1,18 @@
-package com.stak.mysecretary.Adapter;
+package com.stak.mysecretary.Handler.UiHandler.Adapter;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.media.Image;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.util.AsyncListUtil;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.stak.mysecretary.CapNhatActivity;
-import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.R;
-import com.stak.mysecretary.ThemHoatDongActivity;
-import com.stak.mysecretary.database.DBHelper;
-import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.interfaces.DataCallBack;
-import com.stak.mysecretary.model.Hoatdong;
-import com.stak.mysecretary.util.SupportList;
+import com.stak.mysecretary.Interfaces.DataCallBack;
+import com.stak.mysecretary.Model.Data.HoatDong;
 
-import org.w3c.dom.Text;
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Locale;
 
 /**
  * Created by ADMIN on 3/29/2017.
@@ -49,10 +30,10 @@ public class HoatdongAdapter extends ArrayAdapter{
     View.OnClickListener onClickListener;
 
     private int layoutItem;
-    private ArrayList<Hoatdong> listHoatDong;
+    private ArrayList<HoatDong> listHoatDong;
     private DataCallBack dataCallBack;
 
-    public HoatdongAdapter(Activity context, int resource, ArrayList<Hoatdong> objects, View.OnClickListener onClickListener, DataCallBack dataCallBack) {
+    public HoatdongAdapter(Activity context, int resource, ArrayList<HoatDong> objects, View.OnClickListener onClickListener, DataCallBack dataCallBack) {
         super(context, resource, objects);
 
         con = context;
@@ -65,7 +46,7 @@ public class HoatdongAdapter extends ArrayAdapter{
     public View getView(final int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = con.getLayoutInflater();
         convertView = inflater.inflate(layoutItem, null); //Ánh xạ
-        final Hoatdong hoatDong = listHoatDong.get(position);
+        final HoatDong hoatDong = listHoatDong.get(position);
 
         tvTenHoatDong = (TextView) convertView.findViewById(R.id.tvTenHD_lvitem);
         tvDiaDiem = (TextView) convertView.findViewById(R.id.tvDiaDiem_lvitem);

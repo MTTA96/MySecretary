@@ -1,4 +1,4 @@
-package com.stak.mysecretary.model;
+package com.stak.mysecretary.Model.Data;
 
 import java.io.Serializable;
 
@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by ADMIN on 3/24/2017.
  */
 
-public class Hoatdong implements Serializable{
+public class HoatDong implements Serializable{
     private String tenhd;
     private String diadiem;
     private String tgbd;

@@ -1,4 +1,4 @@
-package com.stak.mysecretary.model.modelDangky;
+package com.stak.mysecretary.Model.DangKy;
 
 import android.support.annotation.NonNull;
 
@@ -6,36 +6,35 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.stak.mysecretary.presenter.Dangky.presenterDangky;
-import com.stak.mysecretary.presenter.Dangky.presenterimpDangky;
+import com.stak.mysecretary.Handler.DataHandler.Presenter.Dangky.PresenterDangKy;
+import com.stak.mysecretary.Handler.DataHandler.Interfaces.PresenterImplDangKy;
 
 /**
  * Created by Quang Trí on 7/9/2017.
  */
 
-public class modelDangky implements modelimpDangky{
+public class ModelDangKyImpl implements DangKyImpl {
     //Khai báo đối tượng
     private FirebaseAuth mAuth;
-    presenterimpDangky presenterdk;
+    private PresenterImplDangKy presenterImplDangKy;
 
-    public modelDangky(presenterDangky presenterdk) {
-        this.presenterdk = presenterdk;
+    public ModelDangKyImpl(PresenterDangKy presenterImplDangKy) {
+        this.presenterImplDangKy = presenterImplDangKy;
 }
 
-
     @Override
-    public void dangkyfirebase(final String email, final String password) {
+    public void DangKyFireBase(final String email, final String password) {
         mAuth=FirebaseAuth.getInstance();
         if (email.isEmpty() && password.isEmpty())
-            presenterdk.xulythongbaoloi();
+            presenterImplDangKy.xulythongbaoloi();
         else {
             mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful())
-                        presenterdk.xulydangkythanhcong();
+                        presenterImplDangKy.xulydangkythanhcong();
                     else
-                        presenterdk.xulydangkythatbai();
+                        presenterImplDangKy.xulydangkythatbai();
                 }
             });
         }

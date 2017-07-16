@@ -1,31 +1,22 @@
-package com.stak.mysecretary;
+package com.stak.mysecretary.Fragment;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.facebook.AccessToken;
-import com.facebook.CallbackManager;
-import com.facebook.FacebookCallback;
-import com.facebook.FacebookException;
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
-import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -37,63 +28,70 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
-import com.stak.mysecretary.presenter.Dangky.presenterDangky;
-import com.stak.mysecretary.presenter.Dangnhap.presenterDangnhap;
-import com.stak.mysecretary.view.viewDangky.viewDangky;
-import com.stak.mysecretary.view.viewDangnhap.viewDangnhap;
+import com.stak.mysecretary.MainActivity;
+import com.stak.mysecretary.R;
+import com.stak.mysecretary.Handler.DataHandler.Presenter.Dangky.PresenterDangKy;
+import com.stak.mysecretary.Handler.DataHandler.Presenter.Dangnhap.PresenterDangnhap;
+import com.stak.mysecretary.Handler.UiHandler.Interfaces.DangKyCallBack;
+import com.stak.mysecretary.Handler.UiHandler.Interfaces.DangNhapCallBack;
 
+import java.util.concurrent.Executor;
 
-public class Dangnhap extends AppCompatActivity implements View.OnClickListener,viewDangky,viewDangnhap {
-    Button btnHoantat;
-    static EditText edtemailDK;
-    static EditText edtNewpasswordDK;
-    presenterDangky presenterdk;
-    presenterDangnhap presenterDn;
-    ImageButton ibCancel;
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class DangNhapFragment extends Fragment implements View.OnClickListener,DangKyCallBack,DangNhapCallBack {
+    TextView tvDangky;
     EditText edtEmail;
     EditText edtNewPassword;
-    Button btnDangnhap;
-    //Biến xu lý code chodang98 nhập gmail
-    SignInButton btnGsignin;
-    private static final int RC_SIGN_IN=1;
+    EditText etEmailDangKy;
+    EditText etNewPasswordDangKy;
+    Button btnHoanTat;
+    Button btnDangNhap;
+    SignInButton btnGmail;
+    ImageButton ibCancel;
+
+    public Dialog dialogDangky;
+    private PresenterDangKy presenterDangKy;
+    private PresenterDangnhap presenterDangNhap;
     private GoogleApiClient mGoogleApiClient;
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
-    SignInButton btnGmail;
 
-    TextView tvDangky;
-    public Dialog dialogDangky;
+    private static final int RC_SIGN_IN=1;
+
+    public DangNhapFragment() {
+        // Required empty public constructor
+    }
+
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        FacebookSdk.sdkInitialize(getApplicationContext());
-        AppEventsLogger.activateApp(this);
-        setContentView(R.layout.activity_dangnhap);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        mAuth.addAuthStateListener(mAuthListener);
 
-        edtEmail= (EditText) findViewById(R.id.edtEmail);
-        edtNewPassword= (EditText) findViewById(R.id.edtPassword);
+        View root = inflater.inflate(R.layout.fragment_dang_nhap, container, false);
+        //Ánh xạ
+        edtEmail= (EditText) root.findViewById(R.id.edtEmail);
+        edtNewPassword= (EditText) root.findViewById(R.id.edtPassword);
+        tvDangky= (TextView) root.findViewById(R.id.tvDangky);
+        btnDangNhap = (Button) root.findViewById(R.id.btnLogin);
+        btnGmail= (SignInButton) root.findViewById(R.id.btnLoginGmail);
 
-        tvDangky= (TextView) findViewById(R.id.tvDangky);
-
-        btnDangnhap= (Button) findViewById(R.id.btnLogin);
-        btnGmail= (SignInButton) findViewById(R.id.btnLoginGmail);
-
-        //Khởi tạo
-        presenterdk=new presenterDangky(this);
-        presenterDn=new presenterDangnhap(this);
-
+        //Xử lý onclick
         tvDangky.setOnClickListener(this);
-        btnDangnhap.setOnClickListener(this);
-
-        //khởi tạo cho code xử lý button gmail
-        khoitaoGmail();
-        //click button gmail
+        btnDangNhap.setOnClickListener(this);
         btnGmail.setOnClickListener(this);
 
+        //Khởi tạo giá trị
+        presenterDangKy=new PresenterDangKy(this);
+        presenterDangNhap=new PresenterDangnhap(this);
+        khoitaoGmail();
+
+        return root;
     }
 
     @Override
@@ -110,42 +108,41 @@ public class Dangnhap extends AppCompatActivity implements View.OnClickListener,
 
     @Override
     public void dangkythanhcong() {
-        Toast.makeText(this,"Đăng ký thành công",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Đăng ký thành công",Toast.LENGTH_SHORT).show();
         dialogDangky.dismiss();
     }
 
     @Override
     public void dangkythatbai() {
-        Toast.makeText(this,"Đăng ký thất bại",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Đăng ký thất bại",Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void thongbaoloi() {
-        Toast.makeText(this,"Không thể bỏ trống email hoặc mật khẩu",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Không thể bỏ trống email hoặc mật khẩu",Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void dangnhapthanhcong() {
-        Toast.makeText(this,"Đăng nhập thành công",Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(this,MainActivity.class));
-        finish();
+        Toast.makeText(getActivity(),"Đăng nhập thành công",Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(getActivity(), MainActivity.class));
     }
 
     @Override
     public void dangnhapthatbai() {
-        Toast.makeText(this,"Đăng nhập thất bại",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Đăng nhập thất bại",Toast.LENGTH_SHORT).show();
         return;
     }
 
     @Override
     public void thongbaoloidangnhap() {
-        Toast.makeText(this,"Không thể bỏ trống email hoặc mật khẩu",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Không thể bỏ trống email hoặc mật khẩu",Toast.LENGTH_SHORT).show();
     }
 
     //Dialog đăng ký
     public void dialogDangky(){
         //Khởi tạo và tạo kích thước cho dialog đăng ký
-        dialogDangky=new Dialog(Dangnhap.this);
+        dialogDangky=new Dialog(getActivity());
         dialogDangky.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialogDangky.setContentView(R.layout.activity_dialog_dangky);
         WindowManager.LayoutParams lp=new WindowManager.LayoutParams();
@@ -160,50 +157,50 @@ public class Dangnhap extends AppCompatActivity implements View.OnClickListener,
         //xử lý cho dialog đăng ký
 
 
-        btnHoantat= (Button) dialogDangky.findViewById(R.id.btnDangky);
-        edtemailDK= (EditText) dialogDangky.findViewById(R.id.edtEmailDK);
-        edtNewpasswordDK= (EditText) dialogDangky.findViewById(R.id.edtNewpasswordDK);
+        btnHoanTat = (Button) dialogDangky.findViewById(R.id.btnDangky);
+        etEmailDangKy = (EditText) dialogDangky.findViewById(R.id.edtEmailDK);
+        etNewPasswordDangKy = (EditText) dialogDangky.findViewById(R.id.edtNewpasswordDK);
 
         ibCancel= (ImageButton) dialogDangky.findViewById(R.id.ibCancel);
         //xử lý cho nut hoàn tất
-        btnHoantat.setOnClickListener(new View.OnClickListener() {
+        btnHoanTat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                presenterdk.xulydangky(edtemailDK.getText().toString(),edtNewpasswordDK.getText().toString());
+                presenterDangKy.xulydangky(etEmailDangKy.getText().toString(), etNewPasswordDangKy.getText().toString());
             }
         });
         //Xử lý cho nut hủy đăng ký
         ibCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    if (!edtemailDK.getText().toString().isEmpty() || !edtNewpasswordDK.getText().toString().isEmpty()) {
-                        AlertDialog.Builder alartbuilder = new AlertDialog.Builder(Dangnhap.this);
-                        alartbuilder.setMessage("Bạn có chắc muốn hủy đăng ký");
-                        alartbuilder.setNegativeButton("Có", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialogDangky.dismiss();
-                            }
-                        });
-                        alartbuilder.setPositiveButton("Không", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        });
-                        AlertDialog dialog = alartbuilder.create();
-                        dialog.show();
-                    }
-                    else
-                        dialogDangky.dismiss();
+                if (!etEmailDangKy.getText().toString().isEmpty() || !etNewPasswordDangKy.getText().toString().isEmpty()) {
+                    AlertDialog.Builder alartbuilder = new AlertDialog.Builder(getActivity());
+                    alartbuilder.setMessage("Bạn có chắc muốn hủy đăng ký");
+                    alartbuilder.setNegativeButton("Có", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialogDangky.dismiss();
+                        }
+                    });
+                    alartbuilder.setPositiveButton("Không", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+                    AlertDialog dialog = alartbuilder.create();
+                    dialog.show();
                 }
+                else
+                    dialogDangky.dismiss();
+            }
         });
     }
 
     //xử lý cho nut đăng nhập
     public void nutDangnhap(String email,String password){
-        presenterDn.xulydangnhap(email,password);
+        presenterDangNhap.xulydangnhap(email,password);
     }
 
     //Code đăng nhập cho Gmail
@@ -213,7 +210,7 @@ public class Dangnhap extends AppCompatActivity implements View.OnClickListener,
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if(firebaseAuth.getCurrentUser()!=null){
-                    startActivity(new Intent(Dangnhap.this,MainActivity.class));
+                    startActivity(new Intent(getActivity(),MainActivity.class));
                 }
 
             }
@@ -224,11 +221,11 @@ public class Dangnhap extends AppCompatActivity implements View.OnClickListener,
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
-        mGoogleApiClient=new GoogleApiClient.Builder(getApplicationContext())
-                .enableAutoManage(this, new GoogleApiClient.OnConnectionFailedListener() {
+        mGoogleApiClient=new GoogleApiClient.Builder(getActivity())
+                .enableAutoManage(getActivity(), new GoogleApiClient.OnConnectionFailedListener() {
                     @Override
                     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-                        Toast.makeText(Dangnhap.this,"Error",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(),"Error",Toast.LENGTH_SHORT).show();
 
                     }
                 })
@@ -254,10 +251,9 @@ public class Dangnhap extends AppCompatActivity implements View.OnClickListener,
     }
 
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
-
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         mAuth.signInWithCredential(credential)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                .addOnCompleteListener((Executor) this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
@@ -265,16 +261,10 @@ public class Dangnhap extends AppCompatActivity implements View.OnClickListener,
                             FirebaseUser user = mAuth.getCurrentUser();
                         } else {
                             //Đăng nhập thất bại hiện thong báo
-                            Toast.makeText(Dangnhap.this, "Đăng nhập thất bại",
+                            Toast.makeText(getActivity(), "Đăng nhập thất bại",
                                     Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
     }
 }

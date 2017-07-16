@@ -1,23 +1,21 @@
-package com.stak.mysecretary.model.modelDangnhap;
+package com.stak.mysecretary.Model.Dangnhap;
 
 import android.support.annotation.NonNull;
-import android.system.ErrnoException;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.stak.mysecretary.presenter.Dangnhap.presenterDangnhap;
-import com.stak.mysecretary.presenter.Dangnhap.presenterimpDangnhap;
+import com.stak.mysecretary.Handler.DataHandler.Interfaces.PresenterImplDangnhap;
 
 /**
  * Created by Quang Trí on 7/10/2017.
  */
 
-public class modelDangnhap implements modelipmDangnhap {
-    presenterimpDangnhap presenterimpDn;
+public class ModelDangNhap implements DangNhapImpl {
+    PresenterImplDangnhap presenterimpDn;
 
-    public modelDangnhap(presenterimpDangnhap presenterimpDn) {
+    public ModelDangNhap(PresenterImplDangnhap presenterimpDn) {
         this.presenterimpDn = presenterimpDn;
     }
 

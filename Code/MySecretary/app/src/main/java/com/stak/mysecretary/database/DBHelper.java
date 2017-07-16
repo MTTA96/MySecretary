@@ -1,11 +1,8 @@
-package com.stak.mysecretary.database;
+package com.stak.mysecretary.DataBase;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
-import java.security.PublicKey;
 
 /**
  * Created by zzzzz on 3/26/2017.

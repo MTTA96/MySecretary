@@ -1,7 +1,6 @@
-package com.stak.mysecretary.fragment;
+package com.stak.mysecretary.Fragment;
 
 
-import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
@@ -24,13 +23,10 @@ import android.widget.Toast;
 
 import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.R;
-import com.stak.mysecretary.ThemHoatDongActivity;
-import com.stak.mysecretary.database.DBHelper;
-import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.interfaces.DataCallBack;
-import com.stak.mysecretary.model.Hoatdong;
-
-import org.w3c.dom.Text;
+import com.stak.mysecretary.DataBase.DBHelper;
+import com.stak.mysecretary.DataBase.XulyHoatdong;
+import com.stak.mysecretary.Interfaces.DataCallBack;
+import com.stak.mysecretary.Model.Data.HoatDong;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -167,7 +163,7 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
     }
 
     @Override
-    public void ChuyenHoatDong(Hoatdong hoatDong, int position, String key) {
+    public void ChuyenHoatDong(HoatDong hoatDong, int position, String key) {
 
     }
 
@@ -216,7 +212,7 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
                 }
                 else {
                     //Thêm hoạt động vào database khi nhấn lưu
-                    Hoatdong hd = new Hoatdong();
+                    HoatDong hd = new HoatDong();
                     hd.setTenhd(etTenHoatDong.getText().toString());
                     hd.setDiadiem(etDiaDiem.getText().toString());
                     hd.setTgbd(tvDateBD.getText().toString() + " " + tvTimeBD.getText().toString());
@@ -566,7 +562,7 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         int phutkt=Integer.parseInt(tachgiophutkt[1]);
 
         XulyHoatdong xulyhd=new XulyHoatdong(db);
-        ArrayList<Hoatdong> listhd=new ArrayList<Hoatdong>();
+        ArrayList<HoatDong> listhd=new ArrayList<HoatDong>();
         listhd=xulyhd.laydstheongay(ngay);
 
         if(listhd.size() == 0){

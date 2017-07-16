@@ -1,11 +1,11 @@
-package com.stak.mysecretary.database;
+package com.stak.mysecretary.DataBase;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.stak.mysecretary.model.Hoatdong;
+import com.stak.mysecretary.Model.Data.HoatDong;
 
 import java.util.ArrayList;
 
@@ -28,7 +28,7 @@ public class XulyHoatdong {
         this.dbHelper = dbHelper;
     }
     //Phương thức thêm 1 hoat động
-    public void Them(Hoatdong hd){
+    public void Them(HoatDong hd){
 
         SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
 
@@ -65,9 +65,9 @@ public class XulyHoatdong {
         return cursor;
     }
     //Phương thức lấy tất cả dử liệu
-    public ArrayList<Hoatdong> laytatcahd()
+    public ArrayList<HoatDong> laytatcahd()
     {
-        ArrayList<Hoatdong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
+        ArrayList<HoatDong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
         String selectquery="SELECT * FROM "+DBHelper.TABLE_HOATDONG;//Câu lenh truy vấn
         SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
         Cursor cursor=db.rawQuery(selectquery,null);//Chạy câu truy vấn
@@ -75,7 +75,7 @@ public class XulyHoatdong {
         if(cursor.moveToFirst()) {
             do {
                 //Duyệt qua từng dòng lấy và bỏ vào mảng
-                Hoatdong hd = new Hoatdong();
+                HoatDong hd = new HoatDong();
                 hd.setTenhd(cursor.getString(0));
                 hd.setDiadiem(cursor.getString(1));
                 hd.setTgbd(cursor.getString(2));
@@ -90,9 +90,9 @@ public class XulyHoatdong {
         return list;
     }
     //Lấy tất cả dữ liệu theo Ngày
-    public ArrayList<Hoatdong> laydstheongay(String ngay)
+    public ArrayList<HoatDong> laydstheongay(String ngay)
     {
-        ArrayList<Hoatdong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
+        ArrayList<HoatDong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
         String selectquery="SELECT * FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_TGBD+" LIKE '"+ngay+"%'";//Câu lenh truy vấn
         SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
         Cursor cursor=db.rawQuery(selectquery,null);//Chạy câu truy vấn
@@ -100,7 +100,7 @@ public class XulyHoatdong {
         if(cursor.moveToFirst()) {
             do {
                 //Duyệt qua từng dòng lấy và bỏ vào mảng
-                Hoatdong hd = new Hoatdong();
+                HoatDong hd = new HoatDong();
                 hd.setTenhd(cursor.getString(0));
                 hd.setDiadiem(cursor.getString(1));
                 hd.setTgbd(cursor.getString(2));
@@ -144,9 +144,9 @@ public class XulyHoatdong {
     }
 
     //Lấy danh sách hoạt động theo nhóm
-    public ArrayList<Hoatdong> LayDStheonhom(String nhom)
+    public ArrayList<HoatDong> LayDStheonhom(String nhom)
     {
-        ArrayList<Hoatdong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
+        ArrayList<HoatDong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
         String selectquery="SELECT * FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_HDNHOM+" LIKE '" + nhom + "'";//Câu lenh truy vấn
         SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
         Cursor cursor=db.rawQuery(selectquery,null);//Chạy câu truy vấn
@@ -154,7 +154,7 @@ public class XulyHoatdong {
         if(cursor.moveToFirst()) {
             do {
                 //Duyệt qua từng dòng lấy và bỏ vào mảng
-                Hoatdong hd = new Hoatdong();
+                HoatDong hd = new HoatDong();
                 hd.setTenhd(cursor.getString(0));
                 hd.setDiadiem(cursor.getString(1));
                 hd.setTgbd(cursor.getString(2));
@@ -170,9 +170,9 @@ public class XulyHoatdong {
     }
 
     //Lấy danh sách theo ngày và nhóm
-    public ArrayList<Hoatdong> laydstheongaynhom(String ngay,String nhom)
+    public ArrayList<HoatDong> laydstheongaynhom(String ngay, String nhom)
     {
-        ArrayList<Hoatdong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
+        ArrayList<HoatDong> list =new ArrayList<>();//Tạo 1 mảng để chứa các phần tử
         String selectquery="SELECT * FROM "+DBHelper.TABLE_HOATDONG+" WHERE "+DBHelper.KEY_TGBD+" LIKE '"+ngay+"%' AND "
                 +DBHelper.KEY_HDNHOM+" LIKE '"+nhom+"'";//Câu lenh truy vấn
         SQLiteDatabase db=dbHelper.getWritableDatabase();//Mở kết nối
@@ -181,7 +181,7 @@ public class XulyHoatdong {
         if(cursor.moveToFirst()) {
             do {
                 //Duyệt qua từng dòng lấy và bỏ vào mảng
-                Hoatdong hd = new Hoatdong();
+                HoatDong hd = new HoatDong();
                 hd.setTenhd(cursor.getString(0));
                 hd.setDiadiem(cursor.getString(1));
                 hd.setTgbd(cursor.getString(2));
