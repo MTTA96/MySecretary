@@ -1,386 +1,386 @@
 [
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backgroundmain.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\backgroundmain.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\butmain3.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\butmain3.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\design_password_eye.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_button_send_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_blue_bg_round.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\username_icon.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\username_icon.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinerstroke_dangky.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\spinerstroke_dangky.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_send_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_button_like_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\butmenu.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\butmenu.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittextshape.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\edittextshape.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\butmenu.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\butmenu.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\93286ef88a15563fad55d9bcb94a4ffff1f465db\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_https_black_24dp.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\ic_https_black_24dp.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutthem_buttonthu_shape.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutthem_buttonthu_shape.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menumain4.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\menumain4.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_icon_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paper2.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\paper2.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dangky_viewshape.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\dangky_viewshape.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\todaymain1.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\todaymain1.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paper2.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\paper2.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutthem_buttonthupress_shape.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutthem_buttonthupress_shape.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\appicon1.jpg",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\appicon1.jpg"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btntuansaumain.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\btntuansaumain.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btntuantruocmain.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\btntuantruocmain.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_white_bg_selector.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\appicon1.jpg",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\appicon1.jpg"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menumain4.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\menumain4.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paper4.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\paper4.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password_icon.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\password_icon.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_bg_low.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\butmain3.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\butmain3.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paper4.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\paper4.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\username_icon.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\username_icon.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_white_bg_round.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonloginshape.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\buttonloginshape.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\todaymain1.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\todaymain1.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password_icon.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\password_icon.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutshapemenu.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutshapemenu.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_bg.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_circle_black_24dp.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinerstroke_dangky.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\spinerstroke_dangky.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backgroundmain.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\backgroundmain.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_button_icon.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutshape.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutshape.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_https_black_24dp.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\ic_https_black_24dp.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_button_login_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_vector_test.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\93286ef88a15563fad55d9bcb94a4ffff1f465db\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnthemmain.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\btnthemmain.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_login_logo.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_button_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dangky_viewshape.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\dangky_viewshape.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\93286ef88a15563fad55d9bcb94a4ffff1f465db\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnthemmain.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\btnthemmain.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_icon.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutshape.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutshape.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\design_fab_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btntuansaumain.png",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\btntuansaumain.png"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\93286ef88a15563fad55d9bcb94a4ffff1f465db\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutthem_buttonthu_shape.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutthem_buttonthu_shape.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_circle_black_24dp.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutthem_buttonthupress_shape.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutthem_buttonthupress_shape.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittextshape.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\edittextshape.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonloginshape.xml",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\buttonloginshape.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_like_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_login_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_send_button_icon.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutshapemenu.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutshapemenu.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\93286ef88a15563fad55d9bcb94a4ffff1f465db\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\5827315619bca175abc1c1d5cb1a1dfdae6a067f\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.24.0\\res\\drawable\\com_facebook_favicon_blue.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btntuantruocmain.png",
+        "source": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\btntuantruocmain.png"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\ad581d649a8b0b139e594acac82169bd8744a280\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     }
 ]

@@ -2,292 +2,292 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="true"
+        jar="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="206340cbca6a49697dbc126dc0587c71c4f56877">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\instant-run_3b97547fe36ff8770605b5acaae69c7a7e3e121b.jar" />
+        sha1="704fbc212c557461765e999867243e004218e6e2">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_88bc5e36399072a75bf015eebdbda9d8feca047d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_21feed79ee18c071f0a14b8caf059990fcb7b462.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8a572a0bd9ea324b099b1761670237bc1be8ba7b">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-11.0.1_7e724337eb5ef15c1d80754f577fdc059417605b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.1_26a3cb5e2c57d55e9becf1bcfed271e73019a1e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_ff7397e640dc718fd208d529ecc0f310a2cd9bcc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="32054268e6c9fdff0c9c5deafafd0bd105120fb6">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-11.0.1_e868e2c605002d262d62929be20755bb8ce5d6f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_43181b4d6fa3bc160df4f1d727b295f3925b5b58.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_3a20d3fb343a854bd3ef6f6756b4ac5ee8f66ca8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ead712fde329a9cf6ce70d8b2daf12941733b02d">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3f7ad18ddc6330484166391526c6a39ca11206f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.1_017091bb6963990300884a880d20de8ac836f57c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_1e67f580d4310ef8da70d9f6848d9549db928baf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ec1f195979cc7f1ec94779fa16f1b10aac8aceca">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-11.0.1_4b963f5f60da27566606f9dc3f16de6d1cb5d56b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="54511008bf7d1aabd871d8d3a26781b3f2bd9617">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-11.0.1_5387cb762aef9f3c0cc29b7fc3a484d52ad21d75.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0e0e8918eb74e3ee9e82eef6430a4359b2b577d3">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.24.0_39e5a1b929c53c0de1d3314424f04803fa61dc59.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_6ccf24d01203925f1d0eef3f4ae67e962bb6a541.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_7ca1e9d4a08920d2d84b06a5611743c2b31ab0da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\3e413316deccbfe967456aa38a1780eaae89ce00\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_767f9ee358ff7fcfd778260b767736defed6f411.jar" />
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f16711c807079977b63edba7533ca8e221c83e8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.3.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\97129cddb2764717996454b19f09efb04d8bb0a6\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="807751a24cf96566fd8675517c94d8463cf364db">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.3.1_40c59a1e8d97630f6c22db9fdae1634468d28a1d.jar" />
+        sha1="32054268e6c9fdff0c9c5deafafd0bd105120fb6">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b2e7a3d3c26ef7da598fb6201cbd850a6c4fde6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\82ccbdda3a76709d523d276ba8fc01ec789fb503\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e00b71dcf2fbecaf59b0d487d11839522dd7863d">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-11.0.1_7dfb65df51c3e903094a7f76465fbd3265e88fe4.jar" />
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee4b16bd76c5cb915f9dc0698a00ee18ad399646\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\dbb497216e659e3e9a11886eb7ad37ec5619032f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e490fc197124fa3e8f7b068da5dd00a71aa8bb6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\d61d4918e4ba91a4e44064adb777fdc9d590b2f9\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_fc08acc4eed84c15a9d415c8214f1fc498443d74.jar" />
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3b3fdf923110cb8c5343d6fe61ebf337cf30f3c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_25c3969bbc0271c1b8d9bf3895b49114f28696e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.3.1_a39e0c8846620980507769c479cdb4d615a0af0e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4acacbab67243d9eb026ea759aefd401d070f3e">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-11.0.1_faecbfdee5bc480cbd283f046f6304189ee18509.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_e5134e20d54261addd0b2ab57d47fa3a5a4b8e1e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-11.0.1_148f5325b600a014ab97c8796f1d1a102f644ce4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4ba7399a1a4f5c998b5ce4f6bf33a2e8347820c">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.0.1_4e6e9f1b1ef6f0011602713040cdfd819a76ca98.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_210d103a666c10f91714293123f81e251d7ef54d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b4fa53b1dbc43a65e9cbcbfe25f4abc47264e78c">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-11.0.1_f2cf079c6971012bff778e0c0f04efe80e19ef90.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ADMIN\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_7055e6646511977338236cca1e34243b0a7354d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="90095b555b72205db6f9b93aca3cb9978d1e3344">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-11.0.1_e1b8efc1137283d768fbeaca300fed70a79bc4d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\b5f193d53d01b218c79c5a269c7a43f0e208f113\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_200add79bb5a1394a61c5807bbb486d6c94f10ee.jar" />
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbb6ea1c0dd39335624d773aa6fed95c97aaa105\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\5827315619bca175abc1c1d5cb1a1dfdae6a067f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e0e8918eb74e3ee9e82eef6430a4359b2b577d3">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_98535d8b2ebf0217b87f797e45f891edf894e910\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_fd5b5a373b296a598a50e8b6e7c5f78b0e7c85d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\f3074e6dd234a5950183491d33d6a4bd19efd449\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4fa53b1dbc43a65e9cbcbfe25f4abc47264e78c">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05cabcc010dadd68a786b51aaa5a7ccb40fe7bda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cf51167f5e55b731b1354d134d2f5ad7f3a3fec2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\df11c6e34ad03ea8ed90f44ec39165a1d536998e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_961cca9c04d0046104a0be3cf6466f7010077ecc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\3b5d96530835177052cb1a2672282ef846ed496e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="D:\githubMS\Code\MySecretary\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_0e691c8a76f8562b71ee4c6e891a9a85ad7c7d37.jar" />
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9e6999f175188f29b0d7f44f2640ca793a76120\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\5e5406a9f6d34052e54d3b7b70560a04b1f130e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a572a0bd9ea324b099b1761670237bc1be8ba7b">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_11b19b5a0113079a4d2ebdccd14a69ef7369baf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\5456382ee33528bf28ddd83fb5e0846f3d04f61c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c3d5eea079f6946ceacbbf228185877d9ad2634\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\bcc28ca42cdbdc42f6015e9c58d60ca06d6f674e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec1f195979cc7f1ec94779fa16f1b10aac8aceca">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5bb01ff71c1211e03b6f7bfe57a6d42c9f5d4a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\9651c357136bb269cc76265da7d2995938b09273\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54511008bf7d1aabd871d8d3a26781b3f2bd9617">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45af60a5de810a1529ce96bdc62e55efb88e4f75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\727e2bbbb888661da6b7c931dd143325d7678cf2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8fc4f5a33675a4dbd6a642236f1250790e889aea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\bb26bc0ee8a71d97a7ad944b75b8860bdd478517\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4acacbab67243d9eb026ea759aefd401d070f3e">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_912a227acae74b14e3ee18295159b07ddce300c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\75f7904e2c7c6b13619a0db07bb7f0852103e2ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e00b71dcf2fbecaf59b0d487d11839522dd7863d">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_890b72b32297ee451a1a370c3cd115f6c88dc708\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\ec23ecc245057c44a5cc5e2ba2c6d62cc0caa912\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9f1b7a9ed9422748f92e4dbfc0ac3598b6dbeb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\69cddd7eab046487fe424d886df6da1ae92325b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eacc4c1fe754bf9996b404b536ae4662422f5aeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\2462d7023c41af1f24c7fb480714692f708b94a2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b8e2ace45668400d17fb75ad7625ff3e683e8048\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\fb27bec4119cb9bcd03b2b919e30e14c2f2dcd5b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4c89e7b8a0174664a7c8ee9d31d286b10380c1d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\db11e90973e15423ed7113d52a9c036e90f43914\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dab6fb1c066ec647a1795dd8a1f8c0033bbe306c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\1b20772c9e3630b37e4193f4f1d5579b80b01e07\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90095b555b72205db6f9b93aca3cb9978d1e3344">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5989906e091a49dad9ad19a2a13462cc4b4d54fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\93286ef88a15563fad55d9bcb94a4ffff1f465db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c8acd9a6bd963ff0cf110ee80ffac7fad2de06d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\bd5efc485f4948433d5464ba2b135e77a05361b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4ba7399a1a4f5c998b5ce4f6bf33a2e8347820c">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c03c8431f4bca3f63fd7432bd702ff59e6cb7183\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\ad581d649a8b0b139e594acac82169bd8744a280\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fcb06abab3e50a664d2c7729182a40054657d876\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_5a410f7347e9f6b1c5515bb800a3dfb6429df7ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\IT\Code_engine\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_6dc995b4346159edcdd5e51a15cda23783078407\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zzzzz\.android\build-cache\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_768c8f105a5184640406250e8bb2efa33cc8d4da\classes.dex" />
     </item>
 
 </items>

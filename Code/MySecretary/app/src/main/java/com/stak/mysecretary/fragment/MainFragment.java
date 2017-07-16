@@ -21,6 +21,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.stak.mysecretary.Fragment.Dialog.GhiChuDialogFragment;
 import com.stak.mysecretary.Handler.UiHandler.Adapter.HoatdongAdapter;
 import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.MenuActivity;
@@ -265,10 +266,10 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
                 break;
             //Event trong list hoat động
             case R.id.ivEdit_lvitem:
-                Intent intent = new Intent(getActivity(), CapNhatActivity.class);
-                intent.putExtra(SupportList.KEY_HOATDONG, hoatDongDuocChon);
-                intent.putExtra(SupportList.KEY_POSITION, posHoatDongDuocChon);
-                getActivity().startActivity(intent);
+//                Intent intent = new Intent(getActivity(), CapNhatActivity.class);
+//                intent.putExtra(SupportList.KEY_HOATDONG, hoatDongDuocChon);
+//                intent.putExtra(SupportList.KEY_POSITION, posHoatDongDuocChon);
+//                getActivity().startActivity(intent);
                 break;
             case R.id.ivDelete_lvitem:
                 final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

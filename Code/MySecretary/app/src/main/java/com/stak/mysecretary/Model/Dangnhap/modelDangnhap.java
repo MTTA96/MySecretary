@@ -7,6 +7,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.stak.mysecretary.Handler.DataHandler.Interfaces.PresenterImplDangnhap;
+import com.stak.mysecretary.Model.Dangnhap.DangNhapImpl;
 
 /**
  * Created by Quang Trí on 7/10/2017.

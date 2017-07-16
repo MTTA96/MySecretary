@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <stroke android:width="@dimen/stroke_view_dangky" android:color="@color/colorStroke_dangky" />
+    <stroke android:width="@dimen/stroke_view_dangky" android:color="@color/colorStrokeDangKy" />
     <corners android:radius="@dimen/corner_view_dangky" />
-    <gradient android:startColor="@color/colorStroke_dangky" android:centerColor="@color/colorStroke_dangky" android:endColor="@color/colorStroke_dangky" />
+    <gradient android:startColor="@color/colorStrokeDangKy" android:centerColor="@color/colorStrokeDangKy" android:endColor="@color/colorStrokeDangKy" />
 </shape>

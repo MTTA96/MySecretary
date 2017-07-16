@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
+                    "file": "C:\\Users\\zzzzz\\.android\\build-cache\\8f49d782216f612b7294e2585af2e34fdf4dc6e0\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

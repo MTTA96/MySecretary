@@ -31,6 +31,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.stak.mysecretary.Fragment.Dialog.DangKyDialog;
 import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.R;
 import com.stak.mysecretary.Handler.DataHandler.Presenter.Dangky.PresenterDangKy;
@@ -71,7 +72,7 @@ public class DangNhapFragment extends Fragment implements View.OnClickListener,D
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        mAuth.addAuthStateListener(mAuthListener);
+        //mAuth.addAuthStateListener(mAuthListener);
 
         View root = inflater.inflate(R.layout.fragment_dang_nhap, container, false);
         //Ánh xạ
@@ -98,7 +99,9 @@ public class DangNhapFragment extends Fragment implements View.OnClickListener,D
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.tvDangky :
-                dialogDangky();
+//                dialogDangky();
+                DangKyDialog dangKyDialog = new DangKyDialog();
+                dangKyDialog.show(getActivity().getSupportFragmentManager(), "DangKy");
             case R.id.btnLogin :
                 nutDangnhap(edtEmail.getText().toString(),edtNewPassword.getText().toString());
             case R.id.btnLoginGmail :
@@ -144,7 +147,7 @@ public class DangNhapFragment extends Fragment implements View.OnClickListener,D
         //Khởi tạo và tạo kích thước cho dialog đăng ký
         dialogDangky=new Dialog(getActivity());
         dialogDangky.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialogDangky.setContentView(R.layout.activity_dialog_dangky);
+        dialogDangky.setContentView(R.layout.fragment_dang_ky);
         WindowManager.LayoutParams lp=new WindowManager.LayoutParams();
         lp.copyFrom(dialogDangky.getWindow().getAttributes());
         lp.width=WindowManager.LayoutParams.MATCH_PARENT;

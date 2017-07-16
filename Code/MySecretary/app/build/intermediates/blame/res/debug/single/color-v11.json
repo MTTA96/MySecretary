@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\zzzzz\\.android\\build-cache\\d50578d32e1b4fba66feb33eb94cf2ff58e314ea\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

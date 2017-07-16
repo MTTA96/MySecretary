@@ -1,13 +1,10 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
     <!--Đăng nhập-->
-    <!--Activity đăng nhập -->
-    <dimen name="layout_margintop">10dp</dimen>
-    <dimen name="layout_marginbottom">50dp</dimen>
-
-    <dimen name="margintop_title">30dp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+    <dimen name="layout_margin_bottom">50dp</dimen>
+    <dimen name="title_margin_top">30dp</dimen>
     <dimen name="activity_title">10dp</dimen>
-    <dimen name="activity_textsize_title">40sp</dimen>
+    <dimen name="activity_title_text_size">40sp</dimen>
 
     <!--Layout đăng nhập-->
     <dimen name="layout_alllogin_width">315dp</dimen>
@@ -57,7 +54,7 @@
     <dimen name="spiner_marginright_dangky">3dp</dimen>
 
     <dimen name="birthday_textsize">20sp</dimen>
-    <dimen name="title_signup_textsize">25dp</dimen>
+    <dimen name="title_signup_textsize">25sp</dimen>
 
     <dimen name="gt_radiobutton_height">30dp</dimen>
 

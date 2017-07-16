@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textSize="@dimen/activity_textsize_title"
+            android:textSize="@dimen/activity_title_text_size"
             android:text="@string/activity_logintitle"
             android:textColor="@color/colorWhite"
             android:layout_marginTop="@dimen/activity_title"/>
@@ -50,7 +50,7 @@
             android:layout_height="@dimen/edittext_dlogin_height"
             android:layout_gravity="center"
             android:hint=" Tên đăng nhập"
-            android:layout_marginTop="@dimen/layout_margintop"
+            android:layout_marginTop="@dimen/layout_margin_top"
             android:background="@drawable/edittextshape"
             android:textColorHint="@color/colorDivider"/>
         <EditText
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
-            android:layout_marginTop="@dimen/layout_margintop">
+            android:layout_marginTop="@dimen/layout_margin_top">
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/view_height"
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/layout_margintop">
+            android:layout_marginTop="@dimen/layout_margin_top">
             <com.facebook.login.widget.LoginButton
                 android:id="@+id/btnLoginFB"
                 android:layout_width="@dimen/button_login_width"

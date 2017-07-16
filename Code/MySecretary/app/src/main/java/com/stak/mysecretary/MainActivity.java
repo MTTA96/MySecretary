@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
+import com.stak.mysecretary.Fragment.DangNhapFragment;
 import com.stak.mysecretary.Fragment.MainFragment;
 
 
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout= (DrawerLayout) findViewById(R.id.activity_main);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.content_main, new MainFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.content_main, new DangNhapFragment()).commit();
 
     }
 

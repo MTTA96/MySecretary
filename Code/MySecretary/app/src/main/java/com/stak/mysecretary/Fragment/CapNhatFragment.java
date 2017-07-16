@@ -81,9 +81,9 @@ public class CapNhatFragment extends Fragment {
         ibHuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CapNhatActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+//                Intent intent = new Intent(CapNhatActivity.this, MainActivity.class);
+//                startActivity(intent);
+//                finish();
             }
         });
 
@@ -94,10 +94,10 @@ public class CapNhatFragment extends Fragment {
                 //Kiểm tra giờ bắt đầu có bé hơn kết thúc hay không
                 if (KiemTraGioPhut(tvTimeBD.getText().toString(),tvTimeKT.getText().toString())==0)
                 {
-                    Toast.makeText(CapNhatActivity.this,"Thời gian không hợp lệ !",Toast.LENGTH_LONG).show();
-                    return;
+//                    Toast.makeText(CapNhatActivity.this,"Thời gian không hợp lệ !",Toast.LENGTH_LONG).show();
+//                    return;
                 }
-                XulyHoatdong xulyhd=new XulyHoatdong(db);
+                XulyHoatdong xulyhd=new XulyHoatdong(dbHelper);
                 if(!etTenHoatDong.getText().toString().isEmpty() || tvDateBD.getText().toString().compareTo(strNgay) != 0 || tvTimeBD.getText().toString().compareTo(strGio) != 0){
                     //Xóa, insert
                     xulyhd.XoaHd(hoatDong.getTenhd(), hoatDong.getTgbd());
@@ -144,16 +144,16 @@ public class CapNhatFragment extends Fragment {
                         tempHoatDong.setGhichu(etGhiChu.getHint().toString());
                     xulyhd.Them(tempHoatDong);
                 }
-                Toast.makeText(CapNhatActivity.this, "Cập nhật thành công!", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(CapNhatActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+//                Toast.makeText(CapNhatActivity.this, "Cập nhật thành công!", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(CapNhatActivity.this, MainActivity.class);
+//                startActivity(intent);
+//                finish();
             }
         });
 
 
         //Load dữ liệu
-        Intent intent = getIntent();
+        Intent intent = getActivity().getIntent();
         hoatDong = (HoatDong) intent.getSerializableExtra(SupportList.KEY_HOATDONG);
         position = intent.getIntExtra(SupportList.KEY_POSITION, 0);
 
@@ -239,11 +239,11 @@ public class CapNhatFragment extends Fragment {
             int thang=Integer.parseInt(strArrtmp[1]) - 1;
             int nam=Integer.parseInt(strArrtmp[2]);
             //Hiển thị ra Dialog
-            DatePickerDialog pic=new DatePickerDialog(
-                    CapNhatActivity.this,
-                    callback, nam, thang, ngay);
-            pic.setTitle("Chọn ngày bắt đầu");
-            pic.show();
+//            DatePickerDialog pic=new DatePickerDialog(
+//                    CapNhatActivity.this,
+//                    callback, nam, thang, ngay);
+//            pic.setTitle("Chọn ngày bắt đầu");
+//            pic.show();
 
         }
     };
@@ -308,11 +308,11 @@ public class CapNhatFragment extends Fragment {
             int gio = Integer.parseInt(strArr[0]);
             strArr = strArr[1].split(" ");
             int phut = Integer.parseInt(strArr[0]);
-            TimePickerDialog time = new TimePickerDialog(
-                    CapNhatActivity.this,
-                    callback, gio, phut, true);
-            time.setTitle("Chọn giờ bắt đầu");
-            time.show();
+//            TimePickerDialog time = new TimePickerDialog(
+//                    CapNhatActivity.this,
+//                    callback, gio, phut, true);
+//            time.setTitle("Chọn giờ bắt đầu");
+//            time.show();
         }
     };
 
@@ -376,11 +376,11 @@ public class CapNhatFragment extends Fragment {
             int gio = Integer.parseInt(strArr[0]);
             strArr = strArr[1].split(" ");
             int phut = Integer.parseInt(strArr[0]);
-            TimePickerDialog time = new TimePickerDialog(
-                    CapNhatActivity.this,
-                    callback, gio, phut, true);
-            time.setTitle("Chọn giờ kết thúc");
-            time.show();
+//            TimePickerDialog time = new TimePickerDialog(
+//                    CapNhatActivity.this,
+//                    callback, gio, phut, true);
+//            time.setTitle("Chọn giờ kết thúc");
+//            time.show();
         }
     };
 

@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.stak.mysecretary.Fragment.Dialog.ThongBaoDialogFragment;
 import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.R;
 import com.stak.mysecretary.DataBase.DBHelper;

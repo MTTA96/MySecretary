@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spinerstroke_dangky"
+    android:focusableInTouchMode="true">
+
+    <!-- Nút Hủy -->
+    <ImageButton
+        android:id="@+id/ibCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/dangkytext"
+        android:textSize="@dimen/title_signup_textsize"
+        android:textColor="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/edtFullname"
+        android:layout_width="@dimen/edittext_signup_width"
+        android:layout_height="@dimen/edittext_signup_height"
+        android:layout_gravity="center"
+        android:hint=" Họ tên"
+        android:background="@drawable/spinerstroke_dangky"
+        android:layout_marginTop="@dimen/title_sigup_margintop"/>
+
+    <EditText
+        android:id="@+id/edtEmailDK"
+        android:layout_width="@dimen/edittext_signup_width"
+        android:layout_height="@dimen/edittext_signup_height"
+        android:layout_gravity="center"
+        android:hint=" Email"
+        android:background="@drawable/spinerstroke_dangky"
+        android:layout_marginTop="@dimen/view_margintop"/>
+
+    <EditText
+        android:id="@+id/edtNewpasswordDK"
+        android:layout_width="@dimen/edittext_signup_width"
+        android:layout_height="@dimen/edittext_signup_height"
+        android:layout_gravity="center"
+        android:hint=" Mật khẩu mới"
+        android:background="@drawable/spinerstroke_dangky"
+        android:layout_marginTop="@dimen/view_margintop"/>
+
+    <Button
+        android:id="@+id/btnDangky"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_dangky_height"
+        android:text="Hoàn tất"
+        android:background="@color/colorMain"
+        android:layout_marginTop="@dimen/title_sigup_margintop"
+        android:textColor="@color/colorPrimary"
+        />
+</LinearLayout>
