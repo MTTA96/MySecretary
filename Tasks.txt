@@ -1,33 +1,45 @@
-﻿Task hoàn thành: 1/16
+﻿. Main task hoàn thành:  0/13 
+. Tasks hoàn thành:      3/23
 
 1/ Đăng nhập: 
-   1.1 Màn hình chờ  (x)
+   1.1 Màn hình chờ  			(x)
    1.2 Sign in:
-	a. Gmail     (v)
-	b. Facebook  (x)
-	c. Email     (x) 
-   1.3 Sign up       (x)
+	a. Gmail     			    (v)
+	b. Facebook  			(x)
+	c. Email     			    (v) 
+   1.3 Sign up       			    (v)
 
 2/ Thêm:
-   2.1 Thời khóa biểu  (x)
-   2.2 Màu  (x)
+   2.1 Thời khóa biểu  			(x)
+   2.2 Background 			(x)
+   2.3 Thêm nhóm			(x)	
 
-3/ Thời tiết (x)
+3/ Notification (Cloud messaging)  	(x)
 
-4/ Hiện lịch ngoài màn hình   (x)
+4/ Search (Tên, địa điểm)		(x)
 
-5/ Cải thiện cách thêm hoạt động:
-   5.1 Thêm từ file khác (excel,...)  (x)
-   5.2 Quét văn bản để thêm           (x)
-   5.3 Thêm bằng giọng nói            (x)
+5/ Lịch theo tháng			(x)
 
-6/ Mục giải trí:
-   6.1 Lịch phim  (x)
-   6.2 Ăn uống    (x)
-   6.3 Địa điểm   (x)
+6/ Hiện lịch ngoài màn hình   		(x)
 
-7/ Liên kết người dùng:
-   7.1 Tạo group giữa các người dùng  (x)
+7/ Thời tiết 				(x)
 
-8/ Tương tác bằng giọng nói (AI)  (x)
+8/ Thống kê hoạt động			(x)
+
+9/ Cải thiện cách thêm hoạt động:
+   9.1 Thêm từ file khác (excel,...)    (x)
+   9.2 Quét văn bản để thêm             (x)
+   9.3 Thêm bằng giọng nói              (x)
+
+10/ Mục giải trí:
+   10.1 Lịch phim  			(x)
+   10.2 Ăn uống    			(x)
+   10.3 Địa điểm   			(x)
+
+11/ Liên kết người dùng:
+   11.1 Tạo group giữa các người dùng   (x)
+
+12/ Augmented reality (AR)    		(x)
+
+13/ Tương tác bằng giọng nói (AI)       (x)
    
