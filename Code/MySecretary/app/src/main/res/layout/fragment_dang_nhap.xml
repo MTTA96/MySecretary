@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dangnhap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    tools:context="com.stak.mysecretary.Fragment.DangNhapFragment">
+
+    <!--Tiêu đề-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/activity_textsize_title"
+            android:text="@string/activity_logintitle"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="@dimen/activity_title"/>
+
+    <!--Khung thông tin đăng nhập-->
+    <LinearLayout
+        android:layout_width="@dimen/layout_alllogin_width"
+        android:layout_height="@dimen/layout_alllogin_height"
+        android:background="@drawable/layoutshapemenu"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/alllayout_login_magintop">
+
+        <!--text Đăng nhap với-->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logintitle"
+            android:layout_gravity="center"
+            android:textSize="@dimen/logintitle_textsize"
+            android:layout_marginTop="@dimen/logintitle_margintop" />
+
+        <!--edittext,button đăng nhập-->
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="@dimen/edittext_dlogin_width"
+            android:layout_height="@dimen/edittext_dlogin_height"
+            android:layout_gravity="center"
+            android:hint=" Tên đăng nhập"
+            android:layout_marginTop="@dimen/layout_margintop"
+            android:background="@drawable/edittextshape"
+            android:textColorHint="@color/colorDivider"/>
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="@dimen/edittext_dlogin_width"
+            android:layout_height="@dimen/edittext_dlogin_height"
+            android:hint=" Mật khẩu"
+            android:layout_gravity="center"
+            android:textColorHint="@color/colorDivider"
+            android:background="@drawable/edittextshape"
+            android:layout_marginTop="@dimen/distant_username_password"/>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="@dimen/button_login_width"
+            android:layout_height="@dimen/button_login_height"
+            android:text="@string/btnLogint_name"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/distant_username_password"
+            android:background="@drawable/buttonloginshape"/>
+        <!--hoặc-->
+        <LinearLayout
+            android:layout_width="@dimen/layout_hoac_width"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/layout_margintop">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:layout_weight="1"
+                android:background="@color/colorDivider"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hoặc"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:layout_weight="1"
+                android:background="@color/colorDivider"/>
+
+        </LinearLayout>
+        <!-- Đăng nhập FB và Gmail-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/layout_margintop">
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/btnLoginFB"
+                android:layout_width="@dimen/button_login_width"
+                android:layout_height="@dimen/button_login_height"
+                android:paddingBottom="@dimen/buttonfb_paddingTop"
+                android:layout_marginTop="@dimen/buttonfb_layout_margintop"
+
+                android:layout_weight="1"/>
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btnLoginGmail"
+                android:layout_width="@dimen/button_login_width"
+                android:layout_height="@dimen/button_login_height"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/textview_signin_margintop">
+        <TextView
+            android:id="@+id/tvDangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký "
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textsize_signin"/>
+        <TextView
+            android:id="@+id/tcForgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bỏ qua "
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textsize_signin"/>
+
+    </LinearLayout>
+</LinearLayout>
