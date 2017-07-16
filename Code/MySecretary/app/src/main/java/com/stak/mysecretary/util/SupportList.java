@@ -1,4 +1,4 @@
-package com.stak.mysecretary.util;
+package com.stak.mysecretary.Util;
 
 /**
  * Created by ADMIN on 4/1/2017.

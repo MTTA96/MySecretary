@@ -1,9 +1,7 @@
-package com.stak.mysecretary.database;
+package com.stak.mysecretary.DataBase;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-
-import com.stak.mysecretary.MenuActivity;
 
 /**
  * Created by zzzzz on 4/6/2017.

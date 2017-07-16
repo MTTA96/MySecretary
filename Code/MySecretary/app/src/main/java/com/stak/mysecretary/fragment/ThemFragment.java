@@ -1,4 +1,4 @@
-package com.stak.mysecretary.fragment;
+package com.stak.mysecretary.Fragment;
 
 
 import android.app.DatePickerDialog;
@@ -8,9 +8,11 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -21,11 +23,10 @@ import android.widget.Toast;
 
 import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.R;
-import com.stak.mysecretary.ThemHoatDongActivity;
-import com.stak.mysecretary.database.DBHelper;
-import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.interfaces.DataCallBack;
-import com.stak.mysecretary.model.Hoatdong;
+import com.stak.mysecretary.DataBase.DBHelper;
+import com.stak.mysecretary.DataBase.XulyHoatdong;
+import com.stak.mysecretary.Interfaces.DataCallBack;
+import com.stak.mysecretary.Model.Data.HoatDong;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -50,6 +51,15 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
     TextView tvDateKT;
     TextView tvTimeBD;
     TextView tvTimeKT;
+
+    Button btnT2;
+    Button btnT3;
+    Button btnT4;
+    Button btnT5;
+    Button btnT6;
+    Button btnT7;
+    Button btnCN;
+
 
     DBHelper db;
     Calendar cal;
@@ -78,11 +88,27 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         etGhiChu= (EditText) root.findViewById(R.id.etGhichu);
 
         tvDateBD= (TextView) root.findViewById(R.id.Date_BatDau);
+        tvDateKT= (TextView) root.findViewById(R.id.Date_KetThuc);
         tvTimeBD= (TextView) root.findViewById(R.id.Time_BatDau);
         tvTimeKT= (TextView) root.findViewById(R.id.Time_KetThuc);
 
         ibHuy = (ImageButton) root.findViewById(R.id.ibHuy_ThemHoatDong);
         ibLuu = (ImageButton) root.findViewById(R.id.ibLuu_ThemHoatDong);
+
+        btnT2= (Button) root.findViewById(R.id.btnT2_layoutthem);
+        btnT3= (Button) root.findViewById(R.id.btnT3_layoutthem);
+        btnT4= (Button) root.findViewById(R.id.btnT4_layoutthem);
+        btnT5= (Button) root.findViewById(R.id.btnT5_layoutthem);
+        btnT6= (Button) root.findViewById(R.id.btnT6_layoutthem);
+        btnT7= (Button) root.findViewById(R.id.btnT7_layoutthem);
+        btnCN= (Button) root.findViewById(R.id.btnCN_layoutthem);
+        boolean pressT2=false;
+        boolean pressT3=false;
+        boolean pressT4=false;
+        boolean pressT5=false;
+        boolean pressT6=false;
+        boolean pressT7=false;
+        boolean pressCN=false;
 
         //Xử lý sự kiện cho button Hủy và Lưu
         ibHuy.setOnClickListener(this);
@@ -92,19 +118,17 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         //Ngày:
         //Hiển thị DatePicker
         tvDateBD.setOnClickListener(showDatePickerBD);
-        //Hiện ngày giờ hiện tại khi mới chạy lần đầu
         cal=Calendar.getInstance();
         SimpleDateFormat dft=null;
         //Định dạng kiểu ngày / tháng /năm
         dft=new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
         String strDate=dft.format(cal.getTime());
-        //hiển thị lên giao diện
-        tvDateBD.setText(strDate);
+
 
         //Giờ:
         //Hiển thị TimePicker
         tvTimeBD.setOnClickListener(showTimePickerBD);
-        //Định dạng giờ phút am/pm
+//       Định dạng giờ phút am/pm
         dft = new SimpleDateFormat("HH:mm", Locale.getDefault());
         String strTime = dft.format(cal.getTime());
         //hiển thị lên giao diện
@@ -127,12 +151,19 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         //hiển thi danh sach nhóm trong spiner
         hienthispinernhom();
 
+        etTenHoatDong.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return false;
+            }
+        });
+
         return root;
 
     }
 
     @Override
-    public void ChuyenHoatDong(Hoatdong hoatDong, int position, String key) {
+    public void ChuyenHoatDong(HoatDong hoatDong, int position, String key) {
 
     }
 
@@ -181,7 +212,7 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
                 }
                 else {
                     //Thêm hoạt động vào database khi nhấn lưu
-                    Hoatdong hd = new Hoatdong();
+                    HoatDong hd = new HoatDong();
                     hd.setTenhd(etTenHoatDong.getText().toString());
                     hd.setDiadiem(etDiaDiem.getText().toString());
                     hd.setTgbd(tvDateBD.getText().toString() + " " + tvTimeBD.getText().toString());
@@ -531,7 +562,7 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         int phutkt=Integer.parseInt(tachgiophutkt[1]);
 
         XulyHoatdong xulyhd=new XulyHoatdong(db);
-        ArrayList<Hoatdong> listhd=new ArrayList<Hoatdong>();
+        ArrayList<HoatDong> listhd=new ArrayList<HoatDong>();
         listhd=xulyhd.laydstheongay(ngay);
 
         if(listhd.size() == 0){
