@@ -6,32 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500221873182"
+    timestamp="1500222613340"
     token="4241960432023160938"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1505" />
+        duration="2049" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="61" />
+        duration="0" />
     <task
         name="verifier"
-        duration="41" />
-
-    <artifact
-        location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
@@ -88,5 +78,9 @@
             location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500222613340"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

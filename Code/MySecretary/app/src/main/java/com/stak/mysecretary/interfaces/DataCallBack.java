@@ -8,5 +8,4 @@ import com.stak.mysecretary.Model.Data.HoatDong;
 
 public interface DataCallBack {
     void ChuyenHoatDong(HoatDong hoatDong, int position, String key);
-    void HoanThanhDangKy(String name, String email, String password);
 }
