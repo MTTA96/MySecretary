@@ -1,6 +1,6 @@
 package com.stak.mysecretary.Model.ThemHoatDong;
 
-import com.stak.mysecretary.Model.Data.HoatDong;
+import com.stak.mysecretary.Model.HoatDong;
 
 import java.util.ArrayList;
 

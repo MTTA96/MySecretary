@@ -10,12 +10,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <supports-screens
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true" />
-
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" />
@@ -31,7 +25,6 @@
     <uses-permission android:name="com.stak.mysecretary.permission.C2D_MESSAGE" />
 
     <application
-        android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
         android:icon="@drawable/appicon1"
         android:label="@string/app_name"
@@ -41,28 +34,15 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name="com.stak.mysecretary.Dangnhap" >
+        <activity android:name="com.stak.mysecretary.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.stak.mysecretary.ThemHoatDongActivity" />
-        <activity android:name="com.stak.mysecretary.MenuActivity" />
-        <activity android:name="com.stak.mysecretary.CapNhatActivity" />
+        <activity android:name="com.stak.mysecretary.Activity.MenuActivity" />
 
-        <receiver android:name="com.stak.mysecretary.Reminder" />
-
-        <activity android:name="com.stak.mysecretary.MainActivity" />
-        <!-- <activity android:name=".dialog.dialog_dangky"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true"
@@ -164,6 +144,10 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.facebook.internal.FacebookInitProvider"
             android:authorities="com.stak.mysecretary.FacebookInitProvider"
             android:exported="false" />
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.stak.mysecretary.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

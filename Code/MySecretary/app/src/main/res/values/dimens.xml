@@ -1,13 +1,12 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Chung -->
+    <dimen name="title_height">50dp</dimen>
     <!--Đăng nhập-->
-    <!--Activity đăng nhập -->
-    <dimen name="layout_margintop">10dp</dimen>
-    <dimen name="layout_marginbottom">50dp</dimen>
-
-    <dimen name="margintop_title">30dp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+    <dimen name="layout_margin_bottom">50dp</dimen>
+    <dimen name="title_margin_top">30dp</dimen>
     <dimen name="activity_title">10dp</dimen>
-    <dimen name="activity_textsize_title">40sp</dimen>
+    <dimen name="activity_title_text_size">40sp</dimen>
 
     <!--Layout đăng nhập-->
     <dimen name="layout_alllogin_width">315dp</dimen>
@@ -44,27 +43,15 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!--Đăng ký-->
-    <dimen name="edittext_signup_width">305dp</dimen>
-    <dimen name="edittext_signup_height">35dp</dimen>
-
-    <dimen name="view_margintop">5dp</dimen>
+    <dimen name="dang_ky_edit_text_height">40dp</dimen>
+    <dimen name="button_dang_ky_height">45dp</dimen>
+    <dimen name="khung_info_horizontal_padding">20dp</dimen>
+    <dimen name="khung_info_vertical_padding">20dp</dimen>
+    <dimen name="edit_text_padding_left">7dp</dimen>
+    <dimen name="item_khung_info_vertical_margin">20dp</dimen>
+    <dimen name="item_khung_info_horizontal_margin">5dp</dimen>
     <dimen name="title_sigup_margintop">15dp</dimen>
-
-    <dimen name="spiner_height">35dp</dimen>
-    <dimen name="spiner_width_date">75dp</dimen>
-    <dimen name="spiner_width_month">100dp</dimen>
-    <dimen name="spiner_width_year">120dp</dimen>
-    <dimen name="spiner_marginright_dangky">3dp</dimen>
-
-    <dimen name="birthday_textsize">20sp</dimen>
-    <dimen name="title_signup_textsize">25dp</dimen>
-
-    <dimen name="gt_radiobutton_height">30dp</dimen>
-
-    <dimen name="button_dangky_height">50dp</dimen>
-    <dimen name="button_dangky_width">250dp</dimen>
-
-
+    <dimen name="title_signup_textsize">25sp</dimen>
     <dimen name="stroke_view_dangky">1dp</dimen>
     <dimen name="corner_view_dangky">10dp</dimen>
     

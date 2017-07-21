@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.stak.mysecretary.MainActivity">
+    tools:context="com.stak.mysecretary.Activity.MainActivity">
 
     <!-- main content -->
     <include layout="@layout/content_main" />
@@ -20,7 +20,7 @@
         android:orientation="vertical"
         android:layout_gravity="start"
         android:choiceMode="singleChoice"
-        tools:context="com.stak.mysecretary.MenuActivity">
+        tools:context="com.stak.mysecretary.Activity.MenuActivity">
 
 
         <!-- top -->
