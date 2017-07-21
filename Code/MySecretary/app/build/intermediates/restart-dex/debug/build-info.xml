@@ -6,22 +6,29 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500222613340"
+    timestamp="1500241214414"
     token="4241960432023160938"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2049" />
+        duration="645" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="92" />
     <task
         name="verifier"
-        duration="0" />
+        duration="70" />
+
+    <artifact
+        location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -66,21 +73,59 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500221873182"
+        timestamp="1500235499568"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500239805958"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500240760162"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500222613340"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1500241214414"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>

@@ -1,12 +1,8 @@
 package com.stak.mysecretary.Fragment;
 
 
-import android.app.AlarmManager;
 import android.app.AlertDialog;
-import android.app.PendingIntent;
-import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,17 +18,15 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.stak.mysecretary.Fragment.Dialog.GhiChuDialogFragment;
-import com.stak.mysecretary.Handler.UiHandler.Adapter.HoatdongAdapter;
-import com.stak.mysecretary.MainActivity;
-import com.stak.mysecretary.MenuActivity;
+import com.stak.mysecretary.Presenter.Model.UiModel.Adapter.HoatdongAdapter;
+import com.stak.mysecretary.Activity.MainActivity;
+import com.stak.mysecretary.Activity.MenuActivity;
 import com.stak.mysecretary.R;
-import com.stak.mysecretary.Reminder;
 import com.stak.mysecretary.DataBase.DBHelper;
 import com.stak.mysecretary.DataBase.MyShared;
 import com.stak.mysecretary.DataBase.XulyHoatdong;
-import com.stak.mysecretary.Interfaces.DataCallBack;
-import com.stak.mysecretary.Model.Data.HoatDong;
-import com.stak.mysecretary.Util.SupportList;
+import com.stak.mysecretary.Presenter.Model.DataModel.HoatDong.DataCallBack;
+import com.stak.mysecretary.Model.HoatDong;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -184,56 +178,8 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
         loadDuLieu();
         //Load các hoat động của ngày hôm nay lên lv khi bật ứng dụng
         loadDulieuListView(tvNgayHienTai.getText().toString());
-        //set notification
-        startNotify();
         return root;
     }
-
-    public void startNotify() {
-        //Lấy hoạt động của ngày hôm nay
-        XulyHoatdong xulyHD = new XulyHoatdong(getActivity());
-        ArrayList<HoatDong> listHoatDongHomNay = xulyHD.laydstheongay(tvNgayHienTai.getText().toString());
-        Date tempDateHienTai = dateHienTai;
-
-        //Tạo alarm
-        AlarmManager alarm = (AlarmManager) getActivity().getSystemService(Context.ALARM_SERVICE);
-        Intent intent;
-        PendingIntent pendingIntent;
-
-        String[] tachNgayGio;
-        String[] tachGioPhut;
-        int gioBD;
-        int phutBD;
-        long ktTG;
-        long tempDateHienTaiInMillisecond;
-        long dateHienTaiInMillisecond;
-        Bundle bundle;
-        for (int i = 0; i < listHoatDongHomNay.size(); i++) {
-            tachNgayGio = listHoatDongHomNay.get(i).getTgbd().split(" ");
-            tachGioPhut = tachNgayGio[1].split(":");
-            gioBD = Integer.parseInt(tachGioPhut[0]);
-            phutBD = Integer.parseInt(tachGioPhut[1]);
-
-            ktTG = tempDateHienTai.getTime();
-            //Chuyển giờ hiện tại sang giờ bắt đầu hoạt động
-            tempDateHienTai.setHours(gioBD);
-            tempDateHienTai.setMinutes(phutBD - 20);
-
-            //Chuyển giờ hoạt động thành millisecond để set notification
-            tempDateHienTaiInMillisecond = tempDateHienTai.getTime();
-            if(ktTG < tempDateHienTaiInMillisecond){
-                intent = new Intent(getActivity(), Reminder.class);
-                bundle = new Bundle();
-                bundle.putSerializable("hoatdong", listHoatDongHomNay.get(i));
-                intent.putExtras(bundle);
-                pendingIntent = PendingIntent.getBroadcast(getActivity(), 0, intent, 0);
-                alarm.set(AlarmManager.RTC_WAKEUP, tempDateHienTaiInMillisecond, pendingIntent);
-                return;
-            }
-        }
-
-    }
-
 
     @Override
     public void onClick(View view) {

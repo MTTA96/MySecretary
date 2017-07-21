@@ -15,12 +15,10 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
-import android.widget.Toast;
 
 import com.stak.mysecretary.DataBase.DBHelper;
 import com.stak.mysecretary.DataBase.XulyHoatdong;
-import com.stak.mysecretary.MainActivity;
-import com.stak.mysecretary.Model.Data.HoatDong;
+import com.stak.mysecretary.Model.HoatDong;
 import com.stak.mysecretary.R;
 import com.stak.mysecretary.Util.SupportList;
 

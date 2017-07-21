@@ -22,12 +22,12 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.stak.mysecretary.Fragment.Dialog.ThongBaoDialogFragment;
-import com.stak.mysecretary.MainActivity;
+import com.stak.mysecretary.Activity.MainActivity;
 import com.stak.mysecretary.R;
 import com.stak.mysecretary.DataBase.DBHelper;
 import com.stak.mysecretary.DataBase.XulyHoatdong;
-import com.stak.mysecretary.Interfaces.DataCallBack;
-import com.stak.mysecretary.Model.Data.HoatDong;
+import com.stak.mysecretary.Presenter.Model.DataModel.HoatDong.DataCallBack;
+import com.stak.mysecretary.Model.HoatDong;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

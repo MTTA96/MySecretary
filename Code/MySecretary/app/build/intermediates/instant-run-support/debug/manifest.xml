@@ -34,16 +34,14 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <receiver android:name="com.stak.mysecretary.Reminder" />
-
-        <activity android:name="com.stak.mysecretary.MainActivity" >
+        <activity android:name="com.stak.mysecretary.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.stak.mysecretary.MenuActivity" />
+        <activity android:name="com.stak.mysecretary.Activity.MenuActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

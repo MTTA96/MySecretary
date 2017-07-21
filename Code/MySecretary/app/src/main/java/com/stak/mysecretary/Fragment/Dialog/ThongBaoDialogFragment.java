@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 
-import com.stak.mysecretary.MainActivity;
+import com.stak.mysecretary.Activity.MainActivity;
 
 /**
  * Created by zzzzz on 4/6/2017.
