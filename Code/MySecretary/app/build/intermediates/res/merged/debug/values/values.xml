@@ -839,7 +839,6 @@
     <string name="google_app_id" translatable="false">1:1068802652392:android:c19866458f6a0ea5</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCh4DCz1eEdVkIRH2mmq1VrTiNLHVMkiZw</string>
     <string name="google_storage_bucket" translatable="false">my-secretary-42010.appspot.com</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="logintitle"><b>Đăng nhập</b></string>
     <string name="messenger_send_button_text">Send</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>

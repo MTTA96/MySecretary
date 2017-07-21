@@ -382,5 +382,9 @@
     {
         "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layoutthem_buttonthunhan_shape.xml",
+        "source": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\drawable\\layoutthem_buttonthunhan_shape.xml"
     }
 ]

@@ -11,9 +11,26 @@ public class HoatDong implements Serializable{
     private String diadiem;
     private String tgbd;
     private String tgkt;
-    private String nhom;
     private String thu;
+    private String nhom;
     private String ghichu;
+    private String background;
+    private String keyupdate;
+
+    public String getKeyupdate() {
+        return keyupdate;
+    }
+
+    public void setKeyupdate(String keyupdate) {
+        this.keyupdate = keyupdate;
+    }
+    public String getBackground() {
+        return background;
+    }
+
+    public void setBackground(String background) {
+        this.background = background;
+    }
 
     public String getTenhd() {
         return tenhd;

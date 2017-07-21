@@ -81,9 +81,9 @@ public class CapNhatFragment extends Fragment {
         ibHuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CapNhatActivity.this, MainActivity.class);
+                Intent intent = new Intent(getActivity(), MainActivity.class);
                 startActivity(intent);
-                finish();
+                getActivity().finish();
             }
         });
 
@@ -94,7 +94,7 @@ public class CapNhatFragment extends Fragment {
                 //Kiểm tra giờ bắt đầu có bé hơn kết thúc hay không
                 if (KiemTraGioPhut(tvTimeBD.getText().toString(),tvTimeKT.getText().toString())==0)
                 {
-                    Toast.makeText(CapNhatActivity.this,"Thời gian không hợp lệ !",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(),"Thời gian không hợp lệ !",Toast.LENGTH_LONG).show();
                     return;
                 }
                 XulyHoatdong xulyhd=new XulyHoatdong(db);

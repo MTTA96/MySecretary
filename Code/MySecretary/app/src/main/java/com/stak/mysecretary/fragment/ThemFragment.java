@@ -21,6 +21,9 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.stak.mysecretary.Handler.DataHandler.Interfaces.PresenterImpThemHoatDong;
+import com.stak.mysecretary.Handler.DataHandler.Presenter.Themhoatdong.PresenterThemHoatDong;
+import com.stak.mysecretary.Handler.UiHandler.Interfaces.ThemHoatDongCallback;
 import com.stak.mysecretary.MainActivity;
 import com.stak.mysecretary.R;
 import com.stak.mysecretary.DataBase.DBHelper;
@@ -37,7 +40,7 @@ import java.util.Locale;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ThemFragment extends Fragment implements View.OnClickListener,DataCallBack{
+public class ThemFragment extends Fragment implements View.OnClickListener,DataCallBack,ThemHoatDongCallback{
     Spinner spnnhom;
     Spinner spnnhacnho;
 
@@ -60,12 +63,20 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
     Button btnT7;
     Button btnCN;
 
+    boolean pressT2=false;
+    boolean pressT3=false;
+    boolean pressT4=false;
+    boolean pressT5=false;
+    boolean pressT6=false;
+    boolean pressT7=false;
+    boolean pressCN=false;
 
-    DBHelper db;
     Calendar cal;
     Calendar cal1;
     Date date;
     Date date1;
+
+    PresenterThemHoatDong presenterThemHoatDong;
     //Hiển thị thông báo
     public void ThongBao(String strNoiDung){
         Toast.makeText(getActivity(), strNoiDung, Toast.LENGTH_SHORT).show();
@@ -80,8 +91,6 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         View root =inflater.inflate(R.layout.fragment_them,container,false);
         spnnhom= (Spinner) root.findViewById(R.id.spinnerNhom);
         spnnhacnho= (Spinner) root.findViewById(R.id.spinnerNhacnho);
-
-        db=new DBHelper(getActivity());
 
         etTenHoatDong= (EditText) root.findViewById(R.id.etTen_ThemHoatDong);
         etDiaDiem= (EditText) root.findViewById(R.id.etDiaDiem_ThemHoatDong);
@@ -102,17 +111,19 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         btnT6= (Button) root.findViewById(R.id.btnT6_layoutthem);
         btnT7= (Button) root.findViewById(R.id.btnT7_layoutthem);
         btnCN= (Button) root.findViewById(R.id.btnCN_layoutthem);
-        boolean pressT2=false;
-        boolean pressT3=false;
-        boolean pressT4=false;
-        boolean pressT5=false;
-        boolean pressT6=false;
-        boolean pressT7=false;
-        boolean pressCN=false;
 
         //Xử lý sự kiện cho button Hủy và Lưu
         ibHuy.setOnClickListener(this);
         ibLuu.setOnClickListener(this);
+
+        //Xử lý các nut thứ
+        btnT2.setOnClickListener(this);
+        btnT3.setOnClickListener(this);
+        btnT4.setOnClickListener(this);
+        btnT5.setOnClickListener(this);
+        btnT6.setOnClickListener(this);
+        btnT7.setOnClickListener(this);
+        btnCN.setOnClickListener(this);
 
         //Xử lý thời gian bắt đầu
         //Ngày:
@@ -158,6 +169,8 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
             }
         });
 
+        presenterThemHoatDong=new PresenterThemHoatDong(this);
+
         return root;
 
     }
@@ -183,53 +196,90 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
                 }
                 break;
             case R.id.ibLuu_ThemHoatDong:
-                //Kiểm tra người dùng đã nhập đủ thông tin cần thiết chưa
-                if(etTenHoatDong.getText().toString().isEmpty() && tvDateBD.getText().toString().isEmpty() && tvTimeBD.getText().toString().isEmpty() && tvTimeKT.getText().toString().isEmpty()){
-                    Toast.makeText(getActivity(), "Chưa nhập đủ thông tin!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
+                HoatDong hoatdong=new HoatDong();
+                hoatdong.setTenhd(etTenHoatDong.getText().toString());
+                hoatdong.setDiadiem(etDiaDiem.getText().toString());
+                hoatdong.setTgbd(tvDateBD.getText().toString()+" "+tvTimeBD.getText().toString());
+                hoatdong.setTgkt(tvDateKT.getText().toString()+" "+tvTimeKT.getText().toString());
+                String thu=LayThu(pressT2,pressT3,pressT4,pressT5,pressT6,pressT7,pressCN);
+                hoatdong.setThu(thu);
+                hoatdong.setNhom(spnnhom.getSelectedItem().toString());
+                hoatdong.setGhichu(etGhiChu.getText().toString());
+                hoatdong.setKeyupdate("0");
+                presenterThemHoatDong.XuLyThemHoatDong(hoatdong);
 
-                //Kiểm tra giờ bắt đầu có bé hơn kết thúc hay không
-                if (ktgiophut(tvTimeBD.getText().toString(),tvTimeKT.getText().toString())==0)
-                {
-                    Toast.makeText(getActivity(),"Thời gian không hợp lý !",Toast.LENGTH_LONG).show();
-                    return;
-                }
-
-                //Kiểm tra khoảng thời gian này đã có hoạt động chưa
-                if (ktKhungTG(tvDateBD.getText().toString(),tvTimeBD.getText().toString(),tvTimeKT.getText().toString())==0)
-                {
-                    Toast.makeText(getActivity(),"Khoảng thời gian này đã có hoạt động !",Toast.LENGTH_LONG).show();
-                    return;
-                }
-
-                //Kiểm tra hoạt động này đã có chưa
-                XulyHoatdong xulyhd=new XulyHoatdong(db);
-                int kt=xulyhd.kttenhd(etTenHoatDong.getText().toString(),tvDateBD.getText().toString()+" "+tvTimeBD.getText().toString());
-                if(kt>0){
-                    Toast.makeText(getActivity(),"Hoạt động này đã có !",Toast.LENGTH_LONG).show();
-                    return;
-                }
-                else {
-                    //Thêm hoạt động vào database khi nhấn lưu
-                    HoatDong hd = new HoatDong();
-                    hd.setTenhd(etTenHoatDong.getText().toString());
-                    hd.setDiadiem(etDiaDiem.getText().toString());
-                    hd.setTgbd(tvDateBD.getText().toString() + " " + tvTimeBD.getText().toString());
-                    hd.setTgkt(tvDateBD.getText().toString() + " " + tvTimeKT.getText().toString());
-                    hd.setNhom(spnnhom.getSelectedItem().toString());
-                    hd.setGhichu(etGhiChu.getText().toString());
-                    XulyHoatdong them = new XulyHoatdong(db);
-                    them.Them(hd);
-                    //Hiện thông báo lưu thành công và quay lại màn hình chính
-                    ThongBao("Thêm thành công!");
-                    Intent intentLuu = new Intent(getActivity(), MainActivity.class);
-                    startActivity(intentLuu);
-                }
-
+                //Hiện thông báo lưu thành công và quay lại màn hình chính
+                ThongBao("Thêm thành công!");
+                Intent intentLuu = new Intent(getActivity(), MainActivity.class);
+                startActivity(intentLuu);
+                break;
+            case R.id.btnT2_layoutthem:
+                XuLyNutThu(btnT2,pressT2);
+                break;
+            case R.id.btnT3_layoutthem:
+                XuLyNutThu(btnT3,pressT3);
+                break;
+            case R.id.btnT4_layoutthem:
+                XuLyNutThu(btnT4,pressT4);
+                break;
+            case R.id.btnT5_layoutthem:
+                XuLyNutThu(btnT5,pressT5);
+                break;
+            case R.id.btnT6_layoutthem:
+                XuLyNutThu(btnT6,pressT6);
+                break;
+            case R.id.btnT7_layoutthem:
+                XuLyNutThu(btnT7,pressT7);
+                break;
+            case R.id.btnCN_layoutthem:
+                XuLyNutThu(btnCN,pressCN);
                 break;
         }
+    }
 
+    public String LayThu(boolean t2,boolean t3,boolean t4,boolean t5,boolean t6,boolean t7,boolean cn){
+        ArrayList<String> listthu=new ArrayList<>();
+        String thu=null;
+        if (t2==true){
+            listthu.add("2");
+        }
+        if (t3==true){
+            listthu.add("3");
+        }
+        if (t4==true){
+            listthu.add("4");
+        }
+        if (t5==true){
+            listthu.add("5");
+        }
+        if (t6==true){
+            listthu.add("6");
+        }
+        if (t7==true){
+            listthu.add("7");
+        }
+        if (cn==true){
+            listthu.add("cn");
+        }
+
+        for (int i=0;i<listthu.size();i++){
+            if (Integer.parseInt(listthu.get(i).toString())==Integer.parseInt(listthu.get(listthu.size()-1).toString()))
+                thu=listthu.get(i).toString()+" ";
+            else
+                thu=listthu.get(i).toString();
+
+        }
+        return thu;
+    }
+    public void XuLyNutThu(Button button,boolean kiemtra){
+        if (kiemtra==true){
+            button.setBackgroundResource(R.drawable.layoutthem_buttonthu_shape);
+            kiemtra=false;
+        }
+        else {
+            button.setBackgroundResource(R.drawable.layoutthem_buttonthunhan_shape);
+            kiemtra=true;
+        }
     }
 
     //Xử lý Bắt đầu
@@ -498,99 +548,23 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         spnnhom.setAdapter(adapterTime);
     }
 
-    //Kiểm tra Tgbd > Tgkt
-    public int kiemtrabdkt(String ngaythangbd,String ngaythangkt,String giophutbd,String giophutkt )
-    {
-        String[] tachtgbd=ngaythangbd.split("/");
-        String[] tachtgkt=ngaythangkt.split("/");
-        String[] tachgiobd=giophutbd.split(":");
-        String[] tachgiokt=giophutkt.split(":");
-        int ngaybd=Integer.parseInt(tachtgbd[0].toString());
-        int ngaykt=Integer.parseInt(tachtgkt[0].toString());
-        int thangbd=Integer.parseInt(tachtgbd[1].toString());
-        int thangkt=Integer.parseInt(tachtgkt[1].toString());
-        int nambd=Integer.parseInt(tachtgbd[2].toString());
-        int namkt=Integer.parseInt(tachtgkt[2].toString());
+    @Override
+    public void ThemHoatDongThanhCong() {
 
-        if (nambd>namkt)
-            return 0;
-        else{
-            if (thangbd>thangkt)
-                return 0;
-            else
-            if (ngaybd>ngaykt)
-                return 0;
-        }
-        return 1;
     }
 
-    //Kiểm tra giờ bắt đầu và giờ kết thúc
-    public int ktgiophut(String giophutbd,String giophutkt){
-        if(giophutbd.isEmpty() && giophutkt.isEmpty()){
-            return 0;
-        }
-        String[] tachgiophutbd=giophutbd.split(":");
-        String[] tachgiophutkt=giophutkt.split(":");
-        int giobd=Integer.parseInt(tachgiophutbd[0].toString());
-        int phutbd=Integer.parseInt(tachgiophutbd[1].toString());
-        int giokt=Integer.parseInt(tachgiophutkt[0].toString());
-        int phutkt=Integer.parseInt(tachgiophutkt[1].toString());
+    @Override
+    public void ThongBaoThemSuKienDaCo() {
 
-        if (giobd>giokt)
-        {
-            return 0;
-        }
-        else{
-            if (giobd==giokt)
-            {
-                if (phutbd>phutkt)
-                    return 0;
-            }
-        }
-        return 1;
     }
 
-    //Kiểm tra khung thời gian này đã có hoạt động chưa
-    public int ktKhungTG(String ngay, String giophutbd, String giophutkt)
-    {
-        //Tach giờ phút của hoạt động người dùng nhập
-        String[] tachgiophutbd=giophutbd.split(":");
-        String[] tachgiophutkt=giophutkt.split(":");
-        int giobd=Integer.parseInt(tachgiophutbd[0]);
-        int phutbd=Integer.parseInt(tachgiophutbd[1]);
-        int giokt=Integer.parseInt(tachgiophutkt[0]);
-        int phutkt=Integer.parseInt(tachgiophutkt[1]);
+    @Override
+    public void ThongBaoThemLoi() {
 
-        XulyHoatdong xulyhd=new XulyHoatdong(db);
-        ArrayList<HoatDong> listhd=new ArrayList<HoatDong>();
-        listhd=xulyhd.laydstheongay(ngay);
+    }
 
-        if(listhd.size() == 0){
-            return 1;
-        }
-        else {
-            for (int i = 0; i < listhd.size(); i++) {
+    @Override
+    public void ThongBaoNhapLoi() {
 
-                //Tách ngày với giờ của dữ liệu lấy từ Database
-                String[] tachTGBDDB = listhd.get(i).getTgbd().split(" ");
-                String[] tachTGKTDB = listhd.get(i).getTgkt().split(" ");
-                //Tách giờ với phút sau từ dữ liệu của Database
-                String[] tachgiophutbddb = tachTGBDDB[1].split(":");
-                String[] tachgiophutktdb = tachTGKTDB[1].split(":");
-
-                int giobddb = Integer.parseInt(tachgiophutbddb[0]);
-                int phutbddb = Integer.parseInt(tachgiophutbddb[1]);
-                int gioktdb = Integer.parseInt(tachgiophutktdb[0]);
-                int phutktdb = Integer.parseInt(tachgiophutktdb[1]);
-
-                if(giobd*60+phutbd > giobddb*60+phutbddb &&  giokt*60+phutkt < gioktdb*60+phutktdb)
-                    return 0;
-                if(giobd*60+phutbd < giobddb*60+phutbddb &&  giokt*60+phutkt > gioktdb*60+phutktdb)
-                    return 0;
-                if(giobd*60+phutbd > giobddb*60+phutbddb && giobd*60+phutbd< gioktdb*60+phutktdb || giokt*60+phutkt > giobddb*60+phutbddb && giokt*60+phutkt< gioktdb*60+phutktdb)
-                    return 0;
-            }
-        }
-        return 1;
     }
 }

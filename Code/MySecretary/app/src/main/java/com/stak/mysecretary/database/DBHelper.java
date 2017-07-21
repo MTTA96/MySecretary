@@ -24,6 +24,8 @@ public class DBHelper extends SQLiteOpenHelper {
 //    public static final String KEY_HENGIO="HENGIO";
     public static final String KEY_HDNHOM = "NHOM";
     public static final String KEY_GHICHU = "GHICHU";
+    public static final String KEY_UPDATE="KEYUPDATE";
+
     public static final String TABLE_NHOMHD="NHOMHD";
     public static final String KEY_TENNHOMHD="TENNHOMHD";
 
@@ -44,8 +46,9 @@ public class DBHelper extends SQLiteOpenHelper {
 //                + KEY_HENGIO +" TEXT, "
                 + KEY_THU + " TEXT , "
                 + KEY_HDNHOM + " TEXT, "
+                + KEY_GHICHU + " TEXT, "
                 + KEY_BACKGROUND + " TEXT, "
-                + KEY_GHICHU + " TEXT) ";
+                + KEY_UPDATE + " TEXT )";
         String CREATE_NHOMHD_TABLE="CREATE TABLE "+TABLE_NHOMHD+" ( "
                 + KEY_TENNHOMHD +" TEXT PRIMARY KEY ) ";
         db.execSQL(CREATE_HD_TABLE);
