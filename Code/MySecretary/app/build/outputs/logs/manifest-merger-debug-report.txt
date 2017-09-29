@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml
@@ -15,111 +15,103 @@ ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-37:
 		INJECTED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] C:\Users\Quang Tri\.android\build-cache\cd4718bd349b9c4073c534de0a3f3f9240517bd1\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:5:22-64
-supports-screens
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:7:5-11:40
-	android:largeScreens
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:8:9-36
-	android:smallScreens
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:10:9-36
-	android:normalScreens
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:9:9-37
-	android:xlargeScreens
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:11:9-37
 application
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:13:5-35:19
-MERGED from [com.android.support:design:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-core:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\11.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.0.1\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-base:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-common:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.1\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:19:5-21:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:28:5-48:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:customtabs:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:29:5-20
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:7:5-26:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Quang Tri\.android\build-cache\4a505dd1fb47b0b4056799b9d716db490fe2ef8a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Quang Tri\.android\build-cache\4f436e422a972057d9f04a433477d55c3e2efbf4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.1] C:\Users\Quang Tri\.android\build-cache\309819afa5f07155b73a8dbebe34310606f24c00\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] C:\Users\Quang Tri\.android\build-cache\cd4718bd349b9c4073c534de0a3f3f9240517bd1\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\7743b68c557fb439ebaf309607a21920d3ceba22\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Quang Tri\.android\build-cache\6b7a0a582f65b964d2d6bc3d605d6201d4c2b15e\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Quang Tri\.android\build-cache\0c42e08ee6b4078fc9dbcb083dd00aa5fa855670\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Quang Tri\.android\build-cache\55dc9d8fd004afa40c119ac517db0fa64bd5b1a5\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Quang Tri\.android\build-cache\42fc7a2127d54f48c5d87863906f66417f27abb5\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\9b2e17898d8fb762d8a2a81b73b477f56e607b1c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Quang Tri\.android\build-cache\3e55cba008818b0d3f25539f1c7fd735db7a8437\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Quang Tri\.android\build-cache\aee255a2124b809686e2cfad0da0a7a77f892040\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Quang Tri\.android\build-cache\23a7ba7f78ddbe3c1b25d416b447b0a9c53fd89e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Quang Tri\.android\build-cache\ef971f6a8af3cf90b8910ebd314f59b312ef89ee\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Quang Tri\.android\build-cache\53f08b5ecd1055a32278a8bb917424580942c85a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Quang Tri\.android\build-cache\77cfe752364e2241d5b201cdcb8e0eac56694055\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Quang Tri\.android\build-cache\7341ea51e88b4f7922462ae36ca6dc01f09c09db\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\760ffa362982dce1d49f46690576b4fafa8dd956\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Quang Tri\.android\build-cache\657e775507bd38ce0a6a0cc49090588913bd8d4c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Quang Tri\.android\build-cache\614ee32098ef16cf139019600a62b9a034b0caee\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:11:9-35
 	android:allowBackup
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:15:9-42
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:9:9-42
 	android:theme
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:12:9-40
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:19:9-21:55
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:13:9-15:55
 	android:value
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:21:13-52
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:15:13-52
 	android:name
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:20:13-58
-activity#com.stak.mysecretary.MenuActivity
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:23:9-50
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:14:13-58
+activity#com.stak.mysecretary.Activity.MainActivity
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:23:19-47
-activity#com.stak.mysecretary.CapNhatActivity
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:24:9-53
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:17:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:24:19-50
-receiver#com.stak.mysecretary.Reminder
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:26:9-46
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:26:19-43
-activity#com.stak.mysecretary.MainActivity
-ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:27:9-50
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.stak.mysecretary.Activity.MenuActivity
+ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:25:9-59
 	android:name
-		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:27:19-47
+		ADDED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml:25:19-56
 uses-sdk
 INJECTED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\11.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.0.1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth-base:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-database:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\11.0.1\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\11.0.1\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.1\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:17:5-43
-MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:customtabs:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:design:25.3.1] C:\Users\Quang Tri\.android\build-cache\4a505dd1fb47b0b4056799b9d716db490fe2ef8a\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\7b24407bdb74ce2198c2dc7821cdbb76f13a5f1b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Quang Tri\.android\build-cache\4f436e422a972057d9f04a433477d55c3e2efbf4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.0.1] C:\Users\Quang Tri\.android\build-cache\309819afa5f07155b73a8dbebe34310606f24c00\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] C:\Users\Quang Tri\.android\build-cache\cd4718bd349b9c4073c534de0a3f3f9240517bd1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\7743b68c557fb439ebaf309607a21920d3ceba22\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.1] C:\Users\Quang Tri\.android\build-cache\e17b7a1c5dd94c1952ad5580f85939e31b81c7ec\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Quang Tri\.android\build-cache\6b7a0a582f65b964d2d6bc3d605d6201d4c2b15e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.1] C:\Users\Quang Tri\.android\build-cache\1ad7e5caa944dcdba24f67715b0af019dfb74492\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.1] C:\Users\Quang Tri\.android\build-cache\50c31c2910aa4bb789779681f7f44f17f170d215\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Quang Tri\.android\build-cache\0c42e08ee6b4078fc9dbcb083dd00aa5fa855670\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Quang Tri\.android\build-cache\55dc9d8fd004afa40c119ac517db0fa64bd5b1a5\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Quang Tri\.android\build-cache\42fc7a2127d54f48c5d87863906f66417f27abb5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\9b2e17898d8fb762d8a2a81b73b477f56e607b1c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Quang Tri\.android\build-cache\3e55cba008818b0d3f25539f1c7fd735db7a8437\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Quang Tri\.android\build-cache\aee255a2124b809686e2cfad0da0a7a77f892040\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Quang Tri\.android\build-cache\23a7ba7f78ddbe3c1b25d416b447b0a9c53fd89e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Quang Tri\.android\build-cache\ef971f6a8af3cf90b8910ebd314f59b312ef89ee\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Quang Tri\.android\build-cache\53f08b5ecd1055a32278a8bb917424580942c85a\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Quang Tri\.android\build-cache\77cfe752364e2241d5b201cdcb8e0eac56694055\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Quang Tri\.android\build-cache\7341ea51e88b4f7922462ae36ca6dc01f09c09db\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\760ffa362982dce1d49f46690576b4fafa8dd956\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Quang Tri\.android\build-cache\657e775507bd38ce0a6a0cc49090588913bd8d4c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Quang Tri\.android\build-cache\614ee32098ef16cf139019600a62b9a034b0caee\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Quang Tri\.android\build-cache\4a505dd1fb47b0b4056799b9d716db490fe2ef8a\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml
 		INJECTED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml
@@ -127,191 +119,191 @@ MERGED from [com.android.support:support-compat:25.3.1] D:\githubMS\Code\MySecre
 		INJECTED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml
 		INJECTED from D:\githubMS\Code\MySecretary\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:customtabs:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Quang Tri\.android\build-cache\4a505dd1fb47b0b4056799b9d716db490fe2ef8a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\7b24407bdb74ce2198c2dc7821cdbb76f13a5f1b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Quang Tri\.android\build-cache\4f436e422a972057d9f04a433477d55c3e2efbf4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\9b2e17898d8fb762d8a2a81b73b477f56e607b1c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Quang Tri\.android\build-cache\3e55cba008818b0d3f25539f1c7fd735db7a8437\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Quang Tri\.android\build-cache\aee255a2124b809686e2cfad0da0a7a77f892040\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Quang Tri\.android\build-cache\23a7ba7f78ddbe3c1b25d416b447b0a9c53fd89e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Quang Tri\.android\build-cache\ef971f6a8af3cf90b8910ebd314f59b312ef89ee\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Quang Tri\.android\build-cache\53f08b5ecd1055a32278a8bb917424580942c85a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Quang Tri\.android\build-cache\77cfe752364e2241d5b201cdcb8e0eac56694055\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Quang Tri\.android\build-cache\7341ea51e88b4f7922462ae36ca6dc01f09c09db\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Quang Tri\.android\build-cache\760ffa362982dce1d49f46690576b4fafa8dd956\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Quang Tri\.android\build-cache\657e775507bd38ce0a6a0cc49090588913bd8d4c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Quang Tri\.android\build-cache\614ee32098ef16cf139019600a62b9a034b0caee\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Quang Tri\.android\build-cache\4a505dd1fb47b0b4056799b9d716db490fe2ef8a\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Quang Tri\.android\build-cache\4a505dd1fb47b0b4056799b9d716db490fe2ef8a\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] C:\Users\Quang Tri\.android\build-cache\cd4718bd349b9c4073c534de0a3f3f9240517bd1\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] C:\Users\Quang Tri\.android\build-cache\cd4718bd349b9c4073c534de0a3f3f9240517bd1\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] C:\Users\Quang Tri\.android\build-cache\cd4718bd349b9c4073c534de0a3f3f9240517bd1\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:27:162-184
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.1\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.1] C:\Users\Quang Tri\.android\build-cache\cd4718bd349b9c4073c534de0a3f3f9240517bd1\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:32:16-87
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:33:7-197
+ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:33:7-197
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:33:148-170
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:33:171-195
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:33:91-147
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.1\AndroidManifest.xml:33:16-90
+		ADDED from [com.google.firebase:firebase-analytics:11.0.1] C:\Users\Quang Tri\.android\build-cache\3871401598c8b6fc1f782d5d984d07270f3b046a\output\AndroidManifest.xml:33:16-90
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.1\AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:11.0.1] C:\Users\Quang Tri\.android\build-cache\aedab47b6128018a42a5b63a36b78c93e03ca9a2\output\AndroidManifest.xml:45:25-77
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:20:9-189
+ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:20:129-162
+		ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:20:129-162
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:20:163-187
+		ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:20:163-187
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:20:69-128
+		ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:20:69-128
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:20:19-68
+		ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:20:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:24:9-184
+ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:24:9-184
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:24:64-87
+		ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:24:64-87
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:24:88-182
+		ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:24:88-182
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.1\AndroidManifest.xml:24:18-63
+		ADDED from [com.google.android.gms:play-services-auth:11.0.1] C:\Users\Quang Tri\.android\build-cache\372e5332ea8951f3e76d70e37fac928f88524356\output\AndroidManifest.xml:24:18-63
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Quang Tri\.android\build-cache\6b7a0a582f65b964d2d6bc3d605d6201d4c2b15e\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Quang Tri\.android\build-cache\6b7a0a582f65b964d2d6bc3d605d6201d4c2b15e\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Quang Tri\.android\build-cache\6b7a0a582f65b964d2d6bc3d605d6201d4c2b15e\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.1\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Quang Tri\.android\build-cache\6b7a0a582f65b964d2d6bc3d605d6201d4c2b15e\output\AndroidManifest.xml:19:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Quang Tri\.android\build-cache\0c42e08ee6b4078fc9dbcb083dd00aa5fa855670\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Quang Tri\.android\build-cache\0c42e08ee6b4078fc9dbcb083dd00aa5fa855670\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Quang Tri\.android\build-cache\0c42e08ee6b4078fc9dbcb083dd00aa5fa855670\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Quang Tri\.android\build-cache\0c42e08ee6b4078fc9dbcb083dd00aa5fa855670\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.1\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.0.1] C:\Users\Quang Tri\.android\build-cache\0c42e08ee6b4078fc9dbcb083dd00aa5fa855670\output\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Quang Tri\.android\build-cache\42fc7a2127d54f48c5d87863906f66417f27abb5\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Quang Tri\.android\build-cache\42fc7a2127d54f48c5d87863906f66417f27abb5\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.1] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.1\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Quang Tri\.android\build-cache\42fc7a2127d54f48c5d87863906f66417f27abb5\output\AndroidManifest.xml:20:20-65
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:29:9-32:66
+ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:29:9-32:66
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:31:13-96
+		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:31:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:30:13-57
+		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:30:13-57
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:33:19-68
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:44:9-47:40
+ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:44:9-47:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:46:13-72
+		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:46:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:47:13-37
+		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] D:\githubMS\Code\MySecretary\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\AndroidManifest.xml:45:13-70
+		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] C:\Users\Quang Tri\.android\build-cache\1fc5ca0b8159f9968ca6951a7bf68a75167acca7\output\AndroidManifest.xml:45:13-70
