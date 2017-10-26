@@ -5,8 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.stak.mysecretary.DataBase.DBHelper;
-import com.stak.mysecretary.DataBase.XulyHoatdong;
+import com.stak.mysecretary.Presenter.Model.DataModel.DataBase.DBHelper;
 import com.stak.mysecretary.Model.HoatDong;
 
 import java.util.ArrayList;

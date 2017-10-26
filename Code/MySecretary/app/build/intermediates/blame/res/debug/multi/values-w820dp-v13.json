@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\githubMS\\Code\\MySecretary\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\values-w820dp\\attrs.xml",
+                    "file": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\values-w820dp\\attrs.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -32,7 +32,7 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -51,7 +51,7 @@
                     "endOffset": 362
                 },
                 "from": {
-                    "file": "D:\\githubMS\\Code\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "G:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

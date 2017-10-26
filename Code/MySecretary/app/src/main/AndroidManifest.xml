@@ -14,7 +14,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".Activity.MainActivity" >
+        <activity android:name=".View.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activity.MenuActivity" />
+        <activity android:name=".View.Activity.MenuActivity" />
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 package com.stak.mysecretary.Presenter.TaiKhoan.Dangky;
 
-import com.stak.mysecretary.DataBase.FireBaseHelper;
+import com.stak.mysecretary.Presenter.Model.DataModel.DataBase.FireBaseHelper;
 import com.stak.mysecretary.Presenter.Model.DataModel.TaiKhoan.DangKy.DangKyImpl;
 import com.stak.mysecretary.Presenter.Model.DataModel.TaiKhoan.DangKy.DangKyHelperImpl;
 import com.stak.mysecretary.Presenter.Model.UiModel.Interfaces.DangKyUiImpl;

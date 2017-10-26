@@ -48,9 +48,9 @@
 
     <!-- Đăng nhập -->
     <string name="dang_nhap_title"><b><i><u> MY SECRETARY </u></i></b></string>
-    <string name="khung_dang_nhap_title"><b>Đăng nhập</b></string>
     <string name="nut_dang_nhap">Đăng nhập</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook</string>
+    <string name="quen_mat_khau"><i>Quên mật khẩu ?</i></string>
     <string name="dangkytext"> Đăng ký </string>
 
     <!-- Đăng ký -->
