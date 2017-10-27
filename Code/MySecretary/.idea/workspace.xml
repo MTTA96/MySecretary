@@ -51,7 +51,7 @@
       <file leaf-file-name="MainFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Fragment/Home/MainFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
+            <state relative-caret-position="2499">
               <caret line="180" column="63" selection-start-line="180" selection-start-column="63" selection-end-line="180" selection-end-column="63" />
               <folding />
             </state>
@@ -61,7 +61,7 @@
       <file leaf-file-name="DangNhapFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Fragment/TaiKhoan/DangNhapFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811">
+            <state relative-caret-position="476">
               <caret line="60" column="69" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
               <folding>
                 <element signature="method#signIn#0;class#DangNhapFragment#0" expanded="false" />
@@ -79,31 +79,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1768">
+            <state relative-caret-position="17">
               <caret line="28" column="42" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="42" />
-              <folding>
-                <element signature="e#500#535#0" expanded="true" />
-                <element signature="e#947#982#0" expanded="true" />
-                <element signature="e#1004#1029#0" expanded="true" />
-                <element signature="e#1055#1089#0" expanded="true" />
-                <element signature="e#1268#1300#0" expanded="true" />
-                <element signature="e#1364#1412#0" expanded="true" />
-                <element signature="e#1446#1482#0" expanded="true" />
-                <element signature="e#2265#2300#0" expanded="true" />
-                <element signature="e#2637#2672#0" expanded="true" />
-                <element signature="e#2734#2757#0" expanded="true" />
-                <element signature="e#3077#3106#0" expanded="true" />
-                <element signature="e#3192#3215#0" expanded="true" />
-                <element signature="e#3481#3513#0" expanded="true" />
-                <element signature="e#3623#3650#0" expanded="true" />
-                <element signature="e#4135#4162#0" expanded="true" />
-                <element signature="e#4566#4601#0" expanded="true" />
-                <element signature="e#4911#4952#0" expanded="true" />
-                <element signature="e#4991#5032#0" expanded="true" />
-                <element signature="e#5668#5702#0" expanded="true" />
-                <element signature="e#6017#6041#0" expanded="true" />
-                <element signature="e#6362#6386#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +89,7 @@
       <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
+            <state relative-caret-position="119">
               <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
               <folding />
             </state>
@@ -2337,11 +2315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2741,6 +2715,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3198,8 +3176,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18091603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18091603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3216,6 +3193,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -3610,13 +3588,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="187" column="60" selection-start-line="187" selection-start-column="60" selection-end-line="187" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Fragment/Home/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
+        <state relative-caret-position="2499">
           <caret line="180" column="63" selection-start-line="180" selection-start-column="63" selection-end-line="180" selection-end-column="63" />
           <folding />
         </state>
@@ -3673,7 +3650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Fragment/TaiKhoan/DangNhapFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
+        <state relative-caret-position="476">
           <caret line="60" column="69" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
           <folding>
             <element signature="method#signIn#0;class#DangNhapFragment#0" expanded="false" />
@@ -3702,7 +3679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="119">
           <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
           <folding />
         </state>
@@ -3713,31 +3690,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1768">
+        <state relative-caret-position="17">
           <caret line="28" column="42" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="e#500#535#0" expanded="true" />
-            <element signature="e#947#982#0" expanded="true" />
-            <element signature="e#1004#1029#0" expanded="true" />
-            <element signature="e#1055#1089#0" expanded="true" />
-            <element signature="e#1268#1300#0" expanded="true" />
-            <element signature="e#1364#1412#0" expanded="true" />
-            <element signature="e#1446#1482#0" expanded="true" />
-            <element signature="e#2265#2300#0" expanded="true" />
-            <element signature="e#2637#2672#0" expanded="true" />
-            <element signature="e#2734#2757#0" expanded="true" />
-            <element signature="e#3077#3106#0" expanded="true" />
-            <element signature="e#3192#3215#0" expanded="true" />
-            <element signature="e#3481#3513#0" expanded="true" />
-            <element signature="e#3623#3650#0" expanded="true" />
-            <element signature="e#4135#4162#0" expanded="true" />
-            <element signature="e#4566#4601#0" expanded="true" />
-            <element signature="e#4911#4952#0" expanded="true" />
-            <element signature="e#4991#5032#0" expanded="true" />
-            <element signature="e#5668#5702#0" expanded="true" />
-            <element signature="e#6017#6041#0" expanded="true" />
-            <element signature="e#6362#6386#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
