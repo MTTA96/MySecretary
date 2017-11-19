@@ -3,6 +3,9 @@ package com.stak.mysecretary.View.Fragment.TaiKhoan;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -53,6 +56,12 @@ public class DangNhapFragment extends Fragment implements View.OnClickListener, 
 
     public DangNhapFragment() {
         // Required empty public constructor
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        ((AppCompatActivity)getActivity()).getSupportActionBar().hide();
     }
 
     @Override

@@ -3,11 +3,11 @@
     <dimen name="title_height">50dp</dimen>
     <!--Đăng nhập-->
     <dimen name="title_dang_nhap_text_size">40sp</dimen>
-    <dimen name="title_dang_nhap_margin_top">40dp</dimen>
+    <dimen name="title_dang_nhap_margin_top">30dp</dimen>
     <dimen name="khung_info_login_height">350dp</dimen>
     <dimen name="khung_info_dang_nhap_horizontal_padding">25dp</dimen>
     <dimen name="khung_info_dang_nhap_vertical_padding">20dp</dimen>
-    <dimen name="khung_info_login_margin_top">50dp</dimen>
+    <dimen name="khung_info_login_margin_top">45dp</dimen>
     <dimen name="item_khung_info_margin_top">10dp</dimen>
     <dimen name="facebook_button_vertical_padding">13dp</dimen>
     <dimen name="divider_info_login">0.7dp</dimen>
@@ -15,8 +15,8 @@
     <dimen name="btn_login_margin_top">15dp</dimen>
 
     <!--Đăng ký quên mật khẩu-->
-    <dimen name="textview_signin_margintop">10dp</dimen>
-    <dimen name="textsize_signin">17sp</dimen>
+    <dimen name="textview_signin_margintop">20dp</dimen>
+    <dimen name="textsize_signin">18sp</dimen>
 
     <!--Actionbar-->
     <dimen name="actionbar_size">0dp</dimen>

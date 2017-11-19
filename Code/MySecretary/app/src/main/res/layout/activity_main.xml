@@ -11,45 +11,15 @@
     <include layout="@layout/content_main" />
 
     <!-- menu -->
-    <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    <android.support.design.widget.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:background="#5AB1D8E5"
         android:orientation="vertical"
-        android:layout_gravity="start"
-        android:choiceMode="singleChoice"
-        tools:context=".View.Activity.MenuActivity">
-
-
-        <!-- top -->
-        <FrameLayout
-            android:id="@+id/infoMenu"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@color/colorMain"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/ibThoat_Menu"
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                app:srcCompat="@android:drawable/ic_menu_revert"
-                android:background="@null"/>
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="MENU"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-        </FrameLayout>
-
-        <!-- info -->
+        android:layout_gravity="start">
+        <!-- body -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -277,6 +247,6 @@
             </LinearLayout>
         </LinearLayout>
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>

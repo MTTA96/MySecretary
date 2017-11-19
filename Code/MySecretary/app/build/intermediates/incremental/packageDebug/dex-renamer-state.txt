@@ -1,7 +1,0 @@
-#Thu Oct 26 19:20:16 ICT 2017
-base.0=G\:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_88bc5e36399072a75bf015eebdbda9d8feca047d
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=G\:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cf51167f5e55b731b1354d134d2f5ad7f3a3fec2\\classes.dex
-base.1=G\:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cf51167f5e55b731b1354d134d2f5ad7f3a3fec2
-file.0=G\:\\IT\\Code_engine\\Projects\\Android\\MyApps\\MySecretary\\Code\\MySecretary\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_88bc5e36399072a75bf015eebdbda9d8feca047d\\classes.dex

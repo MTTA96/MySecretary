@@ -32,42 +32,42 @@ public class MenuActivity extends AppCompatActivity {
         cbCanhan.setChecked(myShared.getCbCaNhan());
         cbTkb.setChecked(myShared.getCbTKB());
 
-        ibThoat = (ImageButton) findViewById(R.id.ibThoat_Menu);
-
-        //Xủ lý sự kiện thoát
-        ibThoat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //Lựa chọn checkBox truyền sang MainActivity
-                int tinhieu=0;
-                Intent intentThoat = new Intent(MenuActivity.this, MainActivity.class);
-
-                if (cbTkb.isChecked() && cbCanhan.isChecked()) {
-                    myShared.setCbTKB(true);
-                    myShared.setCbCaNhan(true);
-                    tinhieu = 12;
-                }
-                if(!cbTkb.isChecked() && !cbCanhan.isChecked()){
-                    myShared.setCbTKB(false);
-                    myShared.setCbCaNhan(false);
-                }
-                if (cbTkb.isChecked() && !cbCanhan.isChecked()) {
-                    myShared.setCbTKB(true);
-                    myShared.setCbCaNhan(false);
-                    tinhieu = 1;
-                }
-                if (cbCanhan.isChecked() && !cbTkb.isChecked()) {
-                    myShared.setCbTKB(false);
-                    myShared.setCbCaNhan(true);
-                    tinhieu = 2;
-                }
-                Bundle bundle=new Bundle();
-                bundle.putInt("Chon",tinhieu);
-
-                intentThoat.putExtra("Menu",bundle);
-                startActivity(intentThoat);
-                finish();
-            }
-        });
+//        ibThoat = (ImageButton) findViewById(R.id.ibThoat_Menu);
+//
+//        //Xủ lý sự kiện thoát
+//        ibThoat.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                //Lựa chọn checkBox truyền sang MainActivity
+//                int tinhieu=0;
+//                Intent intentThoat = new Intent(MenuActivity.this, MainActivity.class);
+//
+//                if (cbTkb.isChecked() && cbCanhan.isChecked()) {
+//                    myShared.setCbTKB(true);
+//                    myShared.setCbCaNhan(true);
+//                    tinhieu = 12;
+//                }
+//                if(!cbTkb.isChecked() && !cbCanhan.isChecked()){
+//                    myShared.setCbTKB(false);
+//                    myShared.setCbCaNhan(false);
+//                }
+//                if (cbTkb.isChecked() && !cbCanhan.isChecked()) {
+//                    myShared.setCbTKB(true);
+//                    myShared.setCbCaNhan(false);
+//                    tinhieu = 1;
+//                }
+//                if (cbCanhan.isChecked() && !cbTkb.isChecked()) {
+//                    myShared.setCbTKB(false);
+//                    myShared.setCbCaNhan(true);
+//                    tinhieu = 2;
+//                }
+//                Bundle bundle=new Bundle();
+//                bundle.putInt("Chon",tinhieu);
+//
+//                intentThoat.putExtra("Menu",bundle);
+//                startActivity(intentThoat);
+//                finish();
+//            }
+//        });
     }
 }

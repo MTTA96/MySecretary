@@ -18,4 +18,5 @@ public class SupportList {
     public static final String TAG_HOME_FRAGMENT = "HomeFragment";
     public static final String TAG_DANG_NHAP_FRAGMENT = "DangNhapFragment";
     public static final String TAG_DANG_KY_FRAGMENT = "DangKyFragment";
+    public static final String TAG_THEM_SU_KIEN_FRAGMENT = "ThemSuKienFragment";
 }

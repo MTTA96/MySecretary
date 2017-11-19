@@ -26,6 +26,7 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@drawable/appicon1"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -42,6 +43,24 @@
             </intent-filter>
         </activity>
         <activity android:name="com.stak.mysecretary.View.Activity.MenuActivity" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -67,6 +86,11 @@
             android:enabled="true"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
@@ -97,25 +121,6 @@
             </intent-filter>
         </service>
 
-        <activity
-            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <!--
-Service handling Google Sign-In user revocation. For apps that do not integrate with
-            Google Sign-In, this service will never be started.
-        -->
-        <service
-            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-            android:exported="true"
-            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.stak.mysecretary.firebaseinitprovider"
@@ -125,12 +130,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <activity
-            android:name="com.facebook.FacebookActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:theme="@style/com_facebook_activity_theme" />
-        <activity android:name="com.facebook.CustomTabMainActivity" />
         <!--
          The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
          with the application context. This config is merged in with the host app's manifest,

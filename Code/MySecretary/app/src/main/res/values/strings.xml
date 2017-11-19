@@ -47,11 +47,12 @@
     <string name="time_24pm">24</string>
 
     <!-- Đăng nhập -->
-    <string name="dang_nhap_title"><b><i><u> MY SECRETARY </u></i></b></string>
+    <string name="dang_nhap_title"><b><i> MY SECRETARY </i></b></string>
     <string name="nut_dang_nhap">Đăng nhập</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook</string>
     <string name="quen_mat_khau"><i>Quên mật khẩu ?</i></string>
-    <string name="dangkytext"> Đăng ký </string>
+    <string name="dang_ky"><i> ĐĂNG KÝ </i></string>
+    <string name="bo_qua_dang_nhap">hoặc <i>BỎ QUA</i></string>
 
     <!-- Đăng ký -->
     <string name="title_dang_ky">Đăng ký</string>
@@ -59,6 +60,7 @@
     <string name="email_hint">Email</string>
     <string name="mat_khau_hint">Mật khẩu</string>
     <string name="dang_ky_button">Hoàn tất</string>
+
     <!-- Thêm và Cập nhật-->
     <string-array name="arr_group">
         <item>TKB</item>

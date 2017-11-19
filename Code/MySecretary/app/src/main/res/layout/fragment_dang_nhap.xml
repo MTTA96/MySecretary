@@ -16,13 +16,15 @@
 
     <!--Tiêu đề-->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/title_dang_nhap_margin_top"
         android:text="@string/dang_nhap_title"
         android:textSize="@dimen/title_dang_nhap_text_size"
-        android:textColor="@color/colorWhite"/>
+        android:textColor="@color/colorWhite"
+        android:typeface="monospace"/>
 
     <!--Khung thông tin đăng nhập-->
     <LinearLayout
@@ -132,14 +134,14 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/textview_signin_margintop">
         <TextView
             android:id="@+id/tvDangky"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đăng ký "
+            android:text="@string/dang_ky"
             android:layout_gravity="center"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/textsize_signin"/>
@@ -148,7 +150,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Bỏ qua "
+            android:layout_marginLeft="5dp"
+            android:text="@string/bo_qua_dang_nhap"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/textsize_signin"/>
 

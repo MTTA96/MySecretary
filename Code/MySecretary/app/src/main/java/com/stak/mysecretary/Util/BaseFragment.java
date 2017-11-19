@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
 import com.stak.mysecretary.R;
+import com.stak.mysecretary.View.Fragment.HoatDong.ThemFragment;
 
 /**
  * Created by zzzzz on 10/26/2017.
@@ -23,7 +24,6 @@ public class BaseFragment {
 
     public void ChuyenFragment(Fragment toFragment, String tag, boolean toBackStack){
         FragmentTransaction transaction = fm.beginTransaction();
-
         if(toBackStack)
             transaction.replace(R.id.content_main, toFragment).addToBackStack(tag).commit();
         else

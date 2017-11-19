@@ -5,8 +5,10 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +19,9 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.stak.mysecretary.Presenter.HomePresenter;
+import com.stak.mysecretary.Util.BaseFragment;
+import com.stak.mysecretary.Util.SupportList;
 import com.stak.mysecretary.View.Fragment.Dialog.GhiChuDialogFragment;
 import com.stak.mysecretary.View.Fragment.HoatDong.ThemFragment;
 import com.stak.mysecretary.Presenter.Model.UiModel.Adapter.HoatdongAdapter;
@@ -60,6 +65,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     TextView tvNgayThu2, tvNgayThu3, tvNgayThu4, tvNgayThu5, tvNgayThu6, tvNgayThu7, tvNgayChuNhat;
 
     MainActivity mainActivity;
+    private HomePresenter homePresenter;
     private Calendar lich = Calendar.getInstance();
     private Date dateHienTai;
     private ArrayList<HoatDong> listHoatDong;
@@ -68,6 +74,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     private int countIndex;
     //Biến đếm để set màu cho cột thú
     private int count = 0;
+    private BaseFragment baseFragment;
     private DBHelper db;
     private HoatDong hoatDongDuocChon;
     private int posHoatDongDuocChon;
@@ -79,6 +86,18 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
         // Required empty public constructor
     }
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        ((AppCompatActivity)getActivity()).getSupportActionBar().show();
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        homePresenter = new HomePresenter(getActivity());
+        baseFragment = new BaseFragment(getActivity(), getActivity().getSupportFragmentManager());
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -103,7 +122,6 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
         cotThu7Top = (LinearLayout) root.findViewById(R.id.event_column_thu7_top);
         cotChuNhatTop = (LinearLayout) root.findViewById(R.id.event_column_cn_top);
 
-        ibMenu = (ImageButton) root.findViewById(R.id.ibMenu_Main);
         ibThem = (ImageButton) root.findViewById(R.id.ibThem_Main);
         ibHomNay = (ImageButton) root.findViewById(R.id.ibHomNay_Main);
         ibTuanSau = (ImageButton) root.findViewById(R.id.ibTuanSau_Main);
@@ -150,8 +168,8 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
                 dialog.show(fm, "frag_ghi_chu");
             }
         });
-        ibMenu.setOnClickListener(this);
-        ibThem.setOnClickListener(this);
+
+        //ibThem.setOnClickListener(this);
         ibHomNay.setOnClickListener(this);
         ibTuanSau.setOnClickListener(this);
         ibTuanTruoc.setOnClickListener(this);
@@ -172,13 +190,13 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
 
         //4. Load dữ liệu khi chạy chương trình
         KEY_NGAY_DUOC_CHON = displayNgayHienTai(lich.getTime());
-        tvNgayHienTai.setText(displayNgayHienTai(lich.getTime()));
+        //tvNgayHienTai.setText(displayNgayHienTai(lich.getTime()));
         dateHienTai = lich.getTime();
         tvNgayDuocChon.setText("Today");
         loadNgayCuaThu(0);
         loadDuLieu();
         //Load các hoat động của ngày hôm nay lên lv khi bật ứng dụng
-        loadDulieuListView(tvNgayHienTai.getText().toString());
+        //loadDulieuListView(tvNgayHienTai.getText().toString());
         return root;
     }
 
@@ -186,12 +204,8 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     public void onClick(View view) {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
         switch (view.getId()){
-            //3.1 Xử lý các button
-            case R.id.ibMenu_Main:
-
-
             case R.id.ibThem_Main:
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_main,new ThemFragment()).commit();
+                baseFragment.ChuyenFragment(new ThemFragment(), SupportList.TAG_THEM_SU_KIEN_FRAGMENT,true);
             //Khi ấn chuyển tuần sẽ load lại các ngày của tuần, xóa hoạt động cũ và cập nhật các hoạt động trong tuần mới
             case R.id.ibHomNay_Main:
                 loadNgayCuaThu(0);
@@ -604,18 +618,18 @@ public class MainFragment extends Fragment implements View.OnClickListener, Data
     //load dữ liệu
     public void loadDuLieu() {
         myShared = new MyShared(MenuActivity.KEY_TEN_FILE,getActivity());
-        if(myShared.getCbTKB() && myShared.getCbCaNhan()){
-            initialData("all");
-        }
-        else {
-            if (myShared.getCbTKB()) {
-                initialData("TKB");
-            }
-            if (myShared.getCbCaNhan()) {
-                initialData("Ca nhan");
-            }
-        }
-        loadHoatDong();
+//        if(myShared.getCbTKB() && myShared.getCbCaNhan()){
+//            initialData("all");
+//        }
+//        else {
+//            if (myShared.getCbTKB()) {
+//                initialData("TKB");
+//            }
+//            if (myShared.getCbCaNhan()) {
+//                initialData("Ca nhan");
+//            }
+//        }
+//        loadHoatDong();
     }
 
     // Truyền dữ liệu các hoạt động vào listview

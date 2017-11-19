@@ -39,22 +39,22 @@
                 android:gravity="center"
                 android:textStyle="bold"/>
 
-            <Spinner
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/spinnerNhom"
-                android:layout_marginTop="@dimen/themHD_spinner_chonnhom_margintop"
-                android:layout_marginBottom="@dimen/themHD_spinner_chonnhom_marginbottom"/>
+            <!--<Spinner-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/spinnerNhom"-->
+                <!--android:layout_marginTop="@dimen/themHD_spinner_chonnhom_margintop"-->
+                <!--android:layout_marginBottom="@dimen/themHD_spinner_chonnhom_marginbottom"/>-->
 
         </LinearLayout>
         <!-- Save -->
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.2"
-            app:srcCompat="@android:drawable/ic_menu_save"
-            android:id="@+id/ibLuu_ThemHoatDong"
-            android:background="@null"/>
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.2"-->
+            <!--app:srcCompat="@android:drawable/ic_menu_save"-->
+            <!--android:id="@+id/ibLuu_ThemHoatDong"-->
+            <!--android:background="@null"/>-->
 
     </LinearLayout>
 

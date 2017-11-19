@@ -7,48 +7,47 @@
     tools:context=".View.Fragment.Home.MainFragment">
 
     <!-- layout top -->
-    <LinearLayout
-        android:id="@+id/info"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorMain">
+    <!--<LinearLayout-->
+        <!--android:id="@+id/info"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorMain">-->
 
-        <ImageButton
-            android:layout_width="40dp"
-            android:layout_height="30dp"
-            android:id="@+id/ibMenu_Main"
-            android:background="@drawable/menumain4"
-            android:scaleType="fitXY"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"/>
+        <!--<ImageButton-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:id="@+id/ibMenu_Main"-->
+            <!--android:background="@drawable/menumain4"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginTop="5dp"/>-->
 
-        <TextView
-            android:id="@+id/tvNgayHienTai_Main"
-            android:text="20/3/1996"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="3"
-            android:gravity="center"
-            android:textSize="20dp"/>
+        <!--<TextView-->
+            <!--android:id="@+id/tvNgayHienTai_Main"-->
+            <!--android:text="20/3/1996"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="3"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="20dp"/>-->
 
-        <ImageButton
-            android:layout_width="40dp"
-            android:layout_height="35dp"
-            app:srcCompat="@drawable/btnthemmain"
-            android:id="@+id/ibThem_Main"
-            android:scaleType="fitXY"
-            android:background="@null"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="5dp"/>
+        <!--<ImageButton-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--app:srcCompat="@drawable/btnthemmain"-->
+            <!--android:id="@+id/ibThem_Main"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:background="@null"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
 
-    </LinearLayout>
+    <!--</LinearLayout>-->
 
     <!-- Lịch và listview nội dung -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/info"
         android:orientation="vertical"
         android:paddingTop="7dp"
         android:paddingLeft="7dp"

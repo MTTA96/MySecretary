@@ -3,8 +3,8 @@ package com.stak.mysecretary.View.Fragment.HoatDong;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
-import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
@@ -21,12 +21,12 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.stak.mysecretary.Util.BaseFragment;
 import com.stak.mysecretary.View.Fragment.Dialog.ThongBaoDialogFragment;
 
 import com.stak.mysecretary.Presenter.Model.UiModel.ThemHoatDongCallback;
-import com.stak.mysecretary.View.Activity.MainActivity;
 import com.stak.mysecretary.Presenter.Model.DataModel.HoatDong.DataCallBack;
-import com.stak.mysecretary.Presenter.PresenterThemHoatDong;
+import com.stak.mysecretary.Presenter.ThemHoatDongPresenter;
 import com.stak.mysecretary.R;
 import com.stak.mysecretary.Model.HoatDong;
 
@@ -40,27 +40,11 @@ import java.util.Locale;
  * A simple {@link Fragment} subclass.
  */
 public class ThemFragment extends Fragment implements View.OnClickListener,DataCallBack,ThemHoatDongCallback{
-    Spinner spnnhom;
-    Spinner spnnhacnho;
-
-    ImageButton ibHuy;
-    ImageButton ibLuu;
-
-    EditText etTenHoatDong;
-    EditText etDiaDiem;
-    EditText etGhiChu;
-    TextView tvDateBD;
-    TextView tvDateKT;
-    TextView tvTimeBD;
-    TextView tvTimeKT;
-
-    Button btnT2;
-    Button btnT3;
-    Button btnT4;
-    Button btnT5;
-    Button btnT6;
-    Button btnT7;
-    Button btnCN;
+    Spinner spnnhom, spnnhacnho;
+    ImageButton ibHuy, ibLuu;
+    EditText etTenHoatDong, etDiaDiem, etGhiChu;
+    TextView tvDateBD, tvDateKT, tvTimeBD, tvTimeKT;
+    Button btnT2, btnT3, btnT4, btnT5, btnT6, btnT7, btnCN;
 
     boolean pressT2=false;
     boolean pressT3=false;
@@ -70,12 +54,13 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
     boolean pressT7=false;
     boolean pressCN=false;
 
-    Calendar cal;
-    Calendar cal1;
-    Date date;
-    Date date1;
+    private BaseFragment baseFragment;
+    private Calendar cal;
+    private Calendar cal1;
+    private Date date;
+    private Date date1;
 
-    PresenterThemHoatDong presenterThemHoatDong;
+    private ThemHoatDongPresenter themHoatDongPresenter;
     //Hiển thị thông báo
     public void ThongBao(String strNoiDung){
         Toast.makeText(getActivity(), strNoiDung, Toast.LENGTH_SHORT).show();
@@ -83,15 +68,22 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
     public ThemFragment(){
 
     }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        baseFragment = new BaseFragment(getActivity(), getActivity().getSupportFragmentManager());
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root =inflater.inflate(R.layout.fragment_them,container,false);
-        spnnhom= (Spinner) root.findViewById(R.id.spinnerNhom);
-        spnnhacnho= (Spinner) root.findViewById(R.id.spinnerNhacnho);
+        View root = inflater.inflate(R.layout.fragment_them,container,false);
+        spnnhom = (Spinner) root.findViewById(R.id.spinnerNhom);
+        spnnhacnho = (Spinner) root.findViewById(R.id.spinnerNhacnho);
 
-        etTenHoatDong= (EditText) root.findViewById(R.id.etTen_ThemHoatDong);
+        etTenHoatDong = (EditText) root.findViewById(R.id.etTen_ThemHoatDong);
         etDiaDiem= (EditText) root.findViewById(R.id.etDiaDiem_ThemHoatDong);
         etGhiChu= (EditText) root.findViewById(R.id.etGhichu);
 
@@ -161,17 +153,14 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
         //hiển thi danh sach nhóm trong spiner
         hienthispinernhom();
 
-        etTenHoatDong.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                return false;
-            }
-        });
+        themHoatDongPresenter =new ThemHoatDongPresenter(this);
 
-        presenterThemHoatDong=new PresenterThemHoatDong(this);
+        //Config toolbar
+        getActivity().findViewById(R.id.tvNgayHienTai_Main).setVisibility(View.GONE);
+        spnnhom.setVisibility(View.VISIBLE);
+        getActivity().supportInvalidateOptionsMenu();
 
         return root;
-
     }
 
     @Override
@@ -190,8 +179,7 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
                     dialogFragment.show(fm, "frag_thoat_them");
                 }
                 else{
-                    Intent intent = new Intent(getActivity(), MainActivity.class);
-                    startActivity(intent);
+                    baseFragment.XoaFragment();
                 }
                 break;
             case R.id.ibLuu_ThemHoatDong:
@@ -205,12 +193,11 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
                 hoatdong.setNhom(spnnhom.getSelectedItem().toString());
                 hoatdong.setGhichu(etGhiChu.getText().toString());
                 hoatdong.setKeyupdate("0");
-                presenterThemHoatDong.XuLyThemHoatDong(hoatdong);
+                themHoatDongPresenter.XuLyThemHoatDong(hoatdong);
 
                 //Hiện thông báo lưu thành công và quay lại màn hình chính
                 ThongBao("Thêm thành công!");
-                Intent intentLuu = new Intent(getActivity(), MainActivity.class);
-                startActivity(intentLuu);
+                baseFragment.XoaFragment();
                 break;
             case R.id.btnT2_layoutthem:
                 XuLyNutThu(btnT2,pressT2);
@@ -330,6 +317,7 @@ public class ThemFragment extends Fragment implements View.OnClickListener,DataC
                     }
                 }
             };
+
             String s=tvDateBD.getText()+"";
             //Lấy chuỗi ngày tháng năm đang ở trong Textview ngoài màn hình hiển thị ngược vào trong Dialog
             String strArrtmp[]=s.split("/");

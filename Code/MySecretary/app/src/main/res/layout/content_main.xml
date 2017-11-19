@@ -4,10 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Action bar -->
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/actionbar_size"></android.support.v7.widget.Toolbar>
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        android:gravity="center">
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvNgayHienTai_Main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="20/3/1996"
+            android:textSize="20dp"/>
+        <!-- Chọn nhóm sự kiện (thêm hoạt động)-->
+        <Spinner
+            android:id="@+id/spinnerNhom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/themHD_spinner_chonnhom_margintop"
+            android:layout_marginBottom="@dimen/themHD_spinner_chonnhom_marginbottom"
+            android:visibility="visible"/>
+    </android.support.v7.widget.Toolbar>
+
+    <!-- Content -->
     <FrameLayout
         android:id="@+id/content_main"
         android:layout_width="match_parent"
