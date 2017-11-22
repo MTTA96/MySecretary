@@ -1,4 +1,4 @@
-package com.stak.mysecretary.Model;
+package com.stak.mysecretary.model;
 
 import java.io.Serializable;
 
@@ -6,31 +6,14 @@ import java.io.Serializable;
  * Created by ADMIN on 3/24/2017.
  */
 
-public class HoatDong implements Serializable{
+public class Hoatdong implements Serializable{
     private String tenhd;
     private String diadiem;
     private String tgbd;
     private String tgkt;
-    private String thu;
     private String nhom;
+    private String thu;
     private String ghichu;
-    private String background;
-    private String keyupdate;
-
-    public String getKeyupdate() {
-        return keyupdate;
-    }
-
-    public void setKeyupdate(String keyupdate) {
-        this.keyupdate = keyupdate;
-    }
-    public String getBackground() {
-        return background;
-    }
-
-    public void setBackground(String background) {
-        this.background = background;
-    }
 
     public String getTenhd() {
         return tenhd;

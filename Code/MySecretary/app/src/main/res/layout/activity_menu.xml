@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5AB1D8E5"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.stak.mysecretary.MenuActivity">
 
     <!-- top -->
     <FrameLayout

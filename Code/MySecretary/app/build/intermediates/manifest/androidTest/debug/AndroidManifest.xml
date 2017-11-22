@@ -3,7 +3,7 @@
     package="com.stak.mysecretary.test" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="19"
         android:targetSdkVersion="25" />
 
     <instrumentation
@@ -13,7 +13,7 @@
         android:label="Tests for com.stak.mysecretary"
         android:targetPackage="com.stak.mysecretary" />
 
-    <application android:debuggable="true" >
+    <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
