@@ -1,4 +1,4 @@
-package com.stak.mysecretary.fragment;
+package com.stak.mysecretary.View.fragment;
 
 import android.app.Activity;
 import android.app.AlertDialog;

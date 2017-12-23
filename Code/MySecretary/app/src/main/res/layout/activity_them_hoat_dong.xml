@@ -5,7 +5,7 @@
     android:id="@+id/activity_them_hoat_dong"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.stak.mysecretary.ThemHoatDongActivity"
+    tools:context="com.stak.mysecretary.View.Activity.ThemHoatDongActivity"
     android:orientation="vertical"
     android:background="#5AB1D8E5">
     <!-- Layout top -->

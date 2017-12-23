@@ -14,16 +14,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".View.Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ThemHoatDongActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".CapNhatActivity"/>
+        <activity android:name=".View.Activity.ThemHoatDongActivity" />
+        <activity android:name=".View.Activity.MenuActivity" />
+        <activity android:name=".View.Activity.CapNhatActivity"/>
 
         <receiver android:name=".Reminder"/>
     </application>

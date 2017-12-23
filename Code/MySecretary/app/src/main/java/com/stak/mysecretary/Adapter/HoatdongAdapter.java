@@ -1,34 +1,25 @@
 package com.stak.mysecretary.Adapter;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.media.Image;
-import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.stak.mysecretary.CapNhatActivity;
-import com.stak.mysecretary.MainActivity;
+import com.stak.mysecretary.View.Activity.CapNhatActivity;
+import com.stak.mysecretary.View.Activity.MainActivity;
 import com.stak.mysecretary.R;
-import com.stak.mysecretary.ThemHoatDongActivity;
 import com.stak.mysecretary.database.DBHelper;
 import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.model.Hoatdong;
+import com.stak.mysecretary.model.HoatDong;
 import com.stak.mysecretary.util.SupportList;
 
-import org.w3c.dom.Text;
-
-import java.text.SimpleDateFormat;
+import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Locale;
 
 /**
  * Created by ADMIN on 3/29/2017.
@@ -36,9 +27,6 @@ import java.util.Locale;
 
 public class HoatdongAdapter extends ArrayAdapter{
     MainActivity con;
-    int layoutItem;
-    ArrayList<Hoatdong> listHoatDong;
-
     TextView tvTenHoatDong;
     TextView tvDiaDiem;
     TextView tvNgay;
@@ -46,18 +34,23 @@ public class HoatdongAdapter extends ArrayAdapter{
     ImageView ivEdit;
     ImageView ivXoa;
 
-    public HoatdongAdapter(MainActivity context, int resource, ArrayList<Hoatdong> objects) {
+    private int layoutItem;
+    private ArrayList<HoatDong> listHoatDong;
+    private XulyHoatdong xulyHoatdong;
+
+    public HoatdongAdapter(MainActivity context, int resource, ArrayList<HoatDong> objects) {
         super(context, resource, objects);
 
         con = context;
         layoutItem = resource;
         listHoatDong = objects;
+        xulyHoatdong = new XulyHoatdong(con);
     }
 
     public View getView(final int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = con.getLayoutInflater();
         convertView = inflater.inflate(layoutItem, null); //Ánh xạ
-        final Hoatdong hoatdong = listHoatDong.get(position);
+        final HoatDong hoatDong = listHoatDong.get(position);
 
         tvTenHoatDong = (TextView) convertView.findViewById(R.id.tvTenHD_lvitem);
         tvDiaDiem = (TextView) convertView.findViewById(R.id.tvDiaDiem_lvitem);
@@ -65,12 +58,12 @@ public class HoatdongAdapter extends ArrayAdapter{
         ivEdit = (ImageView) convertView.findViewById(R.id.ivEdit_lvitem);
         ivXoa = (ImageView) convertView.findViewById(R.id.ivDelete_lvitem);
 
-        tvTenHoatDong.setText(hoatdong.getTenhd());
-        tvDiaDiem.setText(hoatdong.getDiadiem());
+        tvTenHoatDong.setText(hoatDong.getTenhd());
+        tvDiaDiem.setText(hoatDong.getDiadiem());
 
         //Chỉ lấy thời gian đưa lên lsitview
-        String[] tachtgbd=hoatdong.getTgbd().split(" ");
-        String[] tachtgkt=hoatdong.getTgkt().split(" ");
+        String[] tachtgbd= hoatDong.getTgbd().split(" ");
+        String[] tachtgkt= hoatDong.getTgkt().split(" ");
         //String ngay=tachtgbd[0];
         String giophutbd=tachtgbd[1];
         String giophutkt=tachtgkt[1];
@@ -81,7 +74,7 @@ public class HoatdongAdapter extends ArrayAdapter{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(con, CapNhatActivity.class);
-                intent.putExtra(SupportList.KEY_HOATDONG, hoatdong);
+                intent.putExtra(SupportList.KEY_HOATDONG, hoatDong.getId());
                 intent.putExtra(SupportList.KEY_POSITION, position);
                 con.startActivity(intent);
             }
@@ -95,10 +88,10 @@ public class HoatdongAdapter extends ArrayAdapter{
                 builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        DBHelper db = new DBHelper(con);
-                        XulyHoatdong xulyhd = new XulyHoatdong(db);
-                        xulyhd.XoaHd(hoatdong.getTenhd(),hoatdong.getTgbd());
-
+//                        DBHelper db = new DBHelper(con);
+//                        XulyHoatdong xulyhd = new XulyHoatdong(db);
+//                        xulyhd.XoaHd(hoatDong.getTenhd(), hoatDong.getTgbd());
+                        xulyHoatdong.XoaHd(hoatDong.getId());
                         con.loadDuLieu();
                         con.xoaHoatDong();
                         con.loadHoatDong();

@@ -1,9 +1,8 @@
-package com.stak.mysecretary;
+package com.stak.mysecretary.View.Activity;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
-import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,23 +14,19 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.stak.mysecretary.R;
 import com.stak.mysecretary.database.DBHelper;
 import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.model.Hoatdong;
+import com.stak.mysecretary.model.HoatDong;
 import com.stak.mysecretary.util.SupportList;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
 public class CapNhatActivity extends AppCompatActivity {
     Spinner spnNhacNho;
-
     ImageButton ibHuy;
     ImageButton ibLuu;
-
-    DBHelper db=new DBHelper(this);
-
     EditText etTenHoatDong;
     EditText etDiaDiem;
     EditText etGhiChu;
@@ -39,31 +34,25 @@ public class CapNhatActivity extends AppCompatActivity {
     TextView tvTimeBD;
     TextView tvTimeKT;
 
-    Date date;
-    Calendar cal;
-    Calendar cal1;
+    private Date date;
+    private Calendar cal, cal1;
+//    private DBHelper db=new DBHelper(this);
+    private HoatDong hoatDong, tempHoatDong;
+    private int position;
+    private String strNgay, strGio, strNgayKT, strGioKT;
+    private XulyHoatdong xulyHoatdong;
 
-    Hoatdong hoatdong;
-    Hoatdong tempHoatDong;
-    int position;
-    String strNgay;
-    String strGio;
-    String strNgayKT;
-    String strGioKT;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cap_nhat);
 
         spnNhacNho= (Spinner) findViewById(R.id.spinnerNhacnho_CapNhat);
-
         etTenHoatDong= (EditText) findViewById(R.id.etTen_CapNhat);
         etDiaDiem= (EditText) findViewById(R.id.etDiaDiem_CapNhat);
         etGhiChu= (EditText) findViewById(R.id.etGhichu_CapNhat);
-
         ibHuy = (ImageButton) findViewById(R.id.ibHuy_CapNhat);
         ibLuu = (ImageButton) findViewById(R.id.ibLuu_CapNhat);
-
         tvDateBD= (TextView) findViewById(R.id.Date_BatDau_CapNhat);
         tvTimeBD= (TextView) findViewById(R.id.Time_BatDau_CapNhat);
         tvTimeKT= (TextView) findViewById(R.id.Time_KetThuc_CapNhat);
@@ -88,10 +77,10 @@ public class CapNhatActivity extends AppCompatActivity {
                     Toast.makeText(CapNhatActivity.this,"Thời gian không hợp lệ !",Toast.LENGTH_LONG).show();
                     return;
                 }
-                XulyHoatdong xulyhd=new XulyHoatdong(db);
+//                XulyHoatdong xulyhd=new XulyHoatdong(db);
                 if(!etTenHoatDong.getText().toString().isEmpty() || tvDateBD.getText().toString().compareTo(strNgay) != 0 || tvTimeBD.getText().toString().compareTo(strGio) != 0){
                     //Xóa, insert
-                    xulyhd.XoaHd(hoatdong.getTenhd(),hoatdong.getTgbd());
+//                    xulyhd.XoaHd(hoatDong.getTenhd(), hoatDong.getTgbd());
                     if(!etTenHoatDong.getText().toString().isEmpty()){
                         tempHoatDong.setTenhd(etTenHoatDong.getText().toString());
                     }
@@ -110,10 +99,11 @@ public class CapNhatActivity extends AppCompatActivity {
                         tempHoatDong.setGhichu(etGhiChu.getText().toString());
                     else
                         tempHoatDong.setGhichu(etGhiChu.getHint().toString());
-                    xulyhd.Them(tempHoatDong);
+//                    xulyHoatdong.Them(tempHoatDong);
+                    xulyHoatdong.Capnhat(tempHoatDong);
                 }
                 else{
-                    xulyhd.XoaHd(hoatdong.getTenhd(),hoatdong.getTgbd());
+//                    xulyhd.XoaHd(hoatDong.getTenhd(), hoatDong.getTgbd());
                     //Cập nhật lại
                     if(!etTenHoatDong.getText().toString().isEmpty()){
                         tempHoatDong.setTenhd(etTenHoatDong.getText().toString());
@@ -133,7 +123,8 @@ public class CapNhatActivity extends AppCompatActivity {
                         tempHoatDong.setGhichu(etGhiChu.getText().toString());
                     else
                         tempHoatDong.setGhichu(etGhiChu.getHint().toString());
-                    xulyhd.Them(tempHoatDong);
+//                    xulyHoatdong.Them(tempHoatDong);
+                    xulyHoatdong.Capnhat(tempHoatDong);
                 }
                 Toast.makeText(CapNhatActivity.this, "Cập nhật thành công!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(CapNhatActivity.this, MainActivity.class);
@@ -143,26 +134,27 @@ public class CapNhatActivity extends AppCompatActivity {
         });
 
 
-        //Load dữ liệu
+        //Load data
+        xulyHoatdong = new XulyHoatdong(this); //Test greenDAO
         Intent intent = getIntent();
-        hoatdong = (Hoatdong) intent.getSerializableExtra(SupportList.KEY_HOATDONG);
+        hoatDong = xulyHoatdong.LayHoatDong(intent.getLongExtra(SupportList.KEY_HOATDONG, 0));
         position = intent.getIntExtra(SupportList.KEY_POSITION, 0);
+        tempHoatDong = hoatDong;
 
-        tempHoatDong = hoatdong;
+        //Set data
+        etTenHoatDong.setHint(hoatDong.getTenhd());
+        etDiaDiem.setHint(hoatDong.getDiadiem());
+        String test = hoatDong.getGhichu();
+        if(!hoatDong.getGhichu().isEmpty())
+            etGhiChu.setHint(hoatDong.getGhichu());
 
-        etTenHoatDong.setHint(hoatdong.getTenhd());
-        etDiaDiem.setHint(hoatdong.getDiadiem());
-        String test = hoatdong.getGhichu();
-        if(!hoatdong.getGhichu().isEmpty())
-            etGhiChu.setHint(hoatdong.getGhichu());
-
-        String[] tachTG = hoatdong.getTgbd().split(" ");
+        String[] tachTG = hoatDong.getTgbd().split(" ");
         tvDateBD.setText(tachTG[0]);
         tvTimeBD.setText(tachTG[1]);
         strNgay = tachTG[0];
         strGio = tachTG[1];
 
-        tachTG = hoatdong.getTgkt().split(" ");
+        tachTG = hoatDong.getTgkt().split(" ");
         tvTimeKT.setText(tachTG[1]);
         strNgayKT = tachTG[0];
         strGioKT = tachTG[1];
@@ -170,6 +162,13 @@ public class CapNhatActivity extends AppCompatActivity {
         tvDateBD.setOnClickListener(showDatePickerBD);
         tvTimeBD.setOnClickListener(showTimePickerBD);
         tvTimeKT.setOnClickListener(showTimePickerKT);
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(CapNhatActivity.this, MainActivity.class);
+        startActivity(intent);
+        super.onBackPressed();
     }
 
     //Hiện Datepicker khi nhấn vào chọn ngày

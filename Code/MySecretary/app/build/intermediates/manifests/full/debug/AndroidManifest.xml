@@ -20,20 +20,22 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@drawable/appicon2"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.stak.mysecretary.MainActivity" >
+        <activity android:name="com.stak.mysecretary.View.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.stak.mysecretary.ThemHoatDongActivity" />
-        <activity android:name="com.stak.mysecretary.MenuActivity" />
-        <activity android:name="com.stak.mysecretary.CapNhatActivity" />
+        <activity android:name="com.stak.mysecretary.View.Activity.ThemHoatDongActivity" />
+        <activity android:name="com.stak.mysecretary.View.Activity.MenuActivity" />
+        <activity android:name="com.stak.mysecretary.View.Activity.CapNhatActivity" />
 
         <receiver android:name="com.stak.mysecretary.Reminder" />
     </application>

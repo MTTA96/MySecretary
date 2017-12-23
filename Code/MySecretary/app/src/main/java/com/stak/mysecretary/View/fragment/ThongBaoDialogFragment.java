@@ -1,4 +1,4 @@
-package com.stak.mysecretary.fragment;
+package com.stak.mysecretary.View.fragment;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 
-import com.stak.mysecretary.MainActivity;
+import com.stak.mysecretary.View.Activity.MainActivity;
 
 /**
  * Created by zzzzz on 4/6/2017.

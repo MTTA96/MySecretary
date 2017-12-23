@@ -1,8 +1,6 @@
-package com.stak.mysecretary;
+package com.stak.mysecretary.View.Activity;
 
 import android.app.AlarmManager;
-import android.app.Notification;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +8,6 @@ import android.graphics.Color;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.app.NotificationCompat;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
@@ -20,12 +17,15 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.stak.mysecretary.Adapter.HoatdongAdapter;
+import com.stak.mysecretary.R;
+import com.stak.mysecretary.Reminder;
 import com.stak.mysecretary.database.DBHelper;
 import com.stak.mysecretary.database.MyShared;
 import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.fragment.GhiChuDialogFragment;
-import com.stak.mysecretary.model.Hoatdong;
+import com.stak.mysecretary.View.fragment.GhiChuDialogFragment;
+import com.stak.mysecretary.model.HoatDong;
 
+import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -64,14 +64,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     Calendar lich = Calendar.getInstance();
     Date dateHienTai;
-    ArrayList<Hoatdong> listHoatDong;
+    ArrayList<HoatDong> listHoatDong;
     MyShared myShared;
     int eventIndex;
     int countIndex;
     //Biến đếm để set màu cho cột thú
     int count = 0;
 
-    DBHelper db=new DBHelper(this);
+//    DBHelper db=new DBHelper(this);
 
     public static String KEY_NGAY_DUOC_CHON = "";
     public static String KEY_NGAY_HIEN_TAI = "";
@@ -121,8 +121,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Lấy ghi chú từ hoạt động được chọn
-                XulyHoatdong xulyHD=new XulyHoatdong(db);
-                ArrayList<Hoatdong> listHDDuocChon=new ArrayList<Hoatdong>();
+//                XulyHoatdong xulyHD=new XulyHoatdong(db);
+                XulyHoatdong xulyHD = new XulyHoatdong(getApplicationContext());
+                ArrayList<HoatDong> listHDDuocChon=new ArrayList<HoatDong>();
                 if (myShared.getCbCaNhan() && myShared.getCbTKB()) {
                     listHDDuocChon = xulyHD.laydstheongay(KEY_NGAY_DUOC_CHON);
                     SapXepMang(listHDDuocChon);
@@ -174,7 +175,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         loadDulieuListView(tvNgayHienTai.getText().toString());
 
         XulyHoatdong xulyHD = new XulyHoatdong(this);
-        ArrayList<Hoatdong> listHoatDongHomNay = xulyHD.laydstheongay(KEY_NGAY_HIEN_TAI);
+        ArrayList<HoatDong> listHoatDongHomNay = xulyHD.laydstheongay(KEY_NGAY_HIEN_TAI);
         SapXepMang(listHoatDongHomNay);
         //set notification
         startNotification();
@@ -183,7 +184,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void startNotification() {
         //Lấy hoạt động của ngày hôm nay
         XulyHoatdong xulyHD = new XulyHoatdong(this);
-        ArrayList<Hoatdong> listHoatDongHomNay = xulyHD.laydstheongay(KEY_NGAY_HIEN_TAI);
+        ArrayList<HoatDong> listHoatDongHomNay = xulyHD.laydstheongay(KEY_NGAY_HIEN_TAI);
         SapXepMang(listHoatDongHomNay);
         if (listHoatDongHomNay == null) {
             return;
@@ -217,7 +218,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(timeHoatDongInMillisecond > timeHienTaiInMillisecond) {
                     intent = new Intent(MainActivity.this, Reminder.class);
                     bundle = new Bundle();
-                    bundle.putSerializable("hoatdong", listHoatDongHomNay.get(i));
+                    bundle.putSerializable("hoatDong", (Serializable) listHoatDongHomNay.get(i));
                     intent.putExtras(bundle);
                     pendingIntent = PendingIntent.getBroadcast(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
                     alarm.set(AlarmManager.RTC_WAKEUP, timeHoatDongInMillisecond, pendingIntent);
@@ -606,15 +607,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initialData(String nhom) {
-        XulyHoatdong xulyhd=new XulyHoatdong(db);
+//        XulyHoatdong xulyhd=new XulyHoatdong(db);
+        XulyHoatdong xulyhd = new XulyHoatdong(this);
         if(nhom.equals("all")){
-            listHoatDong = new ArrayList<Hoatdong>();
+            listHoatDong = new ArrayList<HoatDong>();
             listHoatDong = xulyhd.laytatcahd();
             SapXepMang(listHoatDong);
 
         }
         else {
-            listHoatDong = new ArrayList<Hoatdong>();
+            listHoatDong = new ArrayList<HoatDong>();
             listHoatDong = xulyhd.LayDStheonhom(nhom);
             SapXepMang(listHoatDong);
         }
@@ -643,9 +645,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     // Truyền dữ liệu các hoạt động vào listview
     public void loadDulieuListView(String ngay)
     {
-        XulyHoatdong x = new XulyHoatdong(db);
+//        XulyHoatdong x = new XulyHoatdong(db);
+        XulyHoatdong x = new XulyHoatdong(this);
         if(myShared.getCbTKB() && myShared.getCbCaNhan()){
-            ArrayList<Hoatdong> tempList = x.laydstheongay(ngay);
+            ArrayList<HoatDong> tempList = x.laydstheongay(ngay);
 
             //Sắp xếp
             SapXepMang(tempList);
@@ -656,7 +659,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else {
             if (myShared.getCbTKB()) {
-                ArrayList<Hoatdong> tempList = x.laydstheongaynhom(ngay,"TKB");
+                ArrayList<HoatDong> tempList = x.laydstheongaynhom(ngay,"TKB");
 
                 //Sắp xếp
                 SapXepMang(tempList);
@@ -666,7 +669,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 lvHoatDong.setAdapter(adapter);
             }
             if (myShared.getCbCaNhan()) {
-                ArrayList<Hoatdong> tempList = x.laydstheongaynhom(ngay,"Ca nhan");
+                ArrayList<HoatDong> tempList = x.laydstheongaynhom(ngay,"Ca nhan");
 
                 //Sắp xếp
                 SapXepMang(tempList);
@@ -889,8 +892,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //Xóa các hoạt động đã qua
     public void XoaHDDQ() {
         //Lấy tất cả hd từ database
-        XulyHoatdong xulyhd = new XulyHoatdong(db);
-        ArrayList<Hoatdong> listhd = new ArrayList<Hoatdong>();
+//        XulyHoatdong xulyhd = new XulyHoatdong(db);
+        XulyHoatdong xulyhd = new XulyHoatdong(this);
+        ArrayList<HoatDong> listhd = new ArrayList<HoatDong>();
         listhd = xulyhd.laytatcahd();
 
         //Lấy ngày hiện tại để so sánh
@@ -917,23 +921,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (namdb==namht){
                 if (thangdb==thanght){
                     if (ngaydb<ngayht){
-                        xulyhd.XoaHd(listhd.get(i).getTenhd().toString(), listhd.get(i).getTgbd().toString());
+//                        xulyhd.XoaHd(listhd.get(i).getTenhd().toString(), listhd.get(i).getTgbd().toString());
+                        xulyhd.XoaHd(listhd.get(i).getId());
                     }
                 }
                 else {
                     if (thangdb<thanght)
-                        xulyhd.XoaHd(listhd.get(i).getTenhd().toString(), listhd.get(i).getTgbd().toString());
+//                        xulyhd.XoaHd(listhd.get(i).getTenhd().toString(), listhd.get(i).getTgbd().toString());
+                        xulyhd.XoaHd(listhd.get(i).getId());
                 }
             }
             else {
                 if (namdb<namht)
-                    xulyhd.XoaHd(listhd.get(i).getTenhd().toString(), listhd.get(i).getTgbd().toString());
+//                    xulyhd.XoaHd(listhd.get(i).getTenhd().toString(), listhd.get(i).getTgbd().toString());
+                    xulyhd.XoaHd(listhd.get(i).getId());
             }
         }
     }
 
     //Sắp sếp các hoat động trong listview theo giờ
-    public void SapXepMang(ArrayList<Hoatdong> manghd ) {
+    public void SapXepMang(ArrayList<HoatDong> manghd ) {
         int i;
         int j;
 
@@ -961,7 +968,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 //So sánh giờ để sắp xếp
                 if (giobd * 60 + phutbd > giobd1 * 60 + phutbd1) {
-                    Hoatdong temphd = new Hoatdong();
+                    HoatDong temphd = new HoatDong();
 
                     temphd = manghd.get(i);
                     manghd.set(i,manghd.get(j));

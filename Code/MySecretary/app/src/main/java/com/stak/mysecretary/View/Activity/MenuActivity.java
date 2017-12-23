@@ -1,13 +1,13 @@
-package com.stak.mysecretary;
+package com.stak.mysecretary.View.Activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageButton;
 
+import com.stak.mysecretary.R;
 import com.stak.mysecretary.database.MyShared;
 
 public class MenuActivity extends AppCompatActivity {
@@ -69,5 +69,37 @@ public class MenuActivity extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        int tinhieu=0;
+        Intent intentThoat = new Intent(MenuActivity.this, MainActivity.class);
+
+        if (cbTkb.isChecked() && cbCanhan.isChecked()) {
+            myShared.setCbTKB(true);
+            myShared.setCbCaNhan(true);
+            tinhieu = 12;
+        }
+        if(!cbTkb.isChecked() && !cbCanhan.isChecked()){
+            myShared.setCbTKB(false);
+            myShared.setCbCaNhan(false);
+        }
+        if (cbTkb.isChecked() && !cbCanhan.isChecked()) {
+            myShared.setCbTKB(true);
+            myShared.setCbCaNhan(false);
+            tinhieu = 1;
+        }
+        if (cbCanhan.isChecked() && !cbTkb.isChecked()) {
+            myShared.setCbTKB(false);
+            myShared.setCbCaNhan(true);
+            tinhieu = 2;
+        }
+        Bundle bundle=new Bundle();
+        bundle.putInt("Chon",tinhieu);
+
+        intentThoat.putExtra("Menu",bundle);
+        startActivity(intentThoat);
+        super.onBackPressed();
     }
 }

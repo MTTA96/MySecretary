@@ -1,111 +1,165 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\4b28fd33134948672d9724eca0d4b0c6\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\d03849e875dc18c308fda0ff870b9c84\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:transition:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\ba7d152c9133d7fd3e499d9bfbc85597\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\0b697f5ec38830c8105b49f5b6f98a41\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\56bedb6e58525ee9dd9238b9426dfc3a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\092a012e718eea55751b847957ff48ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\86f3c8999a7ef98dd81bcd204611e474\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\39a7c2e259c4962d0dff38c0af42c675\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\16d2afbbd1ed899befc356d1f5465ac2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\686b6edbd9b9da36bf40a54116967404\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a746de03f32eeafbb630e21e8be11d99\AndroidManifest.xml:17:1-31:12
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:2:11-69
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:2:11-69
 supports-screens
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:5:5-9:39
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:5:5-9:39
 	android:largeScreens
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:8:9-36
 	android:smallScreens
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:6:9-36
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:6:9-36
 	android:normalScreens
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:7:9-37
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:7:9-37
 	android:xlargeScreens
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:9:9-37
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:9:9-37
 application
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:11:5-29:19
-MERGED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.android\build-cache\d3f0f06de9fe4d8a6892dec8a6d26c4bc7bef266\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\zzzzz\.android\build-cache\c6b921bf951dd80118566f1a9093ea6568917ab3\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\zzzzz\.android\build-cache\8b93f63d04cb2b1378516595f80c9819eb8ff3cb\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\zzzzz\.android\build-cache\a7c3cf10d8f9cfdfc86418eb087308291072f972\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] C:\Users\zzzzz\.android\build-cache\8bb6317f88ab96d98294514539bbf0c04dd336a5\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.android\build-cache\68603192e104cda92ecf3daef04d3c5aa9810916\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.android\build-cache\a154b1ed243aef28f38fc1d7b4b3a7a8faedfbb8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.android\build-cache\a71e897e1e0a8ab66a7b0af3e10a4ee9c6ff2d11\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.android\build-cache\88fd4a6bed79c1b48ee6450ef344dc678c8116e1\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.android\build-cache\216791cd3eb25a56bc0f4d58c2805fafa4dde6ac\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.android\build-cache\c1288ca821688cd24eb8b2e0cb0c370ca2740f41\output\AndroidManifest.xml:29:5-20
-	android:label
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:14:9-41
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:11:5-29:19
+MERGED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\4b28fd33134948672d9724eca0d4b0c6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\4b28fd33134948672d9724eca0d4b0c6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\d03849e875dc18c308fda0ff870b9c84\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\d03849e875dc18c308fda0ff870b9c84\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\ba7d152c9133d7fd3e499d9bfbc85597\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\ba7d152c9133d7fd3e499d9bfbc85597\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\0b697f5ec38830c8105b49f5b6f98a41\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\0b697f5ec38830c8105b49f5b6f98a41\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\56bedb6e58525ee9dd9238b9426dfc3a\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\56bedb6e58525ee9dd9238b9426dfc3a\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\86f3c8999a7ef98dd81bcd204611e474\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\86f3c8999a7ef98dd81bcd204611e474\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\39a7c2e259c4962d0dff38c0af42c675\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\39a7c2e259c4962d0dff38c0af42c675\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\16d2afbbd1ed899befc356d1f5465ac2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\16d2afbbd1ed899befc356d1f5465ac2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\686b6edbd9b9da36bf40a54116967404\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\686b6edbd9b9da36bf40a54116967404\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a746de03f32eeafbb630e21e8be11d99\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a746de03f32eeafbb630e21e8be11d99\AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:15:9-35
-	android:allowBackup
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:13:9-42
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:13:9-42
+	android:allowBackup
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:16:9-40
-activity#com.stak.mysecretary.MainActivity
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:17:9-23:20
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.stak.mysecretary.View.Activity.MainActivity
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:17:19-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:21:27-74
-activity#com.stak.mysecretary.ThemHoatDongActivity
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:24:9-58
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.stak.mysecretary.View.Activity.ThemHoatDongActivity
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:24:9-72
 	android:name
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:24:19-55
-activity#com.stak.mysecretary.MenuActivity
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:25:9-50
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:24:19-69
+activity#com.stak.mysecretary.View.Activity.MenuActivity
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:25:9-64
 	android:name
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:25:19-47
-activity#com.stak.mysecretary.CapNhatActivity
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:26:9-52
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:25:19-61
+activity#com.stak.mysecretary.View.Activity.CapNhatActivity
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:26:9-66
 	android:name
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:26:19-50
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:26:19-64
 receiver#com.stak.mysecretary.Reminder
-ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:28:9-45
+ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:28:9-45
 	android:name
-		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml:28:19-43
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml:28:19-43
 uses-sdk
-INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.android\build-cache\d3f0f06de9fe4d8a6892dec8a6d26c4bc7bef266\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\zzzzz\.android\build-cache\c6b921bf951dd80118566f1a9093ea6568917ab3\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\zzzzz\.android\build-cache\8b93f63d04cb2b1378516595f80c9819eb8ff3cb\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\zzzzz\.android\build-cache\a7c3cf10d8f9cfdfc86418eb087308291072f972\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\zzzzz\.android\build-cache\3b725e4dc365454939b93e55449b5dbcccfb7e38\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] C:\Users\zzzzz\.android\build-cache\8bb6317f88ab96d98294514539bbf0c04dd336a5\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.android\build-cache\68603192e104cda92ecf3daef04d3c5aa9810916\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.android\build-cache\a154b1ed243aef28f38fc1d7b4b3a7a8faedfbb8\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.android\build-cache\a71e897e1e0a8ab66a7b0af3e10a4ee9c6ff2d11\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.android\build-cache\88fd4a6bed79c1b48ee6450ef344dc678c8116e1\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.android\build-cache\216791cd3eb25a56bc0f4d58c2805fafa4dde6ac\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.android\build-cache\c1288ca821688cd24eb8b2e0cb0c370ca2740f41\output\AndroidManifest.xml:21:5-23:58
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\4b28fd33134948672d9724eca0d4b0c6\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\4b28fd33134948672d9724eca0d4b0c6\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\d03849e875dc18c308fda0ff870b9c84\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\d03849e875dc18c308fda0ff870b9c84\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\ba7d152c9133d7fd3e499d9bfbc85597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\ba7d152c9133d7fd3e499d9bfbc85597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\0b697f5ec38830c8105b49f5b6f98a41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\0b697f5ec38830c8105b49f5b6f98a41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\56bedb6e58525ee9dd9238b9426dfc3a\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\56bedb6e58525ee9dd9238b9426dfc3a\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\092a012e718eea55751b847957ff48ce\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\092a012e718eea55751b847957ff48ce\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\86f3c8999a7ef98dd81bcd204611e474\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\86f3c8999a7ef98dd81bcd204611e474\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\39a7c2e259c4962d0dff38c0af42c675\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\39a7c2e259c4962d0dff38c0af42c675\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\16d2afbbd1ed899befc356d1f5465ac2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\16d2afbbd1ed899befc356d1f5465ac2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\686b6edbd9b9da36bf40a54116967404\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\686b6edbd9b9da36bf40a54116967404\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a746de03f32eeafbb630e21e8be11d99\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a746de03f32eeafbb630e21e8be11d99\AndroidManifest.xml:21:5-23:58
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.android\build-cache\d3f0f06de9fe4d8a6892dec8a6d26c4bc7bef266\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\4b28fd33134948672d9724eca0d4b0c6\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
-		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+		ADDED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\IT\Code_engine\Projects\Android\MyApps\MySecretary\Code\MySecretary\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.android\build-cache\68603192e104cda92ecf3daef04d3c5aa9810916\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.android\build-cache\a154b1ed243aef28f38fc1d7b4b3a7a8faedfbb8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.android\build-cache\a71e897e1e0a8ab66a7b0af3e10a4ee9c6ff2d11\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.android\build-cache\88fd4a6bed79c1b48ee6450ef344dc678c8116e1\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.android\build-cache\216791cd3eb25a56bc0f4d58c2805fafa4dde6ac\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.android\build-cache\c1288ca821688cd24eb8b2e0cb0c370ca2740f41\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\86f3c8999a7ef98dd81bcd204611e474\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\86f3c8999a7ef98dd81bcd204611e474\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\39a7c2e259c4962d0dff38c0af42c675\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\39a7c2e259c4962d0dff38c0af42c675\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\16d2afbbd1ed899befc356d1f5465ac2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\16d2afbbd1ed899befc356d1f5465ac2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\686b6edbd9b9da36bf40a54116967404\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\686b6edbd9b9da36bf40a54116967404\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a746de03f32eeafbb630e21e8be11d99\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a746de03f32eeafbb630e21e8be11d99\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.android\build-cache\68603192e104cda92ecf3daef04d3c5aa9810916\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.android\build-cache\68603192e104cda92ecf3daef04d3c5aa9810916\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\zzzzz\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\eb3e384840dbc4b9bd04c664d8aa0624\AndroidManifest.xml:26:9-47

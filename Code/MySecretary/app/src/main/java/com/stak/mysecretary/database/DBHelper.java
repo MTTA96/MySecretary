@@ -41,33 +41,6 @@ public class DBHelper extends SQLiteOpenHelper {
                 + KEY_GHICHU + " TEXT)";
 
         db.execSQL(CREATE_HD_TABLE);
-        //INSERT 1
-        ContentValues vl1=new ContentValues();
-        vl1.put(this.KEY_TENHD,"Hop bao");
-        vl1.put(this.KEY_DIADIEM,"TPHCM");
-        vl1.put(this.KEY_TGBD,"25/03/2017 08:30");
-        vl1.put(this.KEY_TGKT,"25/03/2017 09:30");
-        vl1.put(this.KEY_HDNHOM,"Canhan");
-        vl1.put(this.KEY_GHICHU,"Ra mat phim");
-        db.insert(this.TABLE_HOATDONG,null,vl1);
-        //INSERT 2
-        ContentValues vl2=new ContentValues();
-        vl2.put(this.KEY_TENHD,"Di choi");
-        vl2.put(this.KEY_DIADIEM,"Ha Noi");
-        vl2.put(this.KEY_TGBD,"25/03/2017 01:30");
-        vl2.put(this.KEY_TGKT,"25/03/2017 02:30");
-        vl2.put(this.KEY_HDNHOM,"Canhan");
-        vl2.put(this.KEY_GHICHU,"Ra mat phim");
-        db.insert(this.TABLE_HOATDONG,null,vl2);
-        //INSERT 3
-        ContentValues vl3=new ContentValues();
-        vl3.put(this.KEY_TENHD,"Hoc bu");
-        vl3.put(this.KEY_DIADIEM,"Hutech");
-        vl3.put(this.KEY_TGBD,"25/04/2017 08:30");
-        vl3.put(this.KEY_TGKT,"25/04/2017 09:30");
-        vl3.put(this.KEY_HDNHOM,"Canhan");
-        vl3.put(this.KEY_GHICHU,"Bù toán");
-        db.insert(this.TABLE_HOATDONG,null,vl3);
     }
 
     @Override

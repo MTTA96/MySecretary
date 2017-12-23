@@ -13,7 +13,7 @@
         android:label="Tests for com.stak.mysecretary"
         android:targetPackage="com.stak.mysecretary" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

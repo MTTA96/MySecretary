@@ -1,19 +1,67 @@
 package com.stak.mysecretary.model;
 
+import org.greenrobot.greendao.annotation.Entity;
+import org.greenrobot.greendao.annotation.Id;
+import org.greenrobot.greendao.annotation.Property;
+
 import java.io.Serializable;
+import org.greenrobot.greendao.annotation.Generated;
 
 /**
  * Created by ADMIN on 3/24/2017.
  */
 
-public class Hoatdong implements Serializable{
+@Entity(nameInDb = "HOATDONG")
+public class HoatDong{
+    @Id(autoincrement = true)
+    private Long id;
+
+    @Property(nameInDb = "TENHOATDONG")
     private String tenhd;
+
+    @Property(nameInDb = "DIADIEM")
     private String diadiem;
+
+    @Property(nameInDb = "THOIGIANBATDAU")
     private String tgbd;
+
+    @Property(nameInDb = "THOIGIANKETTHUC")
     private String tgkt;
+
+    @Property(nameInDb = "NHOM")
     private String nhom;
+
+    @Property(nameInDb = "THU")
     private String thu;
+
+    @Property(nameInDb = "GHICHU")
     private String ghichu;
+
+//    public HoatDong(String tenhd, String diadiem, String tgbd, String tgkt, String nhom, String thu, String ghichu) {
+//        this.tenhd = tenhd;
+//        this.diadiem = diadiem;
+//        this.tgbd = tgbd;
+//        this.tgkt = tgkt;
+//        this.nhom = nhom;
+//        this.thu = thu;
+//        this.ghichu = ghichu;
+//    }
+
+    public HoatDong() {
+
+    }
+
+    @Generated(hash = 1194060535)
+    public HoatDong(Long id, String tenhd, String diadiem, String tgbd, String tgkt, String nhom, String thu, String ghichu) {
+        this.id = id;
+        this.tenhd = tenhd;
+        this.diadiem = diadiem;
+        this.tgbd = tgbd;
+        this.tgkt = tgkt;
+        this.nhom = nhom;
+        this.thu = thu;
+        this.ghichu = ghichu;
+    }
 
     public String getTenhd() {
         return tenhd;
@@ -69,6 +117,18 @@ public class Hoatdong implements Serializable{
 
     public void setGhichu(String ghichu) {
         this.ghichu = ghichu;
+    }
+
+    public Long getId() {
+        return this.id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
 }

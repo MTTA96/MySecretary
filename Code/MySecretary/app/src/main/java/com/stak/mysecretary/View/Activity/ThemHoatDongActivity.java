@@ -1,4 +1,4 @@
-package com.stak.mysecretary;
+package com.stak.mysecretary.View.Activity;
 
 import android.app.DatePickerDialog;
 import android.support.v4.app.FragmentManager;
@@ -16,12 +16,12 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.stak.mysecretary.R;
 import com.stak.mysecretary.database.DBHelper;
 import com.stak.mysecretary.database.XulyHoatdong;
-import com.stak.mysecretary.fragment.ThongBaoDialogFragment;
-import com.stak.mysecretary.model.Hoatdong;
+import com.stak.mysecretary.View.fragment.ThongBaoDialogFragment;
+import com.stak.mysecretary.model.HoatDong;
 
-import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -43,11 +43,12 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
     TextView tvTimeBD;
     TextView tvTimeKT;
 
-    DBHelper db=new DBHelper(this);
+//    DBHelper db=new DBHelper(this);
     Calendar cal;
     Calendar cal1;
     Date date;
     Date date1;
+
     //Hiển thị thông báo
     public void ThongBao(String strNoiDung){
         Toast.makeText(this, strNoiDung, Toast.LENGTH_SHORT).show();
@@ -154,7 +155,8 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
                 }
 
                 //Kiểm tra hoạt động này đã có chưa
-                XulyHoatdong xulyhd=new XulyHoatdong(db);
+//                XulyHoatdong xulyhd=new XulyHoatdong(db);
+                XulyHoatdong xulyhd = new XulyHoatdong(this);
                 int kt=xulyhd.kttenhd(etTenHoatDong.getText().toString(),tvDateBD.getText().toString()+" "+tvTimeBD.getText().toString());
                 if(kt>0){
                     Toast.makeText(this,"Hoạt động này đã có !",Toast.LENGTH_LONG).show();
@@ -162,14 +164,15 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
                 }
                 else {
                     //Thêm hoạt động vào database khi nhấn lưu
-                    Hoatdong hd = new Hoatdong();
+                    HoatDong hd = new HoatDong();
                     hd.setTenhd(etTenHoatDong.getText().toString());
                     hd.setDiadiem(etDiaDiem.getText().toString());
                     hd.setTgbd(tvDateBD.getText().toString() + " " + tvTimeBD.getText().toString());
                     hd.setTgkt(tvDateBD.getText().toString() + " " + tvTimeKT.getText().toString());
                     hd.setNhom(spnnhom.getSelectedItem().toString());
                     hd.setGhichu(etGhiChu.getText().toString());
-                    XulyHoatdong them = new XulyHoatdong(db);
+//                    XulyHoatdong them = new XulyHoatdong(db);
+                    XulyHoatdong them = new XulyHoatdong(this);
                     them.Them(hd);
                     //Hiện thông báo lưu thành công và quay lại màn hình chính
                     ThongBao("Thêm thành công!");
@@ -179,6 +182,13 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
 
                 break;
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        super.onBackPressed();
     }
 
     //Xử lý Bắt đầu
@@ -515,8 +525,9 @@ public class ThemHoatDongActivity extends AppCompatActivity implements View.OnCl
         int giokt=Integer.parseInt(tachgiophutkt[0]);
         int phutkt=Integer.parseInt(tachgiophutkt[1]);
 
-        XulyHoatdong xulyhd=new XulyHoatdong(db);
-        ArrayList<Hoatdong> listhd=new ArrayList<Hoatdong>();
+//        XulyHoatdong xulyhd=new XulyHoatdong(db);
+        XulyHoatdong xulyhd = new XulyHoatdong(this);
+        ArrayList<HoatDong> listhd=new ArrayList<HoatDong>();
         listhd=xulyhd.laydstheongay(ngay);
 
         if(listhd.size() == 0){
