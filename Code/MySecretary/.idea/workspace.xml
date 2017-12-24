@@ -43,8 +43,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="679" column="13" lean-forward="true" selection-start-line="679" selection-start-column="13" selection-end-line="679" selection-end-column="13" />
+            <state relative-caret-position="884">
+              <caret line="679" column="13" lean-forward="false" selection-start-line="679" selection-start-column="13" selection-end-line="679" selection-end-column="13" />
               <folding>
                 <element signature="method#startNotification#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
@@ -1874,7 +1874,6 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/database/DBOpenHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/Adapter/HoatdongAdapter.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/greendao/com/stak/mysecretary/model/HoatDongDao.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/model/HoatDong.java" />
@@ -1883,6 +1882,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Activity/MenuActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Activity/CapNhatActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Activity/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2148,7 +2148,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514089253506" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514094437942" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2196,7 +2196,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514089253506" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514094437943" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2358,7 +2358,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514089253506" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514094437945" />
       </method>
     </configuration>
     <list size="1">
@@ -2436,7 +2436,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3019,8 +3018,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stak/mysecretary/View/Activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="679" column="13" lean-forward="true" selection-start-line="679" selection-start-column="13" selection-end-line="679" selection-end-column="13" />
+        <state relative-caret-position="884">
+          <caret line="679" column="13" lean-forward="false" selection-start-line="679" selection-start-column="13" selection-end-line="679" selection-end-column="13" />
           <folding>
             <element signature="method#startNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
